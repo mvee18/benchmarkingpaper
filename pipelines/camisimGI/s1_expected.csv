@@ -85,7 +85,7 @@ Jeotgalibaca,0.0
 Lactococcus,0.0
 Blautia,0.0
 Coriobacterium,0.0
-Coriobacteriaceae bacterium 68-1-3,0.0
+Coriobacteriaceae,0.0
 Coraliomargarita,0.0
 Collimonas,0.0
 Clostridioides,0.0
@@ -128,17 +128,17 @@ Histophilus,0.0
 Haemophilus,0.0
 Gramella,0.0
 Geosporobacter,0.0
-Gemella sp. oral taxon 928,0.0
+Gemella,0.0
 Gardnerella,0.0
 Gallibacterium,0.0
 Fusobacterium,0.0
 Flavobacterium,0.0
 Cupriavidus,0.0
-Flavobacteriaceae bacterium 3519-10,0.0
+Flavobacteriaceae,0.0
 Filifactor,0.0
 Faecalibaculum,0.0
 Ethanoligenens,0.0
-Erysipelotrichaceae bacterium I46,0.0
+Erysipelotrichaceae,0.0
 Enterococcus,0.0
 Elizabethkingia,0.0
 Eggerthella,0.0
@@ -148,4 +148,3 @@ Desulfovibrio,0.0
 Desulfotomaculum,0.0
 Desulfitobacterium,0.0
 Deinococcus,0.0
-[Eubacterium] rectale,0.0
