@@ -24,6 +24,9 @@ with open("submit_classify.sh", "w") as f:
     for file in sam_files:
         print(file)
         id = file.split("/")[-1].split(".")[0]
+        # print(id)
         output = os.path.join(args.output, id)
-        line = line.format(file, output)
-        f.write(line + "\n")
+        # print("output: ", output, "\n")
+        new_line = line.format(file, output)
+        # print(new_line)
+        f.write(new_line + "\n")
