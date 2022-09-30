@@ -1,2 +1,4 @@
 .venv
+.pipeline_venv
+.new_venv
 .DS_Store
