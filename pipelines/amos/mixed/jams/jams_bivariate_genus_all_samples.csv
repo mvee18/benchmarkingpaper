@@ -1,4 +1,4 @@
-Genus,RA_expected,Source_expected,SampleID_expected,RA_observed,Source_observed,SampleID_observed,Exp_CLR,Obs_CLR,,,Exp_CLR,Obs_CLR,,,
+Genus,RA_expected,Source_expected,SampleID_expected,RA_observed,Source_observed,SampleID_observed,Exp_CLR,Obs_CLR,,,Exp_CLR,Obs_CLR,Distance,,
 Akkermansia,0.0637,Expected,expected,0.049211,jams,SRR11487937,0.100146059,0.481667578,0.145558669,,0.100146059,0.944024511,0.712130841,,-0.566572171
 Alistipes,0.0454,Expected,expected,0.052954,jams,SRR11487937,-0.238526398,0.554974015,0.629642905,,-0.238526398,0.077608366,0.099941189,,0.529701716
 Anaerostipes,0.0611,Expected,expected,0.031741,jams,SRR11487937,0.058473363,0.043159623,0.000234511,,0.058473363,-0.630623507,0.474854496,,-0.474619985

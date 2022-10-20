@@ -1,20 +1,19 @@
 species,SRR11487938
 Aeromonas jandaei,0.0
-Akkermansia muciniphila,5.059
+Akkermansia muciniphila,0.05058964587247889
 Aliidongia dinghuensis,0.0
-Alistipes Unclassified AF14 19,0.0597
+Alistipes Unclassified AF14 19,0.0005969958210292528
 Alistipes Unclassified HGB5,0.0
-Alistipes finegoldii,5.2373
+Alistipes finegoldii,0.05237263339156626
 Alistipes onderdonkii,0.0
 Alistipes shahii,0.0
-Anaerobutyricum hallii,3.3283
 Anaerobutyricum soehngenii,0.0
 Anaeromassilibacillus Unclassified An200,0.0
 Anaerostipes Unclassified Marseille Q3525,0.0
-Anaerostipes hadrus,3.132
-Anaerotruncus rubiinfantis,0.0471
-Anaplasma phagocytophilum,0.0001
-Arcobacter ellisii,0.0003
+Anaerostipes hadrus,0.03131978076153467
+Anaerotruncus rubiinfantis,0.0004709967030230788
+Anaplasma phagocytophilum,9.999930000489996e-07
+Arcobacter ellisii,2.999979000146999e-06
 Aspergillus fumigatus,0.0
 Atlantibacter hermannii,0.0
 Bacteroides Unclassified 224,0.0
@@ -23,216 +22,217 @@ Bacteroides Unclassified 4 1 36,0.0
 Bacteroides Unclassified 51,0.0
 Bacteroides Unclassified AF29 11,0.0
 Bacteroides Unclassified AF32 8BH,0.0
-Bacteroides Unclassified AM32 11AC,0.0136
-Bacteroides Unclassified AR29,0.0023
+Bacteroides Unclassified AM32 11AC,0.00013599904800666395
+Bacteroides Unclassified AR29,2.299983900112699e-05
 Bacteroides Unclassified CBA7301,0.0
-Bacteroides Unclassified HMSC067B03,0.0013
+Bacteroides Unclassified HMSC067B03,1.2999909000636996e-05
 Bacteroides Unclassified KGMB07931,0.0
-Bacteroides Unclassified L10 4,0.0167
-Bacteroides Unclassified Marseille P8574,0.0021
-Bacteroides Unclassified NM69 E16B,0.0099
-Bacteroides acidifaciens,0.0055
-Bacteroides bouchesdurhonensis,0.0034
+Bacteroides Unclassified L10 4,0.00016699883100818294
+Bacteroides Unclassified Marseille P8574,2.0999853001028993e-05
+Bacteroides Unclassified NM69 E16B,9.899930700485096e-05
+Bacteroides acidifaciens,5.499961500269498e-05
+Bacteroides bouchesdurhonensis,3.399976200166599e-05
 Bacteroides caccae,0.0
 Bacteroides caecigallinarum,0.0
 Bacteroides caecimuris,0.0
-Bacteroides cellulosilyticus,0.0042
+Bacteroides cellulosilyticus,4.1999706002057985e-05
 Bacteroides clarus,0.0
-Bacteroides eggerthii,0.0014
-Bacteroides faecalis,0.0131
+Bacteroides eggerthii,1.3999902000685995e-05
+Bacteroides faecalis,0.00013099908300641896
 Bacteroides faecichinchillae,0.0
-Bacteroides faecis,0.0177
+Bacteroides faecis,0.00017699876100867295
 Bacteroides fluxus,0.0
-Bacteroides fragilis,0.0084
+Bacteroides fragilis,8.399941200411597e-05
 Bacteroides graminisolvens,0.0
-Bacteroides heparinolyticus,0.0024
+Bacteroides heparinolyticus,2.399983200117599e-05
 Bacteroides luti,0.0
-Bacteroides neonati,0.0029
+Bacteroides neonati,2.899979700142099e-05
 Bacteroides oleiciplenus,0.0
-Bacteroides ovatus,0.0197
+Bacteroides ovatus,0.00019699862100965292
 Bacteroides pyogenes,0.0
 Bacteroides reticulotermitis,0.0
-Bacteroides rodentium,0.0422
+Bacteroides rodentium,0.00042199704602067785
 Bacteroides salyersiae,0.0
-Bacteroides stercoris,0.0059
-Bacteroides thetaiotaomicron,6.0288
-Bacteroides uniformis,2.4349
-Bacteroides xylanisolvens,0.0018
+Bacteroides stercoris,5.899958700289098e-05
+Bacteroides thetaiotaomicron,0.06028757798695409
+Bacteroides uniformis,0.02434882955819309
+Bacteroides xylanisolvens,1.7999874000881994e-05
 Bacteroides zoogleoformans,0.0
 Bifidobacterium breve,0.0
-Bifidobacterium longum,17.7042
-Blautia Unclassified 1001283B150304 161114 C9,0.0006
+Bifidobacterium longum,0.177040760714675
+Blautia Unclassified 1001283B150304 161114 C9,5.999958000293998e-06
 Blautia Unclassified AF19 10LB,0.0
 Blautia Unclassified An249,0.0
 Blautia Unclassified KLE 1732,0.0
-Blautia Unclassified M29,0.0028
-Blautia Unclassified MSJ 9,0.0195
-Blautia Unclassified Marseille P3201T,0.0042
-Blautia glucerasea,0.0144
+Blautia Unclassified M29,2.799980400137199e-05
+Blautia Unclassified MSJ 9,0.00019499863500955494
+Blautia Unclassified Marseille P3201T,4.1999706002057985e-05
+Blautia glucerasea,0.00014399899200705595
 Blautia hansenii,0.0
-Blautia luti,0.0045
-Blautia obeum,0.0012
-Blautia producta,0.0242
-Blautia wexlerae,4.2517
+Blautia luti,4.4999685002204984e-05
+Blautia obeum,1.1999916000587996e-05
+Blautia producta,0.0002419983060118579
+Blautia wexlerae,0.04251670238308332
 Butyricicoccus pullicaecorum,0.0
 Campylobacter coli,0.0
 Citrobacter amalonaticus,0.0
-Citrobacter freundii,0.0058
+Citrobacter freundii,5.799959400284198e-05
 Cladonia macilenta,0.0
-Clostridioides difficile,0.0006
+Clostridioides difficile,5.999958000293998e-06
 Clostridium Unclassified 3 3,0.0
 Clostridium Unclassified AF23 6LB,0.0
-Clostridium Unclassified AF36 18BH,0.0017
-Clostridium Unclassified AM45 5,0.0002
+Clostridium Unclassified AF36 18BH,1.6999881000832994e-05
+Clostridium Unclassified AM45 5,1.999986000097999e-06
 Clostridium Unclassified Ade TY,0.0
-Clostridium Unclassified C2 6 12,0.0013
-Clostridium Unclassified C5S11,0.0002
-Clostridium Unclassified D43t1 170807 H7,0.0004
+Clostridium Unclassified C2 6 12,1.2999909000636996e-05
+Clostridium Unclassified C5S11,1.999986000097999e-06
+Clostridium Unclassified D43t1 170807 H7,3.999972000195998e-06
 Clostridium Unclassified D53t1 180928 C8,0.0
 Clostridium Unclassified DSM 8431,0.0
-Clostridium Unclassified IBUN13A,0.0001
+Clostridium Unclassified IBUN13A,9.999930000489996e-07
 Clostridium Unclassified LS,0.0
 Clostridium Unclassified NSJ 6,0.0
-Clostridium Unclassified SM 530 WT 3G,0.0041
+Clostridium Unclassified SM 530 WT 3G,4.099971300200899e-05
 Clostridium Unclassified YIM B02505,0.0
 Clostridium aciditolerans,0.0
 Clostridium baratii,0.0
-Clostridium beijerinckii,0.0006
-Clostridium botulinum,0.0004
-Clostridium butyricum,0.4883
-Clostridium chauvoei,0.0013
+Clostridium beijerinckii,5.999958000293998e-06
+Clostridium botulinum,3.999972000195998e-06
+Clostridium butyricum,0.004882965819239265
+Clostridium chauvoei,1.2999909000636996e-05
 Clostridium chromiireducens,0.0
 Clostridium frigidicarnis,0.0
 Clostridium gasigenes,0.0
-Clostridium hydrogeniformans,0.0005
+Clostridium hydrogeniformans,4.999965000244998e-06
 Clostridium moniliforme,0.0
 Clostridium nigeriense,0.0
-Clostridium paraputrificum,0.0008
+Clostridium paraputrificum,7.999944000391996e-06
 Clostridium perfringens,0.0
 Clostridium polyendosporum,0.0
-Clostridium puniceum,0.0055
-Clostridium saccharobutylicum,0.0011
+Clostridium puniceum,5.499961500269498e-05
+Clostridium saccharobutylicum,1.0999923000538997e-05
 Clostridium saccharoperbutylacetonicum,0.0
-Clostridium sardiniense,0.0014
+Clostridium sardiniense,1.3999902000685995e-05
 Clostridium sporogenes,0.0
-Clostridium taeniosporum,0.0003
+Clostridium taeniosporum,2.999979000146999e-06
 Clostridium thermobutyricum,0.0
-Clostridium tyrobutyricum,0.0005
-Collinsella aerofaciens,5.2558
-Coprococcus Unclassified ART55 1,0.0041
-Coprococcus comes,0.0038
-Coprococcus eutactus,0.0018
-Dorea Unclassified AM58 8,0.0013
-Dorea Unclassified D27,0.0008
-Dorea formicigenerans,0.0303
-Dorea longicatena,0.0177
+Clostridium tyrobutyricum,4.999965000244998e-06
+Collinsella aerofaciens,0.052557632096575324
+Coprococcus Unclassified ART55 1,4.099971300200899e-05
+Coprococcus comes,3.799973400186199e-05
+Coprococcus eutactus,1.7999874000881994e-05
+Dorea Unclassified AM58 8,1.2999909000636996e-05
+Dorea Unclassified D27,7.999944000391996e-06
+Dorea formicigenerans,0.0003029978790148469
+Dorea longicatena,0.00017699876100867295
 Dysosmobacter Unclassified BX15,0.0
 Enterobacter cloacae,0.0
 Enterobacter roggenkampii,0.0
 Enterocloster bolteae,0.0
 Enterocloster clostridioformis,0.0
-Enterococcus faecium,0.0433
+Enterococcus faecium,0.00043299696902121684
 Enterococcus gallinarum,0.0
 Escherichia Unclassified B1147,0.0
 Escherichia Unclassified MOD1 EC5990,0.0
 Escherichia Unclassified MOD1 EC7003,0.0
-Escherichia albertii,0.0338
-Escherichia coli,4.8661
+Escherichia albertii,0.0003379976340165619
+Escherichia coli,0.04866065937538437
 Escherichia fergusonii,0.0
 Eubacterium Unclassified AM46 8,0.0
+Eubacterium hallii,0.033282767020630856
 Eubacterium ramulus,0.0
-Eubacterium ventriosum,0.0008
+Eubacterium ventriosum,7.999944000391996e-06
 Faecalibacterium Unclassified CLA AA H254,0.0
-Faecalibacterium prausnitzii,3.5553
-Faecalicatena fissicatena,0.0006
+Faecalibacterium prausnitzii,0.035552751130742084
+Faecalicatena fissicatena,5.999958000293998e-06
 Flavobacterium salilacus,0.0
 Fusicatenibacter saccharivorans,0.0
 Herbaspirillum Unclassified VT 16 41,0.0
 Holdemanella biformis,0.0
 Intestinirhabdus alba,0.0
 Klebsiella aerogenes,0.0
-Klebsiella pneumoniae,0.0224
-Lachnoanaerobaculum Unclassified OBRC5 5,0.0005
+Klebsiella pneumoniae,0.00022399843201097592
+Lachnoanaerobaculum Unclassified OBRC5 5,4.999965000244998e-06
 Lachnoclostridium Unclassified An138,0.0
-Lachnospira pectinoschiza,0.0009
-Lacrimispora amygdalina,0.0011
-Lactobacillus acetotolerans,0.0004
-Lactobacillus amylolyticus,0.0074
+Lachnospira pectinoschiza,8.999937000440997e-06
+Lacrimispora amygdalina,1.0999923000538997e-05
+Lactobacillus acetotolerans,3.999972000195998e-06
+Lactobacillus amylolyticus,7.399948200362597e-05
 Lactobacillus colini,0.0
-Lactobacillus crispatus,0.0006
-Lactobacillus gasseri,0.4757
+Lactobacillus crispatus,5.999958000293998e-06
+Lactobacillus gasseri,0.004756966701233091
 Lactobacillus helveticus,0.0
-Lactobacillus hominis,0.0026
-Lactobacillus johnsonii,0.0821
-Lactobacillus paragasseri,1.4691
-Lactobacillus rodentium,0.0074
-Lactobacillus taiwanensis,0.0867
+Lactobacillus hominis,2.5999818001273992e-05
+Lactobacillus johnsonii,0.0008209942530402288
+Lactobacillus paragasseri,0.014690897163719853
+Lactobacillus rodentium,7.399948200362597e-05
+Lactobacillus taiwanensis,0.0008669939310424827
 Ligilactobacillus salivarius,0.0
 Listeria monocytogenes,0.0
-Massiliimalia timonensis,0.0023
+Massiliimalia timonensis,2.299983900112699e-05
 Massospora platypediae,0.0
-Mycolicibacterium malmesburyense,0.0001
+Mycolicibacterium malmesburyense,9.999930000489996e-07
 Novisyntrophococcus fermenticellae,0.0
 Odoribacter laneus,0.0
 Parabacteroides Unclassified 20 3,0.0
 Parabacteroides Unclassified 52,0.0
-Parabacteroides Unclassified AF39 10AC,0.002
-Parabacteroides Unclassified AM17 47,0.0008
+Parabacteroides Unclassified AF39 10AC,1.9999860000979992e-05
+Parabacteroides Unclassified AM17 47,7.999944000391996e-06
 Parabacteroides Unclassified CT06,0.0
 Parabacteroides Unclassified D26,0.0
-Parabacteroides Unclassified ZJ 118,0.0052
+Parabacteroides Unclassified ZJ 118,5.1999636002547985e-05
 Parabacteroides acidifaciens,0.0
-Parabacteroides distasonis,4.6825
-Parabacteroides johnsonii,0.0027
-Parabacteroides merdae,0.0011
+Parabacteroides distasonis,0.04682467222729441
+Parabacteroides johnsonii,2.699981100132299e-05
+Parabacteroides merdae,1.0999923000538997e-05
 Paraclostridium benzoelyticum,0.0
 Phocaeicola massiliensis,0.0
 Phocaeicola plebeius,0.0
-Phocaeicola vulgatus,0.0183
-Prevotella copri,4.3062
-Prevotella melaninogenica,7.4158
+Phocaeicola vulgatus,0.00018299871900896695
+Prevotella copri,0.04306169856811002
+Prevotella melaninogenica,0.07415748089763372
 Prosthecobacter debontii,0.0
-Pseudoflavonifractor Unclassified An176,0.005
-Roseburia Unclassified 1XD42 69,0.0006
+Pseudoflavonifractor Unclassified An176,4.9999650002449983e-05
+Roseburia Unclassified 1XD42 69,5.999958000293998e-06
 Roseburia Unclassified AM23 20,0.0
 Roseburia Unclassified CLA AA H209,0.0
 Roseburia Unclassified OM04 10AA,0.0
-Roseburia faecis,0.0215
-Roseburia hominis,4.4696
-Roseburia intestinalis,3.8723
-Roseburia inulinivorans,0.0587
+Roseburia faecis,0.00021499849501053494
+Roseburia hominis,0.044695687130190086
+Roseburia intestinalis,0.03872272894089741
+Roseburia inulinivorans,0.0005869958910287628
 Ruminococcus Unclassified 1001095IJ 161003 G2,0.0
-Ruminococcus Unclassified 1001713B170214 170313 A12,0.0019
+Ruminococcus Unclassified 1001713B170214 170313 A12,1.8999867000930995e-05
 Ruminococcus Unclassified 5 1 39BFAA,0.0
-Ruminococcus Unclassified AF14 5,0.0007
+Ruminococcus Unclassified AF14 5,6.9999510003429975e-06
 Ruminococcus Unclassified AF21 42,0.0
 Ruminococcus Unclassified AF37 6AT,0.0
-Ruminococcus Unclassified AF41 9,0.0034
-Ruminococcus Unclassified AM12 48,0.0006
+Ruminococcus Unclassified AF41 9,3.399976200166599e-05
+Ruminococcus Unclassified AM12 48,5.999958000293998e-06
 Ruminococcus Unclassified AM26 12LB,0.0
 Ruminococcus Unclassified AM29 12LB,0.0
-Ruminococcus Unclassified AM32 17LB,0.0044
+Ruminococcus Unclassified AM32 17LB,4.3999692002155987e-05
 Ruminococcus Unclassified AM34 9LB,0.0
-Ruminococcus Unclassified AM40 10AC,0.0022
+Ruminococcus Unclassified AM40 10AC,2.1999846001077993e-05
 Ruminococcus Unclassified OF03 6AA,0.0
-Ruminococcus Unclassified OM02 16LB,0.0029
+Ruminococcus Unclassified OM02 16LB,2.899979700142099e-05
 Ruminococcus bicirculans,0.0
-Ruminococcus gauvreauii,4.5957
-Ruminococcus gnavus,0.0238
+Ruminococcus gauvreauii,0.045956678303251876
+Ruminococcus gnavus,0.00023799833401166192
 Ruminococcus lactaris,0.0
 Ruminococcus torques,0.0
-Ruthenibacterium lactatiformans,0.0055
-Salinicoccus cyprini,0.0045
+Ruthenibacterium lactatiformans,5.499961500269498e-05
+Salinicoccus cyprini,4.4999685002204984e-05
 Salmonella enterica,0.0
 Saturnispora mendoncae,0.0
 Schaalia georgiae,0.0
 Shigella boydii,0.0
 Shigella dysenteriae,0.0
-Shigella flexneri,0.0194
-Shigella sonnei,0.0123
+Shigella flexneri,0.00019399864200950594
+Shigella sonnei,0.00012299913900602695
 Staphylococcus aureus,0.0
-Staphylococcus cohnii,0.0001
+Staphylococcus cohnii,9.999930000489996e-07
 Staphylococcus epidermidis,0.0
 Streptococcus pneumoniae,0.0
-Streptomyces mutabilis,0.0002
+Streptomyces mutabilis,1.999986000097999e-06
 Trabulsiella odontotermitis,0.0

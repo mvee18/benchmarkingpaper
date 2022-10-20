@@ -3,3 +3,4 @@
 .pipeline_venv
 .new_venv
 .DS_Store
+*__pycache__*
