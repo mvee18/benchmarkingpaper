@@ -10,7 +10,7 @@ Alistipes finegoldii,0.0111
 Roseburia hominis,0.0098
 Collinsella aerofaciens,0.0097
 Anaerostipes hadrus,0.0070999999999999995
-Anaerobutyricum hallii,0.006500000000000001
+Eubacterium hallii,0.006500000000000001
 Klebsiella pneumoniae,0.0021
 Bacteroides uniformis,0.0019
 Akkermansia muciniphila,0.0014000000000000002
@@ -30,7 +30,7 @@ Citrobacter freundii,0.0002
 Olsenella sp. GAM18,0.0001
 Citrobacter sp. RHB25-C09,0.0001
 Paraprevotella xylaniphila,0.0001
-[Enterobacter] lignolyticus,0.0001
+Enterobacter lignolyticus,0.0001
 Phocaeicola vulgatus,0.0001
 Phocaeicola dorei,0.0001
 Leptolyngbya sp. PCC 7376,0.0001
@@ -441,7 +441,7 @@ Caldichromatium japonicum,0.0
 Sulfurivermis fontis,0.0
 Granulosicoccus antarcticus,0.0
 Pasteurella multocida,0.0
-[Haemophilus] ducreyi,0.0
+Haemophilus ducreyi,0.0
 Actinobacillus sp. GY-402,0.0
 Mannheimia bovis,0.0
 Histophilus somni,0.0
@@ -592,7 +592,7 @@ Acutalibacter muris,0.0
 Pseudoclostridium thermosuccinogenes,0.0
 Thermoclostridium stercorarium,0.0
 Monoglobus pectinilyticus,0.0
-[Eubacterium] cellulosolvens,0.0
+Eubacterium cellulosolvens,0.0
 Eubacterium maltosivorans,0.0
 Acetobacterium woodii,0.0
 Candidatus Formimonas warabiya,0.0
@@ -666,7 +666,7 @@ Cutibacterium granulosum,0.0
 Nocardioides sp. HY056,0.0
 Kocuria palustris,0.0
 Psychromicrobium lacuslunae,0.0
-[Clostridium] hylemonae,0.0
+Clostridium hylemonae,0.0
 Cellulomonas gilvus,0.0
 Olsenella timonensis,0.0
 Parolsenella massiliensis,0.0
@@ -689,9 +689,9 @@ Blautia argi,0.0
 Coprococcus comes,0.0
 Coprococcus catus,0.0
 Coprococcus sp. ART55/1,0.0
-[Ruminococcus] torques,0.0
-[Ruminococcus] gnavus,0.0
-[Clostridium] scindens,0.0
+Ruminococcus torques,0.0
+Ruminococcus gnavus,0.0
+Clostridium scindens,0.0
 Lachnoclostridium phocaeense,0.0
 Olsenella uli,0.0
 Olsenella sp. LZLJ-2,0.0
@@ -944,7 +944,7 @@ Jeotgalibacillus malaysiensis,0.0
 Sporosarcina sp. PTS2304,0.0
 Listeria innocua,0.0
 Gemella sp. oral taxon 928,0.0
-[Clostridium] innocuum,0.0
+Clostridium innocuum,0.0
 Faecalitalea cylindroides,0.0
 Longicatena caecimuris,0.0
 Longibaculum sp. KGMB06250,0.0

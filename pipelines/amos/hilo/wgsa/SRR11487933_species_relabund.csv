@@ -10,7 +10,7 @@ Roseburia hominis,0.010700000000000001
 Alistipes finegoldii,0.0103
 Collinsella aerofaciens,0.009000000000000001
 Anaerostipes hadrus,0.0079
-Anaerobutyricum hallii,0.0076
+Eubacterium hallii,0.0076
 Bacteroides uniformis,0.002
 Akkermansia muciniphila,0.0014000000000000002
 Faecalibacterium prausnitzii,0.001
@@ -53,7 +53,7 @@ Bacteroides fragilis,0.0001
 Citrobacter sp. RHB25-C09,0.0001
 Citrobacter sp. R56,0.0001
 Lactobacillus phage phiadh,0.0001
-[Enterobacter] lignolyticus,0.0001
+Enterobacter lignolyticus,0.0001
 Cedecea sp. FDAARGOS_727,0.0
 Cedecea neteri,0.0
 Cedecea lapagei,0.0
@@ -463,7 +463,7 @@ Alteromonas sp. RKMC-009,0.0
 Marinobacter sp. NP-4(2019),0.0
 Catenovulum sediminis,0.0
 Thalassotalea sp. HSM 43,0.0
-[Haemophilus] ducreyi,0.0
+Haemophilus ducreyi,0.0
 Haemophilus influenzae,0.0
 Actinobacillus sp. GY-402,0.0
 Actinobacillus pleuropneumoniae,0.0
@@ -512,7 +512,7 @@ Oscillibacter sp. MM35,0.0
 Oscillibacter valericigenes,0.0
 Flavonifractor plautii,0.0
 Faecalicatena sp. Marseille-Q4148,0.0
-[Clostridium] hylemonae,0.0
+Clostridium hylemonae,0.0
 Dysosmobacter welbionis,0.0
 Anaerostipes caccae,0.0
 Clostridium diolis,0.0
@@ -535,10 +535,10 @@ Blautia argi,0.0
 Coprococcus comes,0.0
 Coprococcus catus,0.0
 Coprococcus sp. ART55/1,0.0
-[Ruminococcus] torques,0.0
-[Ruminococcus] gnavus,0.0
+Ruminococcus torques,0.0
+Ruminococcus gnavus,0.0
 Lachnoclostridium phocaeense,0.0
-[Clostridium] scindens,0.0
+Clostridium scindens,0.0
 Dysosmobacter sp. Marseille-Q4140,0.0
 Mageeibacillus indolicus,0.0
 Clostridium taeniosporum,0.0
@@ -578,7 +578,7 @@ Thermoclostridium stercorarium,0.0
 Monoglobus pectinilyticus,0.0
 Acutalibacter muris,0.0
 Ruminiclostridium herbifermentans,0.0
-[Eubacterium] cellulosolvens,0.0
+Eubacterium cellulosolvens,0.0
 Eubacterium callanderi,0.0
 Eubacterium maltosivorans,0.0
 Eubacterium sp. NSJ-61,0.0
@@ -847,7 +847,7 @@ Paenibacillus sp. 32O-W,0.0
 Paenibacillus donghaensis,0.0
 Paenibacillus riograndensis,0.0
 Paenibacillus polymyxa,0.0
-[Micrococcus] candicans,0.0
+Micrococcus candicans,0.0
 Staphylococcus lugdunensis,0.0
 Paenibacillus graminis,0.0
 Streptococcus cristatus,0.0
@@ -926,7 +926,7 @@ Megasphaera elsdenii,0.0
 Veillonella rodentium,0.0
 Acidaminococcus fermentans,0.0
 Faecalitalea cylindroides,0.0
-[Clostridium] innocuum,0.0
+Clostridium innocuum,0.0
 Erysipelatoclostridium ramosum,0.0
 Longicatena caecimuris,0.0
 Amedibacterium intestinale,0.0

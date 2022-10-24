@@ -10,7 +10,7 @@ Roseburia hominis,0.010700000000000001
 Alistipes finegoldii,0.0103
 Collinsella aerofaciens,0.0089
 Anaerostipes hadrus,0.008199999999999999
-Anaerobutyricum hallii,0.008100000000000001
+Eubacterium hallii,0.008100000000000001
 Bacteroides uniformis,0.002
 Akkermansia muciniphila,0.0013
 Faecalibacterium prausnitzii,0.0011
@@ -73,7 +73,7 @@ Kluyvera genomosp. 3,0.0
 Raoultella sp. X13,0.0
 Pluralibacter gergoviae,0.0
 Cronobacter muytjensii,0.0
-[Enterobacter] lignolyticus,0.0
+Enterobacter lignolyticus,0.0
 Cronobacter sp. JZ38,0.0
 Raoultella ornithinolytica,0.0
 Raoultella planticola,0.0
@@ -401,7 +401,7 @@ Pseudomonas aeruginosa,0.0
 Pseudomonas psychrophila,0.0
 Pseudomonas extremaustralis,0.0
 Photobacterium sp. GJ3,0.0
-[Haemophilus] ducreyi,0.0
+Haemophilus ducreyi,0.0
 Actinobacillus pleuropneumoniae,0.0
 Halioglobus japonicus,0.0
 Teredinibacter turnerae,0.0
@@ -471,7 +471,7 @@ Acutalibacter muris,0.0
 Pseudoclostridium thermosuccinogenes,0.0
 Lachnoanaerobaculum umeaense,0.0
 Monoglobus pectinilyticus,0.0
-[Eubacterium] cellulosolvens,0.0
+Eubacterium cellulosolvens,0.0
 Eubacterium maltosivorans,0.0
 Eubacterium callanderi,0.0
 Eubacterium sp. NSJ-61,0.0
@@ -490,11 +490,11 @@ Blautia producta,0.0
 Coprococcus comes,0.0
 Coprococcus catus,0.0
 Coprococcus sp. ART55/1,0.0
-[Ruminococcus] torques,0.0
-[Ruminococcus] gnavus,0.0
-[Clostridium] scindens,0.0
+Ruminococcus torques,0.0
+Ruminococcus gnavus,0.0
+Clostridium scindens,0.0
 Lachnoclostridium phocaeense,0.0
-[Clostridium] hylemonae,0.0
+Clostridium hylemonae,0.0
 Anaerocolumna sp. CTTW,0.0
 Lachnoclostridium phytofermentans,0.0
 Faecalicatena sp. Marseille-Q4148,0.0
@@ -810,7 +810,7 @@ Staphylococcus pseudoxylosus,0.0
 Staphylococcus debuckii,0.0
 Staphylococcus succinus,0.0
 Staphylococcus haemolyticus,0.0
-[Micrococcus] candicans,0.0
+Micrococcus candicans,0.0
 Bacillus mycoides,0.0
 Bacillus cereus,0.0
 Bacillus sp. Y1,0.0
@@ -849,7 +849,7 @@ Gloeomargarita lithophora,0.0
 Megasphaera stantonii,0.0
 Acidaminococcus fermentans,0.0
 Phascolarctobacterium faecium,0.0
-[Clostridium] innocuum,0.0
+Clostridium innocuum,0.0
 Longicatena caecimuris,0.0
 Faecalitalea cylindroides,0.0
 Erysipelothrix sp. HDW6C,0.0

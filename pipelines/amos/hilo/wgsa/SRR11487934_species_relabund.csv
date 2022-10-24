@@ -10,7 +10,7 @@ Alistipes finegoldii,0.0108
 Roseburia hominis,0.0098
 Collinsella aerofaciens,0.0097
 Anaerostipes hadrus,0.0075
-Anaerobutyricum hallii,0.0069
+Eubacterium hallii,0.0069
 Bacteroides uniformis,0.002
 Akkermansia muciniphila,0.0015
 Enterococcus faecalis,0.0015
@@ -107,7 +107,7 @@ Pectobacterium atrosepticum,0.0
 Pectobacterium odoriferum,0.0
 Pectobacterium parmentieri,0.0
 Dickeya dianthicola,0.0
-[Enterobacter] lignolyticus,0.0
+Enterobacter lignolyticus,0.0
 Dickeya poaceiphila,0.0
 Dickeya chrysanthemi,0.0
 Dickeya solani,0.0
@@ -486,7 +486,7 @@ Oscillibacter sp. PEA192,0.0
 Mageeibacillus indolicus,0.0
 Ruthenibacterium lactatiformans,0.0
 Lachnoclostridium sp. YL32,0.0
-[Clostridium] hylemonae,0.0
+Clostridium hylemonae,0.0
 Lachnoclostridium phocaeense,0.0
 Hathewaya histolytica,0.0
 Clostridium argentinense,0.0
@@ -500,7 +500,7 @@ Hungatella hathewayi,0.0
 Sarcina sp. JB2,0.0
 Alkaliphilus metalliredigens,0.0
 Anaerostipes caccae,0.0
-[Clostridium] scindens,0.0
+Clostridium scindens,0.0
 Anaerostipes rhamnosivorans,0.0
 Blautia sp. LZLJ-3,0.0
 Blautia producta,0.0
@@ -509,8 +509,8 @@ Blautia argi,0.0
 Coprococcus comes,0.0
 Coprococcus catus,0.0
 Coprococcus sp. ART55/1,0.0
-[Ruminococcus] torques,0.0
-[Ruminococcus] gnavus,0.0
+Ruminococcus torques,0.0
+Ruminococcus gnavus,0.0
 Acetivibrio saccincola,0.0
 Dysosmobacter sp. Marseille-Q4140,0.0
 Acutalibacter muris,0.0
@@ -542,7 +542,7 @@ Tepidanaerobacter acetatoxydans,0.0
 Caproiciproducens sp. NJN-50,0.0
 Romboutsia sp. CE17,0.0
 Eubacterium maltosivorans,0.0
-[Eubacterium] cellulosolvens,0.0
+Eubacterium cellulosolvens,0.0
 Eubacterium callanderi,0.0
 Massilistercora timonensis,0.0
 Flintibacter sp. KGMB00164,0.0
@@ -865,7 +865,7 @@ Listeria sp. PSOL-1,0.0
 Gemella sp. oral taxon 928,0.0
 Alicyclobacillus sp. TC,0.0
 Staphylospora marina,0.0
-[Clostridium] innocuum,0.0
+Clostridium innocuum,0.0
 Faecalitalea cylindroides,0.0
 Anaerococcus obesiensis,0.0
 Faecalibacillus intestinalis,0.0
