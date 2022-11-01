@@ -1,5 +1,6 @@
 .venv
 names_df.pkl
+names_df.csv
 ncbi_names.csv
 .vscode
 .pipeline_venv
