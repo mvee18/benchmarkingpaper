@@ -130,7 +130,7 @@ def map_and_add_tax_ids(df: pd.DataFrame, names_df: pd.DataFrame) -> pd.DataFram
     Returns:
         pd.DataFrame: The dataframe with the tax_ids added.
     """
-    res = find_tax_id(df.index.tolist(), names_df)
+    res = find_tax_id(df.index.to_list(), names_df)
 
     # Add the tax_id to the dataframe.
     df["tax_id"] = df.index.map(res)
