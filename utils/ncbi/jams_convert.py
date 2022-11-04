@@ -33,6 +33,7 @@ def fix_name(name: str) -> str:
 
 
 def convert_jams_to_taxid(df: pd.DataFrame, names_df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    df = df.copy()
     # Get index as list.
     index_list = df.index.tolist()
     # Remove all underscores and replace with spaces.
