@@ -1,4 +1,5 @@
-from typing import List
+from ast import Str
+from typing import List, Callable
 import pandas as pd
 import re
 import os
@@ -137,7 +138,27 @@ def map_and_add_tax_ids(df: pd.DataFrame, names_df: pd.DataFrame) -> pd.DataFram
     return df
 
 
-def convert_expected(data_path: str):
+# Conversion functions for the convert_expected function by pipeline.
+def split_jams(exp_df: pd.DataFrame) -> List[List[str]]:
+    exp_names = exp_df.index.tolist()
+    exp_split_names = [x.split() for x in exp_names]
+
+    return exp_split_names
+
+
+def split_bio(exp_df: pd.DataFrame) -> List[List[str]]:
+    exp_names = exp_df.index.tolist()
+
+    # Replace any instance of sp with sp.
+    exp_names = [re.sub("_sp_", "_sp._", x) for x in exp_names]
+    print(exp_names)
+
+    exp_split_names = [x.split("_") for x in exp_names]
+
+    return exp_split_names
+
+
+def convert_expected(data_path: str, split_func: Callable):
     # Experimental dataframe.
     exp_df = pd.read_csv(data_path, sep=",", dtype={
         "species": str, "tax_id": str}, index_col=0)
@@ -146,8 +167,7 @@ def convert_expected(data_path: str):
     ncbi_df = generate_names_df(names_db_path, load_pickle=True)
 
     # Names from the experimental dataframe that need to be standardized.
-    exp_names = exp_df.index.tolist()
-    exp_split_names = [x.split() for x in exp_names]
+    exp_split_names = split_func(exp_df)
 
     # Standardize the names. Set the index to the standardized names.
     standardized_exp = standardize_core(exp_df, exp_split_names)
@@ -161,12 +181,12 @@ def convert_expected(data_path: str):
 
     if "genus" in file_name:
         output_path = os.path.join(os.path.dirname(
-            data_path), f"{file_name}_with_taxid.csv")
+            data_path), f"{file_name}_annotated.csv")
         exp_with_taxid.to_csv(output_path, index_label="Genus")
 
     elif "species" in file_name:
         output_path = os.path.join(os.path.dirname(
-            data_path), f"{file_name}_with_taxid.csv")
+            data_path), f"{file_name}_annotated.csv")
         exp_with_taxid.to_csv(output_path, index_label="Species")
 
     return exp_with_taxid
@@ -176,5 +196,5 @@ if __name__ == "__main__":
     # Using the bmock12 data for conversion to TaxIDs.
     # Note that the names were changed from the original to be searchable in the names.dmp file.
     # i.e, DSM was removed.
-    species_df_path = "bmock12_names.csv"
-    convert_expected(species_df_path)
+    species_df_path = "../../pipelines/bmock12/biobakery3/alignment_species.csv"
+    convert_expected(species_df_path, split_bio)

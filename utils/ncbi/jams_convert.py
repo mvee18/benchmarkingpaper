@@ -61,6 +61,6 @@ def convert_jams_to_taxid(path: str, names_df: pd.DataFrame) -> Tuple[pd.DataFra
 
 
 if __name__ == "__main__":
-    names_df = generate_names_df(names_db_path, pickle=True)
+    names_df = generate_names_df(names_db_path, load_pickle=True)
     annotated, unknown = convert_jams_to_taxid(
         "../../pipelines/bmock12/jams/s1_species_relabund.csv", names_df)
