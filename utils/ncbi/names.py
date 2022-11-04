@@ -27,6 +27,11 @@ def standardize_core(input_df: pd.DataFrame, split_names: List[List[str]]) -> pd
             split_names[i] = split_names[i][:2] + \
                 ["-".join(split_names[i][2:])]
 
+    # Remove any [ or ] characters.
+    for i in range(len(split_names)):
+        for j in range(len(split_names[i])):
+            split_names[i][j] = re.sub(r"[\[\]]", "", split_names[i][j])
+
     # Join the list of lists back into a list of strings with "_".
     split_names = ["_".join(x) for x in split_names]
 
@@ -196,5 +201,7 @@ if __name__ == "__main__":
     # Using the bmock12 data for conversion to TaxIDs.
     # Note that the names were changed from the original to be searchable in the names.dmp file.
     # i.e, DSM was removed.
-    species_df_path = "../../pipelines/bmock12/biobakery3/alignment_species.csv"
-    convert_expected(species_df_path, split_bio)
+    # species_df_path = "../../pipelines/bmock12/biobakery3/alignment_species.csv"
+    # convert_expected(species_df_path, split_bio)
+
+    generate_names_df(names_db_path, pickle=True)

@@ -32,12 +32,9 @@ def fix_name(name: str) -> str:
 # The species abundance tables have already been generated. We just need to fix the names and add the tax_ids.
 
 
-def convert_jams_to_taxid(path: str, names_df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
-    df = pd.read_csv(path, sep=",", index_col=0)
-
+def convert_jams_to_taxid(df: pd.DataFrame, names_df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
     # Get index as list.
     index_list = df.index.tolist()
-
     # Remove all underscores and replace with spaces.
     index_list = [x.replace("_", " ") for x in index_list]
 
