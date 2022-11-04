@@ -1,945 +1,307 @@
-Species,RA
-Escherichia coli,0.10497809643654357
-Bacteroides thetaiotaomicron,0.07402457246587411
-Bifidobacterium longum,0.05873924792947037
-Prevotella melaninogenica,0.05260031588605582
-Akkermansia muciniphila,0.051343466742950004
-Alistipes finegoldii,0.04309596484474261
-Parabacteroides distasonis,0.039170593686235065
-Roseburia hominis,0.037751502969420224
-Prevotella copri,0.035014318341932964
-Ruminococcus gauvreauii,0.03353664567353267
-Bacteroides uniformis,0.03275111495909154
-Roseburia intestinalis,0.029619833566393132
-Faecalibacterium prausnitzii,0.029210901112144114
-Collinsella aerofaciens,0.027013697525407068
-Eubacterium hallii,0.02542380618351519
-Bacteroides thetaiotaomicron CAG:40,0.023403489658383535
-Anaerostipes hadrus,0.02325855638855202
-Blautia obeum,0.02288842496717128
-Shigella flexneri,0.02026574142687375
-Akkermansia sp. 54_46,0.01810886048213707
-Akkermansia muciniphila CAG:154,0.017630885013519497
-Shigella dysenteriae,0.017471116054650113
-Akkermansia sp. UNK.MGS-1,0.017070362249486076
-Akkermansia sp. Phil8,0.015613992108935042
-Bifidobacterium breve,0.010664958406814374
-Clostridium butyricum,0.00982617137275011
-Lactobacillus gasseri,0.00837075223790663
-Collinsella sp. CAG:166,0.007916551911977954
-Prevotella scopos,0.004641098054014081
-Roseburia inulinivorans,0.0041292667822075205
-Alistipes shahii,0.0027328100012325033
-Bifidobacterium reuteri,0.002470903029371621
-Fusicatenibacter saccharivorans,0.0024142230892012922
-Bacteroides faecis CAG:32,0.0021753304554632613
-Lactobacillus fermentum,0.0020252617548109477
-Clostridium sp. M62/1,0.001689556740043731
-Roseburia faecis,0.0016688248156190135
-Dorea formicigenerans,0.0015305485857403922
-Bacteroides pectinophilus,0.0014721568352964627
-Coprococcus comes,0.0014708254273058845
-Bacteroides stercoris,0.0014133846825695108
-Bacteroides vulgatus,0.0013947449707014162
-Tyzzerella nexilis,0.0013563243401161597
-Eubacterium sp. CAG:146,0.0012739672458418226
-Ruminococcus faecis,0.00126540819447382
-Eubacterium ventriosum,0.0012496214997283928
-Blautia sp. KLE 1732,0.0012292699775866974
-Blautia hansenii,0.0011423480559160923
-Eubacterium rectale,0.001116290499529062
-Alistipes senegalensis,0.0010811032883494955
-Bacteroidales bacterium 55_9,0.0010132014808300074
-Eubacterium ramulus,0.001009397457999784
-Butyrivibrio crossotus,0.001005022831745027
-Bacteroides fragilis,0.000989426338141111
-Prevotella histicola,0.0009795358787825302
-Prevotella fusca,0.000950435104131321
-Emergencia timonensis,0.0009319855934047373
-Alistipes putredinis,0.000921524530621623
-Bifidobacterium saguini,0.0008342222066679956
-Clostridium sp. L2-50,0.0008285161724226604
-Ruminococcaceae bacterium D16,0.0008159628970829232
-Bifidobacterium callitrichos,0.0008140608856678115
-Lactonifactor longoviformis,0.0008123490753942109
-Bacteroides ovatus,0.0008089254548470098
-Bacteroides sp. 43_46,0.0007872425247147364
-Bifidobacterium scardovii,0.0007686028128466416
-Bifidobacterium bifidum,0.0007433060610256559
-Bacteroides plebeius,0.0006951851722233296
-Angelakisella massiliensis,0.0006892889368364833
-Blautia schinkii,0.0006811102877515029
-Ruthenibacterium lactatiformans,0.0006561939382135395
-Coprococcus eutactus,0.0006539115245154056
-Faecalitalea cylindroides,0.0006447818697228693
-Clostridium bolteae,0.0006301363818265092
-Bifidobacterium aesculapii,0.0005976119866280989
-Clostridioides difficile,0.0005962805786375207
-Clostridium citroniae,0.0005907647455336968
-Lactobacillus hominis,0.0005808742861751159
-Dorea longicatena,0.0005736466427976914
-Clostridium glycyrrhizinilyticum,0.0005730760393731579
-Clostridia bacterium UC5.1-1E11,0.0005673700051278227
-Bacteroides oleiciplenus,0.000566609200561778
-Subdoligranulum variabile,0.0005565285400616861
-Clostridium saccharobutylicum,0.0005361770179199908
-Intestinimonas massiliensis,0.0005310415870991891
-Pseudoflavonifractor capillosus,0.0005215315300236306
-Odoribacter splanchnicus,0.0005047938295706475
-Prevotella intermedia,0.0004899581405327763
-Fournierella massiliensis,0.0004861541177025528
-Clostridium lactatifermentans,0.00048463250857046344
-Clostridium beijerinckii,0.0004614279693061006
-Lactobacillus jensenii,0.0004606671647400559
-Ruminococcus gnavus,0.0004593357567494777
-Clostridium clostridioforme,0.0004551513316362319
-Firmicutes bacterium CAG:270,0.00045058650423996386
-Mediterranea massiliensis,0.0004502061019569415
-Bifidobacterium adolescentis,0.00044659228026822925
-Lachnospiraceae bacterium M18-1,0.0004464020791267181
-Bacteroides coprocola,0.00043118598780582444
-Clostridiales bacterium VE202-08,0.00042776236725862335
-Ruminococcus lactaris,0.00041463848849435255
-Clostridium innocuum,0.0004089324542490174
-Lachnospiraceae bacterium TF01-11,0.0003942869663526573
-Anaerotruncus colihominis,0.0003872495241167439
-Lachnospiraceae bacterium 28-4,0.0003788806738902524
-Clostridium symbiosum,0.0003712726282298056
-Hungatella hathewayi,0.0003691804156731827
-Akkermansia sp. CAG:344,0.00036689800197504865
-Paraprevotella xylaniphila,0.0003625233757202917
-Anaerostipes caccae,0.0003613821688712247
-Ruminococcus sp. AT10,0.0003547251289183337
-Acetivibrio ethanolgignens,0.00035187211179566613
-Eubacterium eligens,0.0003509211060881103
-Ruminococcus bicirculans,0.0003431228592861523
-Obesumbacterium proteus,0.00034274245700312994
-Butyricicoccus pullicaecorum,0.0003379874284653507
-Oscillibacter sp. ER4,0.00033760702618232835
-Prevotella multiformis,0.00031288087778587613
-Eubacterium dolichum,0.00030736504468205215
-Eubacterium contortum,0.00030660424011600746
-Dorea sp. 5-2,0.0003056532344084516
-Odoribacter sp. 43_10,0.00030356102185182877
-Salmonella enterica,0.0003031806195688064
-Coprobacter secundus,0.0003020394127197394
-Clostridium saccharoperbutylacetonicum,0.00029823538988951596
-Bacteroides cellulosilyticus,0.00029614317733289307
-Ruminococcus sp. Zagget7,0.0002929097579272032
-Bacteroides fluxus,0.0002900567408045356
-Oscillibacter sp. KLE 1745,0.0002887253328139574
-Erysipelotrichaceae bacterium 5_2_54FAA,0.0002881547293894239
-Clostridia bacterium UC5.1-1D1,0.0002778838677478207
-Culturomica massiliensis,0.0002776936666063095
-Eubacterium sp. 3_1_31,0.00027122682779492967
-Bacteroides coprophilus,0.0002695150175213292
-Lachnospiraceae bacterium 3-1,0.000269324816379818
-Clostridium scindens,0.00026894441409679566
-Prevotella pallens,0.000268183609530751
-Bifidobacterium biavatii,0.000268183609530751
-Citrobacter freundii,0.000268183609530751
-Bifidobacterium stellenboschense,0.00026647179925715043
-Prevotella sp. CAG:386,0.00025905395473821473
-Lachnospiraceae bacterium 10-1,0.0002516361102192791
-Ruminococcus torques,0.0002489732942381227
-Prevotella sp. 109,0.00024859289195510034
-Prevotella nanceiensis,0.00024554967369092164
-Prevotella sp. S7-1-8,0.0002331865994926955
-Eubacterium plexicaudatum,0.00022843157095491624
-Prevotella sp. CAG:604,0.00022576875497375986
-Bifidobacterium angulatum,0.0002253883526907375
-Dorea sp. 42_8,0.00022196473214353642
-Clostridium leptum,0.00022177453100202525
-bacterium LF-3,0.0002168293013227348
-Lactobacillus salivarius,0.00021530769219064546
-Clostridium saccharolyticum,0.00021492728990762312
-Prevotella denticola,0.0002078898476717098
-Scardovia inopinata,0.00020731924424717627
-Coprobacillus sp. D6,0.00020047200315277412
-Holdemanella biformis,0.00019837979059615125
-Bacteroides sp. D2,0.00019837979059615125
-Traorella massiliensis,0.00019780918717161774
-Clostridium saccharogumia,0.00019685818146406188
-Eubacterium sp. 14-2,0.00019134234836023793
-Cronobacter sakazakii,0.000186967722105481
-Clostridiales bacterium 1_7_47FAA,0.000186967722105481
-Clostridium sp. CAG:245_30_32,0.00018658731982245866
-Prevotella aurantiaca,0.00018601671639792514
-Massilioclostridium coli,0.00018525591183188046
-Bariatricus massiliensis,0.00018449510726583577
-Lamprocystis purpurea,0.00018126168786014585
-Lactobacillus antri,0.00018069108443561236
-Akkermansia sp. KLE1798,0.00018031068215259002
-Citrobacter amalonaticus,0.00017993027986956767
-Lachnoanaerobaculum sp. OBRC5-5,0.00017993027986956767
-Bacteroides faecichinchillae,0.00017916947530352299
-Alistipes timonensis,0.00017878907302050064
-Ruminococcus callidus,0.00017821846959596713
-Klebsiella oxytoca,0.0001732732399166767
-Holdemania filiformis,0.00017061042393552028
-Parabacteroides johnsonii,0.00016908881480343093
-Kluyvera intermedia,0.00016908881480343093
-Akkermansia sp. KLE1605,0.0001687084125204086
-Lachnospiraceae bacterium A2,0.00016813780909587508
-Barnesiella viscericola,0.00016604559653925219
-Bifidobacterium gallinarum,0.00016566519425622984
-Akkermansia sp. KLE1797,0.00016566519425622984
-Pseudobutyrivibrio ruminis,0.00016471418854867398
-Bifidobacterium asteroides,0.00016395338398262932
-Bittarella massiliensis,0.00015767674631276068
-Senegalimassilia anaerobia,0.0001542531257655596
-Clostridium phoceensis,0.0001534923211995149
-Ruminococcus sp. CAG:108-related_41_35,0.0001496882983692915
-Paraprevotella clara CAG:116,0.0001489274938032468
-Sellimonas intestinalis,0.00014854709152022446
-Enterobacter cloacae,0.00014721568352964626
-Prevotella bivia,0.0001470254823881351
-Eubacterium sp. ER2,0.00014607447668057926
-Prevotella salivae,0.00014398226412395637
-Coprococcus sp. HPP0048,0.00014227045385035582
-Bacteroides salyersiae,0.00013827622987862124
-Prevotella disiens,0.00013770562645408773
-Lachnospiraceae bacterium A4,0.0001365644196050207
-Parabacteroides gordonii,0.00013637421846350952
-Clostridium sp. HGF2,0.00013542321275595366
-Bacteroides finegoldii CAG:203,0.00013485260933142018
-Marvinbryantia formatexigens,0.00013485260933142018
-Prevotella stercorea,0.00013447220704839783
-Phascolarctobacterium succinatutens,0.00013104858650119674
-Stomatobaculum longum,0.00012971717851061854
-Clostridium aminophilum,0.00012952697736910737
-Lactobacillus gastricus,0.00012762496595399567
-Hespellia stercorisuis,0.00012629355796341747
-Kluyvera cryocrescens,0.00012515235111435044
-Butyricicoccus desmolans,0.00012458174768981693
-Prevotella sp. HUN102,0.00012382094312377224
-Anaerotruncus sp. G3(2012),0.00011944631686901531
-Collinsella sp. MS5,0.00011906591458599298
-Lactobacillus kefiranofaciens,0.00011906591458599298
-Ruminococcus obeum CAG:39,0.00011621289746332542
-Prevotella sp. P4-76,0.00011469128833123605
-Bacteroides salanitronis,0.00011012646093496795
-Prevotella corporis,0.00010936565636892326
-Bifidobacterium dentium,0.00010898525408590092
-Merdibacter massiliensis,0.0001084146506613674
-Kluyvera ascorbata,0.0001084146506613674
-Gordonibacter pamelaeae,0.00010765384609532273
-Lelliottia amnigena,0.00010765384609532273
-Prevotella sp. S7 MS 2,0.00010632243810474453
-Prevotella oulorum,0.00010480082897265517
-Bifidobacterium subtile,0.00010404002440661048
-Prevotella timonensis,0.00010404002440661048
-Bacteroides caccae CAG:21,0.00010270861641603228
-Prevotella oris,0.00010080660500092057
-Blautia sp. CAG:37_48_57,0.0001006164038594094
-Bacteroides ovatus CAG:22,9.966539815185354e-05
-Fibrobacter sp. UWB12,9.890459358580887e-05
-Lactobacillus helveticus,9.73829844537195e-05
-Prevotella amnii,9.700258217069715e-05
-Clostridium sp. SY8519,9.662217988767481e-05
-Lachnospiraceae bacterium AC2012,9.567117418011896e-05
-Treponema succinifaciens,9.47201684725631e-05
-Enterobacter lignolyticus,9.452996733105193e-05
-Akkermansia glycaniphila,9.14867490668732e-05
-Christensenellaceae bacterium Phil1,9.14867490668732e-05
-Clostridium sp. KLE 1755,9.14867490668732e-05
-Barnesiella intestinihominis,9.129654792536203e-05
-Prevotella maculosa,9.129654792536203e-05
-Trabulsiella odontotermitis,8.920433536873915e-05
-Alistipes obesi,8.88239330857168e-05
-Odoribacter splanchnicus CAG:14,8.863373194420563e-05
-Lactobacillus acidophilus,8.578071482153807e-05
-Klebsiella pneumoniae,8.521011139700456e-05
-Erysipelotrichaceae bacterium I46,8.349830112340402e-05
-Porphyromonas somerae,8.349830112340402e-05
-Clostridium sp. KNHs214,8.216689313282582e-05
-Clostridium botulinum,8.216689313282582e-05
-Parabacteroides goldsteinii,8.178649084980349e-05
-Kosakonia sacchari,8.178649084980349e-05
-Bacteroides finegoldii,8.178649084980349e-05
-Lactobacillus thailandensis,8.083548514224763e-05
-Pantoea sp. PSNIH2,8.026488171771412e-05
-Alloprevotella tannerae,8.007468057620294e-05
-Intestinimonas butyriciproducens,8.007468057620294e-05
-Robinsoniella peoriensis,7.77922668780689e-05
-Lactobacillus iners,7.684126117051304e-05
-Prevotella enoeca,7.455884747237899e-05
-Prevotellamassilia timonensis,7.417844518935665e-05
-Yokenella regensburgei,7.284703719877846e-05
-Clostridium neonatale,7.227643377424494e-05
-Firmicutes bacterium CAG:65,7.227643377424494e-05
-Raoultella ornithinolytica,7.208623263273377e-05
-Allobaculum stercoricanis,7.170583034971143e-05
-Leclercia adecarboxylata,7.170583034971143e-05
-Enterobacter aerogenes,6.92332155100662e-05
-Lactobacillus acetotolerans,6.771160637797683e-05
-Clostridium methylpentosum,6.752140523646567e-05
-Helicobacter mustelae,6.657039952890981e-05
-Blautia hydrogenotrophica,6.618999724588747e-05
-Pluralibacter gergoviae,6.485858925530927e-05
-Gardnerella vaginalis,6.466838811379811e-05
-Prevotella bryantii,6.466838811379811e-05
-Prevotella buccalis,6.238597441566405e-05
-Lachnospiraceae bacterium oral taxon 500,6.238597441566405e-05
-Megasphaera genomosp. type_1,6.162516984961938e-05
-Erysipelotrichaceae bacterium 21_3,6.14349687081082e-05
-Bifidobacterium pseudolongum,6.14349687081082e-05
-Corynebacterium sp. EPI-003-04-2554_SCH2473622,6.14349687081082e-05
-Lactobacillus paucivorans,6.0674164142063516e-05
-Prevotella bergensis,5.915255500997415e-05
-Clostridium asparagiforme,5.915255500997415e-05
-Solobacterium moorei,5.8772152726951805e-05
-Lactobacillus satsumensis,5.8201549302418297e-05
-Lachnospiraceae bacterium COE1,5.782114701939595e-05
-Parabacteroides merdae CAG:48,5.782114701939595e-05
-Veillonella seminalis,5.725054359486244e-05
-Prevotella micans,5.7060342453351266e-05
-Collinsella intestinalis,5.534853217975073e-05
-Prevotella buccae,5.477792875521722e-05
-Neglecta timonensis,5.401712418917253e-05
-Lactobacillus lindneri,5.401712418917253e-05
-Slackia piriformis,5.3826923047661366e-05
-Lactobacillus ruminis,5.3826923047661366e-05
-Lactobacillus similis,5.249551505708317e-05
-Clostridium sp. CAG:58,5.249551505708317e-05
-Lactobacillus hokkaidonensis,5.078370478348263e-05
-Lactobacillus psittaci,5.059350364197146e-05
-Bacteroides neonati,5.040330250046029e-05
-Sanguibacteroides justesenii,4.9452296792904435e-05
-Lactobacillus composti,4.869149222685975e-05
-Prevotella multisaccharivorax,4.8501291085348576e-05
-Clostridium hylemonae,4.8501291085348576e-05
-Prevotella sp. CAG:1092,4.793068766081507e-05
-Lactobacillus malefermentans,4.7740486519303896e-05
-Prevotella marshii,4.736008423628155e-05
-Porphyromonas crevioricanis,4.659927967023687e-05
-Bacteroides sp. CAG:530,4.64090785287257e-05
-Prevotella sp. CAG:520,4.621887738721453e-05
-Acinetobacter venetianus,4.5267871679658676e-05
-Butyrivibrio sp. AD3002,4.5077670538147504e-05
-Bacteroides barnesiae,4.431686597210282e-05
-Collinsella stercoris,4.431686597210282e-05
-Bifidobacterium coryneforme,4.4126664830591645e-05
-Lachnospiraceae bacterium 2_1_46FAA,4.393646368908047e-05
-Pediococcus damnosus,4.374626254756931e-05
-Lachnoanaerobaculum saburreum,4.260505569850228e-05
-Lactobacillus sanfranciscensis,4.241485455699111e-05
-Lactobacillus mindensis,4.222465341547994e-05
-Lactobacillus diolivorans,4.203445227396877e-05
-Eubacterium cellulosolvens,4.1463848849435254e-05
-Rikenella microfusus,4.127364770792408e-05
-Bacillus coahuilensis,4.032264200036823e-05
-Prevotella loescheii,4.013244085885706e-05
-Blautia producta,3.9942239717345886e-05
-Clostridiales bacterium 59_14,3.9942239717345886e-05
-Shimwellia blattae,3.9752038575834714e-05
-Chryseobacterium gallinarum,3.9752038575834714e-05
-Lactobacillus panis,3.956183743432354e-05
-Alistipes sp. Zagget8,3.956183743432354e-05
-Bacteroides pyogenes,3.956183743432354e-05
-Morganella morganii,3.937163629281238e-05
-Lactobacillus parafarraginis,3.937163629281238e-05
-Gallibacterium anatis,3.861083172676769e-05
-Prevotella oralis,3.765982601921184e-05
-Oscillospiraceae bacterium Zagget12,3.765982601921184e-05
-Coriobacteriaceae bacterium 68-1-3,3.708922259467832e-05
-Klebsiella sp. RIT-PI-d,3.6518619170144814e-05
-Tidjanibacter massiliensis,3.632841802863364e-05
-Lachnobacterium bovis,3.613821688712247e-05
-Franconibacter pulveris,3.613821688712247e-05
-Varibaculum cambriense,3.5377412321077783e-05
-Oribacterium parvum,3.499701003805545e-05
-Lactobacillus paracollinoides,3.423620547201076e-05
-Lactobacillus crispatus,3.347540090596608e-05
-Prevotella dentalis,3.328519976445491e-05
-Clostridium sp. CAG:632,3.3094998622943736e-05
-Johnsonella ignava,3.2334194056899055e-05
-Escherichia vulneris,3.2334194056899055e-05
-Collinsella tanakaei,3.195379177387671e-05
-Alloprevotella rava,3.176359063236554e-05
-Bacteroides dorei CAG:222,3.1192987207832024e-05
-Intestinibacter bartlettii,3.1192987207832024e-05
-Lactobacillus pasteurii,3.081258492480969e-05
-Selenomonas bovis,3.0622383783298516e-05
-Prevotella sp. CAG:891,3.0432182641787344e-05
-Lachnospiraceae bacterium AC2029,3.0051780358765e-05
-Veillonella sp. CAG:933,3.0051780358765e-05
-Butyricicoccus sp. K4410.MGS-46,2.986157921725383e-05
-Rappaport israeli,2.948117693423149e-05
-Streptococcus mitis,2.9100774651209148e-05
-Lachnoclostridium phytofermentans,2.9100774651209148e-05
-Clostridiales bacterium DTU089,2.8910573509697976e-05
-Gilliamella apicola,2.8720372368186805e-05
-Campylobacter coli,2.8720372368186805e-05
-Cellulomonas carbonis,2.8339970085164465e-05
-Clostridium sp. CAG:352,2.8149768943653293e-05
-Pediococcus claussenii,2.795956780214212e-05
-Prevotella nigrescens,2.757916551911978e-05
-Capnocytophaga granulosa,2.738896437760861e-05
-Butyricimonas virosa,2.738896437760861e-05
-Catonella morbi,2.7198763236097437e-05
-Bacteroides reticulotermitis,2.7198763236097437e-05
-Clostridium sp. CAG:81,2.6818360953075097e-05
-Clostridium sp. KNHs205,2.6818360953075097e-05
-Lachnospiraceae bacterium 3-2,2.6437958670052753e-05
-Bifidobacterium actinocoloniiforme,2.6247757528541585e-05
-Sharpea azabuensis,2.567715410400807e-05
-Tannerella forsythia,2.567715410400807e-05
-Lactobacillus uvarum,2.54869529624969e-05
-Porphyromonas sp. CAG:1061,2.5106550679474558e-05
-Lactobacillus parabuchneri,2.4916349537963386e-05
-Prevotella oryzae,2.4916349537963386e-05
-Clostridium bolteae CAG:59,2.4535947254941046e-05
-Ruminococcus torques CAG:61,2.4345746113429874e-05
-Lactobacillus paracasei,2.3965343830407534e-05
-Prevotella sp. CAG:732,2.358494154738519e-05
-Bifidobacterium thermophilum,2.358494154738519e-05
-Lactobacillus coleohominis,2.3014338122851678e-05
-Phocea massiliensis,2.3014338122851678e-05
-Clostridium nexile CAG:348,2.3014338122851678e-05
-Acinetobacter pittii,2.2824136981340506e-05
-Clostridiales bacterium S5-A14a,2.2633935839829338e-05
-Bacteroidales bacterium H10,2.2633935839829338e-05
-Haemophilus sputorum,2.2633935839829338e-05
-Holdemania massiliensis,2.2443734698318166e-05
-Clostridium baratii,2.2443734698318166e-05
-Bifidobacterium choerinum,2.2253533556806994e-05
-Peptostreptococcus anaerobius,2.2063332415295823e-05
-Drancourtella massiliensis,2.2063332415295823e-05
-Blautia sp. CAG:37,2.149272899076231e-05
-Atlantibacter hermannii,2.111232670773997e-05
-Coriobacteriaceae bacterium BV3Ac1,2.111232670773997e-05
-Coprococcus sp. CAG:131_42_139,2.09221255662288e-05
-Prevotella sp. CAG:487,2.09221255662288e-05
-Clostridium celerecrescens,2.09221255662288e-05
-Lactobacillus alimentarius,2.09221255662288e-05
-Lactobacillus intestinalis,2.09221255662288e-05
-Arthrospira platensis,2.0731924424717627e-05
-Siccibacter turicensis,2.0351522141695287e-05
-Oxalobacter formigenes,2.0161321000184115e-05
-Cedecea neteri,2.0161321000184115e-05
-Faecalibacterium sp. CAG:82-related_59_9,1.9971119858672943e-05
-Clostridium disporicum,1.9971119858672943e-05
-Lactobacillus gigeriorum,1.9590717575650603e-05
-Bacteroides fragilis CAG:47,1.940051643413943e-05
-Lactobacillus acidifarinae,1.940051643413943e-05
-Lactobacillus oryzae,1.921031529262826e-05
-Acetitomaculum ruminis,1.921031529262826e-05
-Alistipes inops,1.921031529262826e-05
-Eubacterium pyruvativorans,1.921031529262826e-05
-Eubacterium fissicatena,1.8449510726583575e-05
-Methanosarcina mazei,1.8449510726583575e-05
-Enterococcus faecium,1.8259309585072407e-05
-Eubacterium limosum,1.8069108443561235e-05
-Libanicoccus massiliensis,1.7878907302050064e-05
-Clostridium sp. CAG:277,1.7878907302050064e-05
-Lachnospiraceae bacterium AC2014,1.7688706160538892e-05
-Xenorhabdus nematophila,1.7498505019027723e-05
-Clostridium sp. KNHs209,1.730830387751655e-05
-Prevotella albensis,1.711810273600538e-05
-Heliobacterium sp. N15.MGS-306,1.711810273600538e-05
-Beduini massiliensis,1.711810273600538e-05
-Lactobacillus kalixensis,1.711810273600538e-05
-Rhodobacter capsulatus,1.711810273600538e-05
-Catellicoccus marimammalium,1.6927901594494208e-05
-Haemophilus ducreyi,1.673770045298304e-05
-Desulfotalea psychrophila,1.673770045298304e-05
-Candidatus Stoquefichus sp. SB1,1.6547499311471868e-05
-Oscillibacter sp. 1-3,1.6547499311471868e-05
-Lactobacillus sakei,1.6357298169960696e-05
-Eubacterium sp. CAG:603,1.6357298169960696e-05
-Microcystis aeruginosa,1.6357298169960696e-05
-Crocosphaera watsonii,1.6167097028449528e-05
-Enterobacter sp. 638,1.6167097028449528e-05
-Clostridium clostridioforme CAG:132,1.6167097028449528e-05
-Lactobacillus oeni,1.5976895886938356e-05
-Anaerococcus obesiensis,1.5786694745427184e-05
-Eubacterium sp. CAG:252,1.5596493603916012e-05
-Prevotella baroniae,1.5406292462404844e-05
-Tumebacillus flagellatus,1.5406292462404844e-05
-Enorma timonensis,1.5406292462404844e-05
-Dialister succinatiphilus,1.5216091320893672e-05
-Coprococcus sp. 43_8,1.5216091320893672e-05
-Shewanella pealeana,1.5216091320893672e-05
-Bifidobacterium magnum,1.50258901793825e-05
-Asaccharospora irregularis,1.50258901793825e-05
-Gabonia massiliensis,1.483568903787133e-05
-Olsenella sp. Marseille-P3197,1.483568903787133e-05
-Eubacterium siraeum,1.4645487896360158e-05
-Porphyromonas asaccharolytica,1.4455286754848988e-05
-Acinetobacter sp. N54.MGS-139,1.4455286754848988e-05
-Clostridium sp. CAG:590,1.4074884471826646e-05
-Bacteroides sp. CAG:770,1.3884683330315475e-05
-Chlamydia psittaci,1.3884683330315475e-05
-Pseudobutyrivibrio sp. UC1225,1.3884683330315475e-05
-Selenomonas artemidis,1.3884683330315475e-05
-Actinomyces turicensis,1.3694482188804304e-05
-Bifidobacterium bombi,1.3694482188804304e-05
-Eubacterium sp. CAG:202,1.3314079905781963e-05
-Prevotella ruminicola,1.3314079905781963e-05
-Oenococcus oeni,1.3314079905781963e-05
-Alloscardovia criceti,1.3123878764270792e-05
-Riemerella columbina,1.293367762275962e-05
-Clostridium perfringens,1.293367762275962e-05
-Frischella perrara,1.293367762275962e-05
-Kingella kingae,1.274347648124845e-05
-Bifidobacterium minimum,1.274347648124845e-05
-Lactobacillus wasatchensis,1.2553275339737279e-05
-Candidatus Gastranaerophilales bacterium MH_37,1.2553275339737279e-05
-Prevotella saccharolytica,1.2363074198226109e-05
-Enorma massiliensis,1.2363074198226109e-05
-Lactobacillus buchneri,1.2363074198226109e-05
-Capnocytophaga gingivalis,1.2363074198226109e-05
-Firmicutes bacterium CAG:466,1.2363074198226109e-05
-Butyrivibrio sp. AE2005,1.1982671915203767e-05
-Peptoniphilus obesi,1.1982671915203767e-05
-Enterorhabdus mucosicola,1.1982671915203767e-05
-Fibrobacter sp. UWCM,1.1982671915203767e-05
-Firmicutes bacterium ASF500,1.1602269632181425e-05
-Firmicutes bacterium CAG:24,1.1412068490670253e-05
-Coriobacteriales bacterium DNF00809,1.1412068490670253e-05
-Alistipes ihumii,1.1221867349159083e-05
-Bifidobacterium mongoliense,1.1031666207647911e-05
-Methyloglobulus morosus,1.1031666207647911e-05
-Lactobacillus hamsteri,1.1031666207647911e-05
-Megasphaera sp. UPII 135-E,1.1031666207647911e-05
-Shuttleworthia satelles,1.1031666207647911e-05
-Clostridium sp. CAG:307_30_263,1.0841465066136741e-05
-Lachnospiraceae bacterium TWA4,1.065126392462557e-05
-Bifidobacterium tsurumiense,1.065126392462557e-05
-Firmicutes bacterium CAG:791,1.065126392462557e-05
-Aliivibrio salmonicida,1.065126392462557e-05
-Lactobacillus kimchiensis,1.0270861641603228e-05
-Enterococcus gallinarum,1.0270861641603228e-05
-Staphylococcus warneri,1.0270861641603228e-05
-Levyella massiliensis,1.0080660500092057e-05
-Peptoniphilus sp. oral taxon 375,1.0080660500092057e-05
-Pediococcus inopinatus,9.890459358580886e-06
-Bifidobacterium animalis,9.890459358580886e-06
-Lactobacillus rossiae,9.890459358580886e-06
-Anaerobium acetethylicum,9.700258217069716e-06
-Pectobacterium carotovorum,9.700258217069716e-06
-Alkaliphilus metalliredigens,9.510057075558545e-06
-Coriobacterium glomerans,9.319855934047374e-06
-Lactobacillus casei,9.129654792536204e-06
-Lachnospiraceae bacterium AC2031,8.939453651025032e-06
-Lactobacillus siliginis,8.939453651025032e-06
-Lactobacillus collinoides,8.749252509513862e-06
-Butyrivibrio sp. NC2002,8.749252509513862e-06
-Lactobacillus curvatus,8.749252509513862e-06
-Acholeplasma laidlawii,8.749252509513862e-06
-Roseburia sp. CAG:197_41_10,8.55905136800269e-06
-Ruminococcus sp. CAG:488,8.36885022649152e-06
-Clostridium colicanis,8.36885022649152e-06
-Porphyromonas canoris,8.36885022649152e-06
-Phocaeicola abscessus,8.36885022649152e-06
-Mangrovibacter sp. MFB070,8.36885022649152e-06
-Porphyromonas endodontalis,8.178649084980348e-06
-Bacteroides pectinophilus CAG:437,8.178649084980348e-06
-Pontibacillus litoralis,7.988447943469178e-06
-Butyrivibrio proteoclasticus,7.988447943469178e-06
-Lactobacillus xiangfangensis,7.798246801958006e-06
-Eggerthella sp. YY7918,7.798246801958006e-06
-Oceanospirillum linum,7.798246801958006e-06
-Lachnospiraceae bacterium YSB2008,7.798246801958006e-06
-Porphyromonas gingivalis,7.608045660446836e-06
-Candidatus Melainabacteria bacterium LEY3_CP_29_8,7.608045660446836e-06
-Buttiauxella ferragutiae,7.608045660446836e-06
-Butyrivibrio sp. WCD2001,7.608045660446836e-06
-Erysipelatoclostridium ramosum,7.608045660446836e-06
-Bacteroides sp. 41_26,7.417844518935665e-06
-Anaerosporobacter mobilis,7.417844518935665e-06
-Eggerthella lenta,7.417844518935665e-06
-Lactobacillus melliventris,7.417844518935665e-06
-Lactobacillus delbrueckii,7.227643377424494e-06
-Lactobacillus amylolyticus,7.037442235913323e-06
-Parasporobacterium paucivorans,7.037442235913323e-06
-Pantoea rwandensis,7.037442235913323e-06
-Bacteroides vulgatus CAG:6,7.037442235913323e-06
-Enhygromyxa salina,7.037442235913323e-06
-Dielma fastidiosa,6.847241094402152e-06
-Coprococcus sp. CAG:131,6.657039952890981e-06
-Clostridium sp. K4410.MGS-306,6.657039952890981e-06
-Lachnospiraceae bacterium C6A11,6.657039952890981e-06
-Lactobacillus helsingborgensis,6.657039952890981e-06
-Falsirhodobacter sp. alg1,6.46683881137981e-06
-Fibrobacter sp. UWOV1,6.46683881137981e-06
-Prevotella sp. CAG:255,6.46683881137981e-06
-Pantoea sp. IMH,6.46683881137981e-06
-Rhodopseudomonas palustris,6.46683881137981e-06
-Ruminococcus sp. CAG:403,6.46683881137981e-06
-Yersinia pestis,6.276637669868639e-06
-Alloscardovia omnicolens,6.276637669868639e-06
-Treponema endosymbiont of Eucomonympha sp.,6.276637669868639e-06
-Bifidobacterium gallicum,6.276637669868639e-06
-Clostridium spiroforme,6.0864365283574685e-06
-Serratia rubidaea,6.0864365283574685e-06
-Fusobacterium nucleatum,5.8962353868462975e-06
-Actinophytocola xinjiangensis,5.8962353868462975e-06
-Actinopolyspora erythraea,5.8962353868462975e-06
-Carboxydothermus ferrireducens,5.8962353868462975e-06
-Lactobacillus sp. wkB10,5.8962353868462975e-06
-Turicibacter sp. H121,5.706034245335127e-06
-Lactobacillus suebicus,5.706034245335127e-06
-Lactobacillus kullabergensis,5.515833103823956e-06
-Veillonella magna,5.515833103823956e-06
-Necropsobacter massiliensis,5.515833103823956e-06
-Lactobacillus versmoldensis,5.515833103823956e-06
-Prevotella dentasini,5.515833103823956e-06
-Enterobacteriaceae bacterium LSJC7,5.515833103823956e-06
-Clostridium sp. CAG:451,5.515833103823956e-06
-Lachnospiraceae bacterium P6B14,5.515833103823956e-06
-Lactobacillus crustorum,5.325631962312785e-06
-Streptococcus porci,5.325631962312785e-06
-Butyrivibrio sp. INlla16,5.325631962312785e-06
-Clostridium sp. ND2,5.325631962312785e-06
-Rahnella aquatilis,5.325631962312785e-06
-Butyrivibrio sp. WCD3002,5.325631962312785e-06
-Rhizobium etli,5.135430820801614e-06
-Bacteroidales bacterium K10,5.135430820801614e-06
-Parascardovia denticolens,5.135430820801614e-06
-Synergistes sp. Zagget9,5.135430820801614e-06
-Mucilaginibacter sp. PAMC 26640,5.135430820801614e-06
-Porphyromonas macacae,4.945229679290443e-06
-Lactobacillus herbarum,4.945229679290443e-06
-Lactobacillus parabrevis,4.755028537779273e-06
-Parasutterella excrementihominis,4.755028537779273e-06
-Eubacterium xylanophilum,4.755028537779273e-06
-Butyrivibrio sp. AE3004,4.755028537779273e-06
-Bifidobacterium cuniculi,4.755028537779273e-06
-Pantoea ananatis,4.755028537779273e-06
-Clostridium clostridioforme CAG:511,4.755028537779273e-06
-Candidatus Endobugula sertula,4.755028537779273e-06
-Paenibacillus larvae,4.564827396268102e-06
-Dickeya dadantii,4.564827396268102e-06
-Lactobacillus coryniformis,4.564827396268102e-06
-Lactobacillus apis,4.564827396268102e-06
-Alistipes indistinctus,4.374626254756931e-06
-Actinomyces coleocanis,4.374626254756931e-06
-Paludibacter propionicigenes,4.374626254756931e-06
-Lactobacillus vaccinostercus,4.18442511324576e-06
-Lactobacillus nagelii,4.18442511324576e-06
-Eggerthellaceae bacterium AT8,4.18442511324576e-06
-Anaerocolumna xylanovorans,4.18442511324576e-06
-Lachnospira multipara,4.18442511324576e-06
-Streptobacillus hongkongensis,3.994223971734589e-06
-Clostridium sp. CAG:127,3.994223971734589e-06
-Erwinia billingiae,3.994223971734589e-06
-Pediococcus argentinicus,3.994223971734589e-06
-Xenorhabdus poinarii,3.994223971734589e-06
-Lactobacillus amylotrophicus,3.804022830223418e-06
-Brenneria goodwinii,3.804022830223418e-06
-Erysipelotrichaceae bacterium CAG:64,3.804022830223418e-06
-Butyrivibrio sp. AE3003,3.804022830223418e-06
-Peptoniphilus duerdenii,3.804022830223418e-06
-Prevotella sp. 10(H),3.804022830223418e-06
-Lactobacillus vini,3.804022830223418e-06
-Plautia stali symbiont,3.804022830223418e-06
-Eubacterium sp. CAG:248,3.613821688712247e-06
-Treponema vincentii,3.613821688712247e-06
-Mucilaginibacter sp. L294,3.613821688712247e-06
-Clostridium sp. CAG:230,3.613821688712247e-06
-Magnetospirillum magneticum,3.613821688712247e-06
-Macellibacteroides sp. HH-ZS,3.613821688712247e-06
-Fibrobacteria bacterium AD80,3.423620547201076e-06
-Prevotella sp. AGR2160,3.423620547201076e-06
-Bifidobacterium psychraerophilum,3.423620547201076e-06
-Bifidobacterium crudilactis,3.233419405689905e-06
-Lactobacillus hammesii,3.233419405689905e-06
-Butyrivibrio crossotus CAG:259,3.233419405689905e-06
-Clostridium cellulovorans,3.233419405689905e-06
-Prevotella stercorea CAG:629,3.0432182641787342e-06
-Lachnospiraceae bacterium NLAE-zl-G231,3.0432182641787342e-06
-Butyrivibrio sp. INlla21,3.0432182641787342e-06
-Nissabacter archeti,3.0432182641787342e-06
-Pantoea septica,3.0432182641787342e-06
-Defluviitalea phaphyphila,3.0432182641787342e-06
-Tatumella morbirosei,3.0432182641787342e-06
-Pediococcus cellicola,3.0432182641787342e-06
-Mageeibacillus indolicus,3.0432182641787342e-06
-Epulopiscium sp. 'N.t. morphotype B',2.8530171226675633e-06
-Fibrobacterales bacterium Fibro_02,2.8530171226675633e-06
-Serratia fonticola,2.8530171226675633e-06
-Clostridiales bacterium Firm_03,2.8530171226675633e-06
-Anaerocolumna aminovalerica,2.8530171226675633e-06
-Firmicutes bacterium M10-2,2.8530171226675633e-06
-Clostridium sp. 44_14,2.8530171226675633e-06
-Firmicutes bacterium CAG:238,2.8530171226675633e-06
-Butyrivibrio hungatei,2.6628159811563923e-06
-Streptobacillus notomytis,2.6628159811563923e-06
-Slackia heliotrinireducens,2.6628159811563923e-06
-Erwinia iniecta,2.6628159811563923e-06
-Staphylococcus hominis,2.6628159811563923e-06
-Erwinia typographi,2.4726148396452214e-06
-Bacillus sp. FJAT-25496,2.282413698134051e-06
-Erwinia amylovora,2.282413698134051e-06
-Bifidobacterium bohemicum,2.282413698134051e-06
-Dorea sp. CAG:105,2.282413698134051e-06
-Olsenella uli,2.282413698134051e-06
-Chania multitudinisentens,2.09221255662288e-06
-Candidatus Magnetomorum sp. HK-1,2.09221255662288e-06
-Lactobacillus farraginis,2.09221255662288e-06
-Clostridium autoethanogenum,2.09221255662288e-06
-Pantoea dispersa,2.09221255662288e-06
-Treponema putidum,2.09221255662288e-06
-bacterium P201,2.09221255662288e-06
-Serratia odorifera,2.09221255662288e-06
-Petrimonas mucosa,2.09221255662288e-06
-Providencia rettgeri,2.09221255662288e-06
-Lactobacillus plantarum,2.09221255662288e-06
-Eisenbergiella tayi,2.09221255662288e-06
-Lactobacillus brevis,2.09221255662288e-06
-Verrucomicrobia bacterium SCGC AAA164-O14,2.09221255662288e-06
-bacterium OL-1,2.09221255662288e-06
-Lactobacillus bifermentans,2.09221255662288e-06
-Clostridium sp. CL-6,2.09221255662288e-06
-Streptococcus suis,2.09221255662288e-06
-Corynebacterium amycolatum,1.902011415111709e-06
-Sodalis praecaptivus,1.902011415111709e-06
-Clostridium algidicarnis,1.902011415111709e-06
-Blautia sp. CAG:237,1.902011415111709e-06
-Enterococcus gilvus,1.902011415111709e-06
-Yersinia enterocolitica,1.902011415111709e-06
-Adlercreutzia equolifaciens,1.902011415111709e-06
-Lactobacillus sp. HMSC24D01,1.902011415111709e-06
-Hathewaya proteolytica,1.902011415111709e-06
-Candidatus Azobacteroides pseudotrichonymphae,1.902011415111709e-06
-Serratia sp. ATCC 39006,1.902011415111709e-06
-Treponema socranskii,1.902011415111709e-06
-Sphingomonas wittichii,1.902011415111709e-06
-Bacteroides paurosaccharolyticus,1.902011415111709e-06
-Verrucomicrobia bacterium SCGC AAA027-I19,1.902011415111709e-06
-Neisseria cinerea,1.902011415111709e-06
-Verrucomicrobia bacterium SCGC AAA168-E21,1.711810273600538e-06
-Butyricimonas synergistica,1.711810273600538e-06
-Lactobacillus perolens,1.711810273600538e-06
-Clostridium sartagoforme,1.711810273600538e-06
-Alistipes sp. CAG:435,1.711810273600538e-06
-Clostridium sp. CAG:91,1.711810273600538e-06
-Cutibacterium acnes,1.711810273600538e-06
-Sodalis glossinidius,1.711810273600538e-06
-Clostridium carboxidivorans,1.711810273600538e-06
-Lactobacillus ruminis CAG:367,1.711810273600538e-06
-Lactobacillus vaginalis,1.711810273600538e-06
-Pantoea agglomerans,1.711810273600538e-06
-Butyrivibrio sp. AE3009,1.711810273600538e-06
-Oribacterium sinus,1.711810273600538e-06
-Olsenella umbonata,1.5216091320893671e-06
-Izhakiella sp. D4N98,1.5216091320893671e-06
-Moellerella wisconsensis,1.5216091320893671e-06
-Lysobacter sp. A03,1.5216091320893671e-06
-Murdochiella sp. Marseille-P2341,1.5216091320893671e-06
-Aphanizomenon flos-aquae,1.5216091320893671e-06
-Flavonifractor plautii,1.5216091320893671e-06
-Christensenellaceae bacterium Phil10,1.5216091320893671e-06
-Candidatus Endoriftia persephone,1.3314079905781962e-06
-Clostridiales bacterium oral taxon 876,1.3314079905781962e-06
-Clostridium celatum,1.3314079905781962e-06
-Butyrivibrio sp. FCS006,1.3314079905781962e-06
-Erwinia toletana,1.3314079905781962e-06
-Bacteroides propionicifaciens,1.3314079905781962e-06
-Clostridium sp. Ade.TY,1.3314079905781962e-06
-Ruminococcus flavefaciens,1.3314079905781962e-06
-Ruminococcus albus,1.3314079905781962e-06
-Anaerophaga thermohalophila,1.3314079905781962e-06
-bacteria symbiont BFo1 of Frankliniella occidentalis,1.3314079905781962e-06
-Ewingella americana,1.3314079905781962e-06
-Verrucomicrobia bacterium SCGC AAA164-L15,1.3314079905781962e-06
-Lactobacillus pobuzihii,1.3314079905781962e-06
-Catenibacterium mitsuokai,1.3314079905781962e-06
-Butyrivibrio sp. NC2007,1.3314079905781962e-06
-Roseimaritima ulvae,1.3314079905781962e-06
-Edwardsiella ictaluri,1.3314079905781962e-06
-Olsenella sp. oral taxon 809,1.3314079905781962e-06
-Atopobium deltae,1.3314079905781962e-06
-Lactobacillus hilgardii,1.3314079905781962e-06
-Oenococcus kitaharae,1.1412068490670254e-06
-Bacteroidales bacterium K1,1.1412068490670254e-06
-Lactobacillus concavus,1.1412068490670254e-06
-Dysgonomonas sp. HGC4,1.1412068490670254e-06
-Faecalicoccus pleomorphus,1.1412068490670254e-06
-Erwinia oleae,1.1412068490670254e-06
-Rubritalea marina,1.1412068490670254e-06
-Hafnia sp. HMSC23F03,1.1412068490670254e-06
-Butyrivibrio sp. VCD2006,1.1412068490670254e-06
-Porphyromonadaceae bacterium KH3CP3RA,1.1412068490670254e-06
-Lactobacillus fabifermentans,1.1412068490670254e-06
-Candidatus Soleaferrea massiliensis,1.1412068490670254e-06
-Proteus mirabilis,1.1412068490670254e-06
-Ruminococcus sp. CAG:254,1.1412068490670254e-06
-Prevotella sp. FD3004,1.1412068490670254e-06
-Desnuesiella massiliensis,1.1412068490670254e-06
-Serratia marcescens,9.510057075558545e-07
-Serratia liquefaciens,9.510057075558545e-07
-Butyrivibrio sp. M55,9.510057075558545e-07
-Lactobacillus acidipiscis,9.510057075558545e-07
-Aeromonas molluscorum,9.510057075558545e-07
-Providencia stuartii,9.510057075558545e-07
-Firmicutes bacterium CAG:137,9.510057075558545e-07
-Proteiniphilum saccharofermentans,9.510057075558545e-07
-Clostridium intestinale,9.510057075558545e-07
-Streptococcus plurextorum,9.510057075558545e-07
-Streptomyces albulus,9.510057075558545e-07
-Clostridium sp. CAG:413,9.510057075558545e-07
-Xenorhabdus bovienii,9.510057075558545e-07
-Firmicutes bacterium CAG:227,9.510057075558545e-07
-Solibacillus silvestris,9.510057075558545e-07
-Clostridium sp. CAG:122,9.510057075558545e-07
-Scardovia wiggsiae,9.510057075558545e-07
-Olsenella scatoligenes,9.510057075558545e-07
-Lascolabacillus massiliensis,9.510057075558545e-07
-bacteria symbiont BFo2 of Frankliniella occidentalis,9.510057075558545e-07
-Dysgonomonas mossii,9.510057075558545e-07
-Firmicutes bacterium CAG:83,7.608045660446836e-07
-Firmicutes bacterium CAG:882,7.608045660446836e-07
-Budvicia aquatica,7.608045660446836e-07
-Lonsdalea quercina,7.608045660446836e-07
-Lactobacillus saniviri,7.608045660446836e-07
-Herminiimonas arsenicoxydans,7.608045660446836e-07
-Staphylococcus condimenti,7.608045660446836e-07
-Clostridium sp. CAG:768,7.608045660446836e-07
-Sphingomonas-like bacterium B12,7.608045660446836e-07
-Erwinia mallotivora,7.608045660446836e-07
-Sphingomonas haloaromaticamans,7.608045660446836e-07
-Bibersteinia trehalosi,7.608045660446836e-07
-Clostridium sp. CAG:12237_41,7.608045660446836e-07
-Anaerobiospirillum succiniciproducens,7.608045660446836e-07
-Criibacterium bergeronii,7.608045660446836e-07
-Porphyromonas gingivicanis,7.608045660446836e-07
-Olsenella profusa,7.608045660446836e-07
-Bacillus humi,7.608045660446836e-07
-Nakamurella lactea,7.608045660446836e-07
-Varibaculum sp. Marseille-P2802,7.608045660446836e-07
-Lactococcus piscium,7.608045660446836e-07
-Enterococcus faecalis,7.608045660446836e-07
-Rubritalea squalenifaciens,7.608045660446836e-07
-Robiginitalea myxolifaciens,7.608045660446836e-07
-Prevotella sp. kh1p2,7.608045660446836e-07
-Porphyromonadaceae bacterium KH3R12,7.608045660446836e-07
-Urmitella timonensis,7.608045660446836e-07
-Burkholderia cepacia,7.608045660446836e-07
-Pseudopedobacter saltans,7.608045660446836e-07
-Erwinia persicina,7.608045660446836e-07
-Enterorhabdus caecimuris,5.706034245335127e-07
-Pseudomonas syringae,5.706034245335127e-07
-Proteiniphilum acetatigenes,5.706034245335127e-07
-Corynebacterium lipophiloflavum,5.706034245335127e-07
-Dysgonomonas gadei,5.706034245335127e-07
-Leucobacter celer,5.706034245335127e-07
-Denitrobacterium detoxificans,5.706034245335127e-07
-Pediococcus pentosaceus,5.706034245335127e-07
-Bacteroides coprosuis,5.706034245335127e-07
-Lactobacillus floricola,5.706034245335127e-07
-Lachnospiraceae bacterium NC2004,5.706034245335127e-07
-Fermentimonas caenicola,5.706034245335127e-07
-Pseudobutyrivibrio sp. YE44,5.706034245335127e-07
-Butyrivibrio sp. ob235,5.706034245335127e-07
-Pediococcus acidilactici,5.706034245335127e-07
-Peptostreptococcus anaerobius CAG:621,5.706034245335127e-07
-Lachnospiraceae bacterium NC2008,5.706034245335127e-07
-Eubacterium sp. 45_250,5.706034245335127e-07
-Porphyromonas bennonis,5.706034245335127e-07
-Odoribacter laneus,5.706034245335127e-07
-Geofilum rubicundum,5.706034245335127e-07
-Rhodococcus defluvii,5.706034245335127e-07
-Staphylococcus hyicus,3.804022830223418e-07
-Porphyromonas cangingivalis,3.804022830223418e-07
-Treponema denticola,3.804022830223418e-07
-Erwinia sp. Leaf53,3.804022830223418e-07
-Staphylococcus haemolyticus,3.804022830223418e-07
-Firmicutes bacterium CAG:145,3.804022830223418e-07
-Acetanaerobacterium elongatum,3.804022830223418e-07
-alpha proteobacterium AAP81b,3.804022830223418e-07
-Dyadobacter tibetensis,3.804022830223418e-07
-Streptococcus oralis,3.804022830223418e-07
-Caballeronia zhejiangensis,3.804022830223418e-07
-Sphingomonas sp. SRS2,3.804022830223418e-07
-Bhargavaea cecembensis,3.804022830223418e-07
-Streptomyces kanamyceticus,3.804022830223418e-07
-Nitrolancea hollandica,3.804022830223418e-07
-Xenorhabdus doucetiae,3.804022830223418e-07
-Clostridium hydrogeniformans,3.804022830223418e-07
-Staphylococcus aureus,3.804022830223418e-07
-Pedobacter sp. Leaf216,3.804022830223418e-07
-Agromyces subbeticus,3.804022830223418e-07
-Marinilabilia salmonicolor,3.804022830223418e-07
-Gemella bergeri,3.804022830223418e-07
-Cutibacterium avidum,3.804022830223418e-07
-Candidatus Arsenophonus triatominarum,3.804022830223418e-07
-Streptococcus gallolyticus,3.804022830223418e-07
-Mobiluncus mulieris,3.804022830223418e-07
-bacterium 336/3,3.804022830223418e-07
-Gemmata obscuriglobus,3.804022830223418e-07
-Clostridium amylolyticum,3.804022830223418e-07
-Sandarakinorhabdus limnophila,3.804022830223418e-07
-Candidatus Ishikawaella capsulata,3.804022830223418e-07
-Sutterellaceae bacterium ND3,3.804022830223418e-07
-Streptococcus parauberis,3.804022830223418e-07
-Granulicatella adiacens,3.804022830223418e-07
-Sphingomonas paucimobilis,3.804022830223418e-07
-Lactobacillus koreensis,3.804022830223418e-07
-Butyrivibrio sp. LB2008,3.804022830223418e-07
-Actinobacillus succinogenes,3.804022830223418e-07
-Sphingomonas elodea,3.804022830223418e-07
-Sphingomonas sp. PR090111-T3T-6A,3.804022830223418e-07
-Lachnospiraceae bacterium AC2028,3.804022830223418e-07
-Pseudobutyrivibrio sp. MD2005,3.804022830223418e-07
-Sphingomonas sp. KC8,3.804022830223418e-07
-Lactobacillus rapi,3.804022830223418e-07
-Catenibacterium sp. CAG:290,3.804022830223418e-07
-Kurthia huakuii,3.804022830223418e-07
-Plesiomonas shigelloides,3.804022830223418e-07
-Aggregatibacter actinomycetemcomitans,3.804022830223418e-07
-Actinobacillus pleuropneumoniae,3.804022830223418e-07
-Haemophilus influenzae,3.804022830223418e-07
-Mannheimia haemolytica,3.804022830223418e-07
-Ruminococcus sp. CAG:60,3.804022830223418e-07
-Haemophilus parasuis,3.804022830223418e-07
-Pasteurella multocida,3.804022830223418e-07
-Clostridiales bacterium NK3B98,1.902011415111709e-07
-Paenibacillus stellifer,1.902011415111709e-07
-Pseudomonas syringae group genomosp. 3,1.902011415111709e-07
-Pseudobutyrivibrio sp. JW11,1.902011415111709e-07
-Flavobacterium sp. B17,1.902011415111709e-07
-Prevotella sp. MSX73,1.902011415111709e-07
-Yersinia ruckeri,1.902011415111709e-07
-Slackia exigua,1.902011415111709e-07
-Clostridium sp. CAG:62_40_43,1.902011415111709e-07
-Prevotella sp. khp1,1.902011415111709e-07
-Alkaliflexus imshenetskii,1.902011415111709e-07
-Firmicutes bacterium CAG:137_57_8,1.902011415111709e-07
-Candidatus Baumannia cicadellinicola,1.902011415111709e-07
-Blautia hydrogenotrophica CAG:147,1.902011415111709e-07
-Exiguobacterium profundum,1.902011415111709e-07
-Staphylococcus sp. DORA_6_22,1.902011415111709e-07
-Clostridium ventriculi,1.902011415111709e-07
-Firmicutes bacterium CAG:308,1.902011415111709e-07
-Firmicutes bacterium CAG:102,1.902011415111709e-07
-Neisseria mucosa,1.902011415111709e-07
-Mycobacterium kyorinense,1.902011415111709e-07
-Hydrogenoanaerobacterium saccharovorans,1.902011415111709e-07
-Roseburia sp. CAG:309,1.902011415111709e-07
-Serratia symbiotica,1.902011415111709e-07
-Eubacterium sp. CAG:581,1.902011415111709e-07
-Oribacterium sp. oral taxon 078,1.902011415111709e-07
-Bacteroidetes oral taxon 274,1.902011415111709e-07
-Erwinia tracheiphila,1.902011415111709e-07
-Haloferula sp. BvORR071,1.902011415111709e-07
-Bacillus cecembensis,1.902011415111709e-07
-Lachnospiraceae bacterium AB2028,1.902011415111709e-07
-Clostridium sulfidigenes,1.902011415111709e-07
-Lachnospiraceae bacterium FD2005,1.902011415111709e-07
-Clostridium ihumii,1.902011415111709e-07
-Clostridium sp. CAG:299,1.902011415111709e-07
-Proteiniclasticum ruminis,1.902011415111709e-07
-Clostridium sp. LF2,1.902011415111709e-07
-Clostridium pasteurianum,1.902011415111709e-07
-Ruminococcus sp. HUN007,1.902011415111709e-07
-Porphyromonadaceae bacterium COT-184 OH4590,1.902011415111709e-07
-Lactobacillus mellis,1.902011415111709e-07
-Corynebacterium accolens,1.902011415111709e-07
-Pragia fontium,1.902011415111709e-07
-Clostridium magnum,1.902011415111709e-07
-Lactobacillus paralimentarius,1.902011415111709e-07
-Anaerococcus tetradius,1.902011415111709e-07
-Bacteroides sp. CAG:1076,1.902011415111709e-07
+Species,RA,TAX_ID
+Escherichia coli,0.10497809643654357,562
+Bacteroides thetaiotaomicron,0.07402457246587411,818
+Bifidobacterium longum,0.05873924792947037,216816
+Prevotella melaninogenica,0.05260031588605582,28132
+Akkermansia muciniphila,0.051343466742950004,239935
+Alistipes finegoldii,0.04309596484474261,214856
+Parabacteroides distasonis,0.039170593686235065,823
+Roseburia hominis,0.037751502969420224,301301
+Prevotella copri,0.035014318341932964,165179
+Ruminococcus gauvreauii,0.03353664567353267,438033
+Bacteroides uniformis,0.03275111495909154,820
+Roseburia intestinalis,0.029619833566393132,166486
+Faecalibacterium prausnitzii,0.029210901112144114,853
+Collinsella aerofaciens,0.027013697525407068,74426
+Eubacterium hallii,0.02542380618351519,39488
+Bacteroides thetaiotaomicron CAG:40,0.023403489658383535,1263054
+Anaerostipes hadrus,0.02325855638855202,649756
+Blautia obeum,0.02288842496717128,40520
+Shigella flexneri,0.02026574142687375,623
+Akkermansia sp. 54_46,0.01810886048213707,1896967
+Akkermansia muciniphila CAG:154,0.017630885013519497,1263034
+Shigella dysenteriae,0.017471116054650113,622
+Akkermansia sp. UNK.MGS-1,0.017070362249486076,1638783
+Akkermansia sp. Phil8,0.015613992108935042,1929996
+Bifidobacterium breve,0.010664958406814374,1685
+Clostridium butyricum,0.00982617137275011,1492
+Lactobacillus gasseri,0.00837075223790663,1596
+Collinsella sp. CAG:166,0.007916551911977954,1262850
+Prevotella scopos,0.004641098054014081,589437
+Roseburia inulinivorans,0.0041292667822075205,360807
+Alistipes shahii,0.0027328100012325033,328814
+Bifidobacterium reuteri,0.002470903029371621,983706
+Fusicatenibacter saccharivorans,0.0024142230892012922,1150298
+Bacteroides faecis CAG:32,0.0021753304554632613,1263044
+Lactobacillus fermentum,0.0020252617548109477,1613
+Clostridium sp. M62/1,0.001689556740043731,411486
+Roseburia faecis,0.0016688248156190135,301302
+Dorea formicigenerans,0.0015305485857403922,39486
+Bacteroides pectinophilus,0.0014721568352964627,384638
+Coprococcus comes,0.0014708254273058845,410072
+Bacteroides stercoris,0.0014133846825695108,46506
+Bacteroides vulgatus,0.0013947449707014162,821
+Tyzzerella nexilis,0.0013563243401161597,29361
+Eubacterium sp. CAG:146,0.0012739672458418226,1262879
+Ruminococcus faecis,0.00126540819447382,592978
+Eubacterium ventriosum,0.0012496214997283928,39496
+Blautia sp. KLE 1732,0.0012292699775866974,1226324
+Blautia hansenii,0.0011423480559160923,1322
+Eubacterium rectale,0.001116290499529062,39491
+Alistipes senegalensis,0.0010811032883494955,1288121
+Bacteroidales bacterium 55_9,0.0010132014808300074,1897041
+Eubacterium ramulus,0.001009397457999784,39490
+Butyrivibrio crossotus,0.001005022831745027,45851
+Bacteroides fragilis,0.000989426338141111,817
+Prevotella histicola,0.0009795358787825302,470565
+Prevotella fusca,0.000950435104131321,589436
+Emergencia timonensis,0.0009319855934047373,1776384
+Alistipes putredinis,0.000921524530621623,28117
+Bifidobacterium saguini,0.0008342222066679956,762210
+Clostridium sp. L2-50,0.0008285161724226604,411489
+Ruminococcaceae bacterium D16,0.0008159628970829232,552398
+Bifidobacterium callitrichos,0.0008140608856678115,762209
+Lactonifactor longoviformis,0.0008123490753942109,341220
+Bacteroides ovatus,0.0008089254548470098,28116
+Bacteroides sp. 43_46,0.0007872425247147364,1897051
+Bifidobacterium scardovii,0.0007686028128466416,158787
+Bifidobacterium bifidum,0.0007433060610256559,1681
+Bacteroides plebeius,0.0006951851722233296,310297
+Angelakisella massiliensis,0.0006892889368364833,1871018
+Blautia schinkii,0.0006811102877515029,180164
+Ruthenibacterium lactatiformans,0.0006561939382135395,1550024
+Coprococcus eutactus,0.0006539115245154056,33043
+Faecalitalea cylindroides,0.0006447818697228693,39483
+Clostridium bolteae,0.0006301363818265092,208479
+Bifidobacterium aesculapii,0.0005976119866280989,1329411
+Clostridioides difficile,0.0005962805786375207,1496
+Clostridium citroniae,0.0005907647455336968,358743
+Lactobacillus hominis,0.0005808742861751159,1203033
+Dorea longicatena,0.0005736466427976914,88431
+Clostridium glycyrrhizinilyticum,0.0005730760393731579,342942
+Clostridia bacterium UC5.1-1E11,0.0005673700051278227,1697793
+Bacteroides oleiciplenus,0.000566609200561778,626931
+Subdoligranulum variabile,0.0005565285400616861,214851
+Clostridium saccharobutylicum,0.0005361770179199908,169679
+Intestinimonas massiliensis,0.0005310415870991891,1673721
+Pseudoflavonifractor capillosus,0.0005215315300236306,106588
+Odoribacter splanchnicus,0.0005047938295706475,28118
+Prevotella intermedia,0.0004899581405327763,28131
+Fournierella massiliensis,0.0004861541177025528,1650663
+Clostridium lactatifermentans,0.00048463250857046344,160404
+Clostridium beijerinckii,0.0004614279693061006,1520
+Lactobacillus jensenii,0.0004606671647400559,109790
+Ruminococcus gnavus,0.0004593357567494777,33038
+Clostridium clostridioforme,0.0004551513316362319,1531
+Firmicutes bacterium CAG:270,0.00045058650423996386,1263014
+Mediterranea massiliensis,0.0004502061019569415,1841865
+Bifidobacterium adolescentis,0.00044659228026822925,1680
+Lachnospiraceae bacterium M18-1,0.0004464020791267181,1235792
+Bacteroides coprocola,0.00043118598780582444,310298
+Clostridiales bacterium VE202-08,0.00042776236725862335,1232449
+Ruminococcus lactaris,0.00041463848849435255,46228
+Clostridium innocuum,0.0004089324542490174,1522
+Lachnospiraceae bacterium TF01-11,0.0003942869663526573,1703332
+Anaerotruncus colihominis,0.0003872495241167439,169435
+Lachnospiraceae bacterium 28-4,0.0003788806738902524,397287
+Clostridium symbiosum,0.0003712726282298056,1512
+Hungatella hathewayi,0.0003691804156731827,154046
+Akkermansia sp. CAG:344,0.00036689800197504865,1262691
+Paraprevotella xylaniphila,0.0003625233757202917,454155
+Anaerostipes caccae,0.0003613821688712247,105841
+Ruminococcus sp. AT10,0.0003547251289183337,1720300
+Acetivibrio ethanolgignens,0.00035187211179566613,290052
+Eubacterium eligens,0.0003509211060881103,39485
+Ruminococcus bicirculans,0.0003431228592861523,1160721
+Obesumbacterium proteus,0.00034274245700312994,82983
+Butyricicoccus pullicaecorum,0.0003379874284653507,501571
+Oscillibacter sp. ER4,0.00033760702618232835,1519439
+Prevotella multiformis,0.00031288087778587613,282402
+Eubacterium dolichum,0.00030736504468205215,31971
+Eubacterium contortum,0.00030660424011600746,39482
+Dorea sp. 5-2,0.0003056532344084516,1235798
+Odoribacter sp. 43_10,0.00030356102185182877,1897010
+Salmonella enterica,0.0003031806195688064,28901
+Coprobacter secundus,0.0003020394127197394,1501392
+Clostridium saccharoperbutylacetonicum,0.00029823538988951596,36745
+Bacteroides cellulosilyticus,0.00029614317733289307,246787
+Ruminococcus sp. Zagget7,0.0002929097579272032,1930001
+Bacteroides fluxus,0.0002900567408045356,626930
+Oscillibacter sp. KLE 1745,0.0002887253328139574,1226323
+Erysipelotrichaceae bacterium 5_2_54FAA,0.0002881547293894239,552396
+Clostridia bacterium UC5.1-1D1,0.0002778838677478207,1697794
+Culturomica massiliensis,0.0002776936666063095,1841857
+Eubacterium sp. 3_1_31,0.00027122682779492967,457402
+Bacteroides coprophilus,0.0002695150175213292,387090
+Lachnospiraceae bacterium 3-1,0.000269324816379818,397288
+Clostridium scindens,0.00026894441409679566,29347
+Prevotella pallens,0.000268183609530751,60133
+Bifidobacterium biavatii,0.000268183609530751,762212
+Citrobacter freundii,0.000268183609530751,546
+Bifidobacterium stellenboschense,0.00026647179925715043,762211
+Prevotella sp. CAG:386,0.00025905395473821473,1262925
+Lachnospiraceae bacterium 10-1,0.0002516361102192791,1235800
+Ruminococcus torques,0.0002489732942381227,33039
+Prevotella sp. 109,0.00024859289195510034,1676614
+Prevotella nanceiensis,0.00024554967369092164,425941
+Prevotella sp. S7-1-8,0.0002331865994926955,1284775
+Eubacterium plexicaudatum,0.00022843157095491624,97253
+Prevotella sp. CAG:604,0.00022576875497375986,1262932
+Bifidobacterium angulatum,0.0002253883526907375,1683
+Dorea sp. 42_8,0.00022196473214353642,1896999
+Clostridium leptum,0.00022177453100202525,1535
+bacterium LF-3,0.0002168293013227348,1504823
+Lactobacillus salivarius,0.00021530769219064546,1624
+Clostridium saccharolyticum,0.00021492728990762312,84030
+Prevotella denticola,0.0002078898476717098,28129
+Scardovia inopinata,0.00020731924424717627,78259
+Coprobacillus sp. D6,0.00020047200315277412,556262
+Holdemanella biformis,0.00019837979059615125,1735
+Bacteroides sp. D2,0.00019837979059615125,556259
+Traorella massiliensis,0.00019780918717161774,1903263
+Clostridium saccharogumia,0.00019685818146406188,341225
+Eubacterium sp. 14-2,0.00019134234836023793,1235790
+Cronobacter sakazakii,0.000186967722105481,28141
+Clostridiales bacterium 1_7_47FAA,0.000186967722105481,457421
+Clostridium sp. CAG:245_30_32,0.00018658731982245866,1896986
+Prevotella aurantiaca,0.00018601671639792514,596085
+Massilioclostridium coli,0.00018525591183188046,1870991
+Bariatricus massiliensis,0.00018449510726583577,1745713
+Lamprocystis purpurea,0.00018126168786014585,61598
+Lactobacillus antri,0.00018069108443561236,227943
+Akkermansia sp. KLE1798,0.00018031068215259002,1574265
+Citrobacter amalonaticus,0.00017993027986956767,35703
+Lachnoanaerobaculum sp. OBRC5-5,0.00017993027986956767,936595
+Bacteroides faecichinchillae,0.00017916947530352299,871325
+Alistipes timonensis,0.00017878907302050064,1465754
+Ruminococcus callidus,0.00017821846959596713,40519
+Klebsiella oxytoca,0.0001732732399166767,571
+Holdemania filiformis,0.00017061042393552028,61171
+Parabacteroides johnsonii,0.00016908881480343093,387661
+Kluyvera intermedia,0.00016908881480343093,61648
+Akkermansia sp. KLE1605,0.0001687084125204086,1131336
+Lachnospiraceae bacterium A2,0.00016813780909587508,397290
+Barnesiella viscericola,0.00016604559653925219,397865
+Bifidobacterium gallinarum,0.00016566519425622984,78344
+Akkermansia sp. KLE1797,0.00016566519425622984,1574264
+Pseudobutyrivibrio ruminis,0.00016471418854867398,46206
+Bifidobacterium asteroides,0.00016395338398262932,1684
+Bittarella massiliensis,0.00015767674631276068,1720313
+Senegalimassilia anaerobia,0.0001542531257655596,1473216
+Clostridium phoceensis,0.0001534923211995149,1650661
+Ruminococcus sp. CAG:108-related_41_35,0.0001496882983692915,1897020
+Paraprevotella clara CAG:116,0.0001489274938032468,1263095
+Sellimonas intestinalis,0.00014854709152022446,1653434
+Enterobacter cloacae,0.00014721568352964626,550
+Prevotella bivia,0.0001470254823881351,28125
+Eubacterium sp. ER2,0.00014607447668057926,1519438
+Prevotella salivae,0.00014398226412395637,228604
+Coprococcus sp. HPP0048,0.00014227045385035582,1078091
+Bacteroides salyersiae,0.00013827622987862124,291644
+Prevotella disiens,0.00013770562645408773,28130
+Lachnospiraceae bacterium A4,0.0001365644196050207,397291
+Parabacteroides gordonii,0.00013637421846350952,574930
+Clostridium sp. HGF2,0.00013542321275595366,908340
+Bacteroides finegoldii CAG:203,0.00013485260933142018,1263045
+Marvinbryantia formatexigens,0.00013485260933142018,168384
+Prevotella stercorea,0.00013447220704839783,363265
+Phascolarctobacterium succinatutens,0.00013104858650119674,626940
+Stomatobaculum longum,0.00012971717851061854,796942
+Clostridium aminophilum,0.00012952697736910737,1526
+Lactobacillus gastricus,0.00012762496595399567,227942
+Hespellia stercorisuis,0.00012629355796341747,180311
+Kluyvera cryocrescens,0.00012515235111435044,580
+Butyricicoccus desmolans,0.00012458174768981693,39484
+Prevotella sp. HUN102,0.00012382094312377224,1392486
+Anaerotruncus sp. G3(2012),0.00011944631686901531,1235835
+Collinsella sp. MS5,0.00011906591458599298,1499681
+Lactobacillus kefiranofaciens,0.00011906591458599298,267818
+Ruminococcus obeum CAG:39,0.00011621289746332542,1263107
+Prevotella sp. P4-76,0.00011469128833123605,1602169
+Bacteroides salanitronis,0.00011012646093496795,376805
+Prevotella corporis,0.00010936565636892326,28128
+Bifidobacterium dentium,0.00010898525408590092,1689
+Merdibacter massiliensis,0.0001084146506613674,1871030
+Kluyvera ascorbata,0.0001084146506613674,51288
+Gordonibacter pamelaeae,0.00010765384609532273,471189
+Lelliottia amnigena,0.00010765384609532273,61646
+Prevotella sp. S7 MS 2,0.00010632243810474453,1287488
+Prevotella oulorum,0.00010480082897265517,28136
+Bifidobacterium subtile,0.00010404002440661048,77635
+Prevotella timonensis,0.00010404002440661048,386414
+Bacteroides caccae CAG:21,0.00010270861641603228,1263037
+Prevotella oris,0.00010080660500092057,28135
+Blautia sp. CAG:37_48_57,0.0001006164038594094,1896976
+Bacteroides ovatus CAG:22,9.966539815185354e-05,1263050
+Fibrobacter sp. UWB12,9.890459358580887e-05,1896203
+Lactobacillus helveticus,9.73829844537195e-05,1587
+Prevotella amnii,9.700258217069715e-05,419005
+Clostridium sp. SY8519,9.662217988767481e-05,1042156
+Lachnospiraceae bacterium AC2012,9.567117418011896e-05,1392494
+Treponema succinifaciens,9.47201684725631e-05,167
+Enterobacter lignolyticus,9.452996733105193e-05,1334193
+Akkermansia glycaniphila,9.14867490668732e-05,1679444
+Christensenellaceae bacterium Phil1,9.14867490668732e-05,1930012
+Clostridium sp. KLE 1755,9.14867490668732e-05,1226325
+Barnesiella intestinihominis,9.129654792536203e-05,487174
+Prevotella maculosa,9.129654792536203e-05,439703
+Trabulsiella odontotermitis,8.920433536873915e-05,379893
+Alistipes obesi,8.88239330857168e-05,1118061
+Odoribacter splanchnicus CAG:14,8.863373194420563e-05,1263090
+Lactobacillus acidophilus,8.578071482153807e-05,1579
+Klebsiella pneumoniae,8.521011139700456e-05,573
+Erysipelotrichaceae bacterium I46,8.349830112340402e-05,1834207
+Porphyromonas somerae,8.349830112340402e-05,322095
+Clostridium sp. KNHs214,8.216689313282582e-05,1540257
+Clostridium botulinum,8.216689313282582e-05,1491
+Parabacteroides goldsteinii,8.178649084980349e-05,328812
+Kosakonia sacchari,8.178649084980349e-05,1158459
+Bacteroides finegoldii,8.178649084980349e-05,338188
+Lactobacillus thailandensis,8.083548514224763e-05,381741
+Pantoea sp. PSNIH2,8.026488171771412e-05,1484157
+Alloprevotella tannerae,8.007468057620294e-05,76122
+Intestinimonas butyriciproducens,8.007468057620294e-05,1297617
+Robinsoniella peoriensis,7.77922668780689e-05,180332
+Lactobacillus iners,7.684126117051304e-05,147802
+Prevotella enoeca,7.455884747237899e-05,76123
+Prevotellamassilia timonensis,7.417844518935665e-05,1852370
+Yokenella regensburgei,7.284703719877846e-05,158877
+Clostridium neonatale,7.227643377424494e-05,137838
+Firmicutes bacterium CAG:65,7.227643377424494e-05,1262994
+Raoultella ornithinolytica,7.208623263273377e-05,54291
+Allobaculum stercoricanis,7.170583034971143e-05,174709
+Leclercia adecarboxylata,7.170583034971143e-05,83655
+Enterobacter aerogenes,6.92332155100662e-05,548
+Lactobacillus acetotolerans,6.771160637797683e-05,1600
+Clostridium methylpentosum,6.752140523646567e-05,84026
+Helicobacter mustelae,6.657039952890981e-05,217
+Blautia hydrogenotrophica,6.618999724588747e-05,53443
+Pluralibacter gergoviae,6.485858925530927e-05,61647
+Gardnerella vaginalis,6.466838811379811e-05,2702
+Prevotella bryantii,6.466838811379811e-05,77095
+Prevotella buccalis,6.238597441566405e-05,28127
+Lachnospiraceae bacterium oral taxon 500,6.238597441566405e-05,712991
+Megasphaera genomosp. type_1,6.162516984961938e-05,699192
+Erysipelotrichaceae bacterium 21_3,6.14349687081082e-05,658657
+Bifidobacterium pseudolongum,6.14349687081082e-05,1694
+Corynebacterium sp. EPI-003-04-2554_SCH2473622,6.14349687081082e-05,1834153
+Lactobacillus paucivorans,6.0674164142063516e-05,616990
+Prevotella bergensis,5.915255500997415e-05,242750
+Clostridium asparagiforme,5.915255500997415e-05,333367
+Solobacterium moorei,5.8772152726951805e-05,102148
+Lactobacillus satsumensis,5.8201549302418297e-05,259059
+Lachnospiraceae bacterium COE1,5.782114701939595e-05,1235793
+Parabacteroides merdae CAG:48,5.782114701939595e-05,1263094
+Veillonella seminalis,5.725054359486244e-05,1502943
+Prevotella micans,5.7060342453351266e-05,189723
+Collinsella intestinalis,5.534853217975073e-05,147207
+Prevotella buccae,5.477792875521722e-05,28126
+Neglecta timonensis,5.401712418917253e-05,1776382
+Lactobacillus lindneri,5.401712418917253e-05,53444
+Slackia piriformis,5.3826923047661366e-05,626934
+Lactobacillus ruminis,5.3826923047661366e-05,1623
+Lactobacillus similis,5.249551505708317e-05,414682
+Clostridium sp. CAG:58,5.249551505708317e-05,1262824
+Lactobacillus hokkaidonensis,5.078370478348263e-05,1193095
+Lactobacillus psittaci,5.059350364197146e-05,116089
+Bacteroides neonati,5.040330250046029e-05,1347393
