@@ -1,17 +1,7 @@
 import os
 import pandas as pd
 import argparse
-
-# Add arguments for input and output.
-parser = argparse.ArgumentParser(
-    description='Gather WOL data from Woltka classify.')
-parser.add_argument('-i', '--input', type=str, required=True,
-                    help='Input dir.')
-parser.add_argument('-o', '--output', type=str, required=True,
-                    help='Output directory.')
-args = parser.parse_args()
-
-data_dir = args.input
+import matplotlib.pyplot as plt
 
 
 def find_output_files(rank, data_dir):
@@ -50,7 +40,7 @@ def rel_abundance(df, output, rank, plot=False):
     # display(df.head())
 
     df.to_csv(output, sep=",")
-    df = df.where(df > 0.001).dropna()
+    df = df.where(df > 5e-6).dropna()
 
     if plot:
         df.T.plot.bar(figsize=(10, 10), xlabel="{rank} Name", ylabel="Fraction", title=f"{rank} Relative Abundance above 0.1%").legend(
@@ -76,12 +66,24 @@ def find_and_save(input_data: str, rank: str, output_dir: str):
     for file in output_files:
         print(file)
         df = pd.read_csv(file, sep="\t", names=[
-                         "FeatureID", "Count", "Species"], header=0, index_col=2)
+            "FeatureID", "Count", rank], header=0, index_col=2)
 
         sampleID = (os.path.dirname(file).split("/")[-1]).split("_")[0]
         output_path = os.path.join(
-            output_dir, f"{sampleID}_{rank}_relabund.csv")
+            output_dir, f"{sampleID.upper()}_{rank.lower()}_relabund_annotated.csv")
         rel_abundance(df, output_path, rank)
 
 
-find_and_save(data_dir, "genus", args.output)
+if __name__ == "__main__":
+    # Add arguments for input and output.
+    parser = argparse.ArgumentParser(
+        description='Gather WOL data from Woltka classify.')
+    parser.add_argument('-i', '--input', type=str, required=True,
+                        help='Input dir.')
+    parser.add_argument('-o', '--output', type=str, required=True,
+                        help='Output directory.')
+    parser.add_argument('-r', '--rank', type=str, required=True,
+                        help='Rank to gather.')
+    args = parser.parse_args()
+
+    find_and_save(args.input, args.rank, args.output)
