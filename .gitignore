@@ -1,4 +1,7 @@
 .venv
+bivariate.csv
+test.csv
+combined.csv
 names_df.pkl
 names_df.csv
 ncbi_names.csv
