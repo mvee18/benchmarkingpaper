@@ -211,5 +211,5 @@ if __name__ == "__main__":
     # i.e, DSM was removed.
     # generate_names_df(names_db_path, pickle=True)
 
-    species_df_path = "../../pipelines/tourlousse/expected_species.csv"
+    species_df_path = "../../pipelines/amos/mixed/expected_species.csv"
     convert_expected(species_df_path, split_jams)
