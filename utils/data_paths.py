@@ -43,3 +43,17 @@ tourlousse = MockCommData(
     woltka="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/woltka",
     wgsa="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
 )
+
+amos_mixed = MockCommData(
+    biobakery4="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/bio4/metaphlan/merged/species_relab.txt",
+    jams="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/jams/beta_output/amos_mixed_Relabund_PPM.xlsx",
+    woltka="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/wol/classify",
+    wgsa="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+)
+
+amos_hilo = MockCommData(
+    biobakery4="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/bio/metaphlan/merged/species_relab.txt",
+    jams="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/jams/beta_output/hilo_Relabund_PPM.xlsx",
+    woltka="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/woltka/classify",
+    wgsa="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+)
