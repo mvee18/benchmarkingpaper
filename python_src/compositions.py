@@ -5,6 +5,8 @@ from scipy.stats.mstats import gmean
 from scipy.spatial.distance import euclidean
 from scipy.stats import mannwhitneyu
 
+from skbio.stats.composition import multiplicative_replacement
+
 
 def clr(x):
     """Centered log ratio transform"""
@@ -34,6 +36,11 @@ def add_constant(a: np.array, v: float = 0.001) -> np.array:
 def constant_aitchison(x: np.array, y: np.array, v: float = 0.001) -> float:
     """Aitchison distance with a constant added to each value"""
     return aitchison(add_constant(x, v), add_constant(y, v))
+
+
+def multiplicative_aitchison(x: np.array, y: np.array) -> float:
+    """Aitchison distance with multiplicative replacement"""
+    return aitchison(multiplicative_replacement(x), multiplicative_replacement(y))
 
 
 def mann_whitney(x: np.array, y: np.array) -> float:
