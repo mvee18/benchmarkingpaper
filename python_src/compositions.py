@@ -38,9 +38,9 @@ def constant_aitchison(x: np.array, y: np.array, v: float = 0.001) -> float:
     return aitchison(add_constant(x, v), add_constant(y, v))
 
 
-def multiplicative_aitchison(x: np.array, y: np.array) -> float:
+def multiplicative_aitchison(x: np.array, y: np.array, delta: float) -> float:
     """Aitchison distance with multiplicative replacement"""
-    return aitchison(multiplicative_replacement(x), multiplicative_replacement(y))
+    return aitchison(multiplicative_replacement(x, delta=delta), multiplicative_replacement(y, delta=delta))
 
 
 def mann_whitney(x: np.array, y: np.array) -> float:
