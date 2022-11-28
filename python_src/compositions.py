@@ -18,14 +18,14 @@ def aitchison(x: np.array, y: np.array) -> float:
     return euclidean(clr(x), clr(y))
 
 
-def replace_zeroes(a: np.array, v: float = 0.001) -> np.array:
+def const_replace_zeroes(a: np.array, v: float = 0.001) -> np.array:
     """Replace zeroes with a small value. For use with CLR transform."""
     return np.where(a == 0, v, a)
 
 
-def replace_zero_aitchison(x: np.array, y: np.array) -> float:
-    """Aitchison distance with zeroes replaced by a small value"""
-    return aitchison(replace_zeroes(x), replace_zeroes(y))
+def const_replace_zero_aitchison(x: np.array, y: np.array) -> float:
+    """Aitchison distance with ONLY zeroes replaced by a small value"""
+    return aitchison(const_replace_zeroes(x), const_replace_zeroes(y))
 
 
 def add_constant(a: np.array, v: float = 0.001) -> np.array:
@@ -33,14 +33,31 @@ def add_constant(a: np.array, v: float = 0.001) -> np.array:
     return a + v
 
 
-def constant_aitchison(x: np.array, y: np.array, v: float = 0.001) -> float:
-    """Aitchison distance with a constant added to each value"""
+def add_constant_aitchison(x: np.array, y: np.array, v: float = 0.001) -> float:
+    """Aitchison distance with a constant added to EACH value"""
     return aitchison(add_constant(x, v), add_constant(y, v))
 
 
 def multiplicative_aitchison(x: np.array, y: np.array, delta: float) -> float:
     """Aitchison distance with multiplicative replacement"""
     return aitchison(multiplicative_replacement(x, delta=delta), multiplicative_replacement(y, delta=delta))
+
+
+def uniform_replace_zeroes(a: np.array, dl: float) -> np.array:
+    """
+    Parameters:
+    -----------
+    a: np.array
+        Array to replace zeroes in
+    dl: float
+        Upper bound (should be minimum value in arrays.)
+
+    Returns:
+    --------
+    np.array
+        Array with zeroes replaced by uniform distribution
+    """
+    return np.where(a == 0, dl, a)
 
 
 def mann_whitney(x: np.array, y: np.array) -> float:
