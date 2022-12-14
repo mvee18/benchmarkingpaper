@@ -57,3 +57,17 @@ amos_hilo = MockCommData(
     woltka="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/woltka/classify",
     wgsa="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
 )
+
+hmpGut = MockCommData(
+    biobakery4="",
+    jams="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/jams/beta_output/guthmp_Relabund_PPM.xlsx",
+    woltka="",
+    wgsa="",
+)
+
+hmpTongue = MockCommData(
+    biobakery4="/Volumes/TBHD_share/valencia/pipelines/HMP/tongue/bio4/metaphlan/merged/species_relab.txt",
+    jams="/Volumes/TBHD_share/valencia/pipelines/HMP/tongue/jams/beta/hmp_tongue_Relabund_PPM.xlsx",
+    woltka="",
+    wgsa="/Volumes/TBHD_share/valencia/pipelines/HMP/tongue/wgsa2/outputs/TAXprofiles/TEDreadsTAX/reports",
+)
