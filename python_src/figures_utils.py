@@ -80,13 +80,17 @@ def get_relabund_files(root_dir: str, rank="genus") -> pd.DataFrame:
     return combined_df
 
 
-def fully_combined(root_dir: str, rank: str) -> pd.DataFrame:
+def fully_combined(root_dir: str, rank: str, get_rel_func: callable = get_relabund_files, get_all_exp_func: callable = get_all_expected) -> pd.DataFrame:
     """
     Parameters:
         root_dir: str
             The root directory to search for relabund files.
         rank: str
             The taxonomic rank to search for. Default is "genus".
+        get_rel_func: callable
+            The function to use to get the relative abundance files. Default is get_relabund_files.
+        get_all_exp_func: callable
+            The function to use to get the expected abundance files. Default is get_all_expected.
     Returns:
         combined_df: pd.DataFrame
 
@@ -95,9 +99,9 @@ def fully_combined(root_dir: str, rank: str) -> pd.DataFrame:
     if rank is None:
         raise Exception("Rank is not defined.")
 
-    combined_df = get_relabund_files(root_dir, rank=rank)
+    combined_df = get_rel_func(root_dir, rank=rank)
 
-    combined_expected = get_all_expected(root_dir, rank=rank)
+    combined_expected = get_all_exp_func(root_dir, rank=rank)
 
     # Merge the expected and experimental dataframes.
     merged = pd.concat([combined_expected, combined_df], axis=0)
