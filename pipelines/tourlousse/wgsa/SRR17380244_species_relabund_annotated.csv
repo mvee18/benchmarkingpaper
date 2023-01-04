@@ -1,4 +1,5 @@
 Species,RA,TAX_ID
+unclassified,0.1003086100594653,12908
 Pseudomonas putida,0.0706856027795891,303
 Parabacteroides distasonis,0.06128572419196294,823
 Bifidobacterium longum,0.06090935191583373,216816
@@ -74,8 +75,8 @@ Flintibacter sp. KGMB00164,5.945921614808903e-05,2610895
 Bacillus sp. MBGLi79,5.5961615198201445e-05,2070759
 Hungatella hathewayi,5.580954559168459e-05,154046
 Bacillus velezensis,5.580954559168459e-05,492670
-Eubacterium sp. NSJ-61,5.2311944641797e-05,2764325
 Amedibacterium intestinale,5.2311944641797e-05,2583452
+Eubacterium sp. NSJ-61,5.2311944641797e-05,2764325
 Massilistercora timonensis,5.003090054404422e-05,2086584
 Eubacterium limosum,4.911848290494311e-05,1736
 Bifidobacterium pseudocatenulatum,4.881434369190941e-05,28026
@@ -98,11 +99,11 @@ Pelosinus fermentans,3.406359185977479e-05,365349
 Rothia mucilaginosa,3.3759452646741087e-05,43675
 Bacillus sp. MD-5,3.330324382719053e-05,2009331
 Homo sapiens,3.223875658157257e-05,9606
-Bacteroides xylanisolvens,3.1782547762022015e-05,371601
 Selenomonas ruminantium,3.1782547762022015e-05,971
+Bacteroides xylanisolvens,3.1782547762022015e-05,371601
 Coprococcus sp. ART55/1,3.132633894247146e-05,751585
-Bacteroides eggerthii,3.102219972943776e-05,28111
 Staphylococcus hominis,3.102219972943776e-05,1290
+Bacteroides eggerthii,3.102219972943776e-05,28111
 Acidaminococcus fermentans,3.08701301229209e-05,905
 Solibaculum mannosilyticum,3.0718060516404055e-05,2780922
 Acidaminococcus intestini,3.041392130337035e-05,187327

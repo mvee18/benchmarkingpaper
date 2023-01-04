@@ -3,6 +3,7 @@ from dataclasses import dataclass
 import os
 from os.path import abspath
 from os.path import join as pjoin
+from typing import List
 
 
 @dataclass
@@ -85,3 +86,10 @@ hmpTongue = MockCommData(
     wgsa="/Volumes/TBHD_share/valencia/pipelines/HMP/tongue/wgsa2/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/hmp/tongue/"),
 )
+
+
+def make_data_list() -> List[MockCommData]:
+    """Return a list of all the mock community data objects."""
+    return [
+        bmock12, camisim, tourlousse,
+        amos_mixed, amos_hilo, hmpGut, hmpTongue]

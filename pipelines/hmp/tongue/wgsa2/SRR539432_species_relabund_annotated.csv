@@ -1,6 +1,7 @@
 Species,RA,TAX_ID
 Haemophilus parainfluenzae,0.16914107102648587,729
 Rothia mucilaginosa,0.14677350373259113,43675
+unclassified,0.12721254118640837,12908
 Neisseria subflava,0.10423875259642583,28449
 Neisseria mucosa,0.049299114916907714,488
 Schaalia odontolytica,0.03379983505451328,1660
@@ -587,9 +588,9 @@ Clostridium pasteurianum,3.997063490688841e-06,1501
 Bacteroides caccae,3.997063490688841e-06,47678
 Oscillibacter valericigenes,3.997063490688841e-06,351091
 Frischella perrara,3.997063490688841e-06,1267021
-Diaphorobacter sp. HDW4B,3.997063490688841e-06,2714925
-Campylobacter curvus,3.997063490688841e-06,200
 Streptococcus phage phiARI0460-1,3.997063490688841e-06,1701824
+Campylobacter curvus,3.997063490688841e-06,200
+Diaphorobacter sp. HDW4B,3.997063490688841e-06,2714925
 Haloactinobacterium sp. RN3S43,3.997063490688841e-06,2779775
 Adhaeribacter radiodurans,3.3308862422407005e-06,2745197
 Peribacillus psychrosaccharolyticus,3.3308862422407005e-06,1407
@@ -601,16 +602,15 @@ Streptococcus sp. DAT741,3.3308862422407005e-06,1940319
 Ruminococcus champanellensis,3.3308862422407005e-06,1161942
 Leptotrichia hofstadii,3.3308862422407005e-06,157688
 Candida albicans,3.3308862422407005e-06,5476
-Marinomonas foliarum,3.3308862422407005e-06,491950
-Intestinibaculum porci,3.3308862422407005e-06,2487118
+Tetragenococcus halophilus,3.3308862422407005e-06,51669
 Amedibacterium intestinale,3.3308862422407005e-06,2583452
 Intestinimonas butyriciproducens,3.3308862422407005e-06,1297617
 Corynebacterium ulcerans,3.3308862422407005e-06,65058
 Corynebacterium xerosis,3.3308862422407005e-06,1725
 Corynebacterium deserti,3.3308862422407005e-06,1408191
 Ligilactobacillus acidipiscis,3.3308862422407005e-06,89059
+Marinomonas foliarum,3.3308862422407005e-06,491950
 Babesia bigemina,3.3308862422407005e-06,5866
-Tetragenococcus halophilus,3.3308862422407005e-06,51669
 Lactobacillus jensenii,3.3308862422407005e-06,109790
 Streptomyces lydicus,3.3308862422407005e-06,47763
 Lactobacillus acetotolerans,3.3308862422407005e-06,1600
@@ -621,15 +621,16 @@ Melissococcus plutonius,3.3308862422407005e-06,33970
 Methylorubrum populi,3.3308862422407005e-06,223967
 Geosporobacter ferrireducens,3.3308862422407005e-06,1424294
 Citrobacter amalonaticus,3.3308862422407005e-06,35703
-Actinobacillus porcitonsillarum,3.3308862422407005e-06,189834
+Clostridium saccharoperbutylacetonicum,3.3308862422407005e-06,36745
+Actinobacillus indolicus,3.3308862422407005e-06,51049
 Elizabethkingia bruuniana,3.3308862422407005e-06,1756149
 Anaerotignum propionicum,3.3308862422407005e-06,28446
 Mycolicibacterium litorale,3.3308862422407005e-06,758802
 Arthrobacter sp. zg-ZUI122,3.3308862422407005e-06,2816859
 Arthrobacter sp. YC-RL1,3.3308862422407005e-06,1652545
 Janthinobacterium sp. 17J80-10,3.3308862422407005e-06,2497863
-Clostridium saccharoperbutylacetonicum,3.3308862422407005e-06,36745
 Pasteurella skyensis,3.3308862422407005e-06,97481
+Sphingobacterium sp. ML3W,3.3308862422407005e-06,1538644
 Erysipelothrix rhusiopathiae,3.3308862422407005e-06,1648
 Erysipelothrix inopinata,3.3308862422407005e-06,225084
 Erysipelothrix larvae,3.3308862422407005e-06,1514105
@@ -637,10 +638,11 @@ Clostridium butyricum,3.3308862422407005e-06,1492
 Mycobacteroides chelonae,3.3308862422407005e-06,1774
 Priestia flexa,3.3308862422407005e-06,86664
 Clostridium cellulovorans,3.3308862422407005e-06,1493
-Actinobacillus indolicus,3.3308862422407005e-06,51049
+Actinobacillus porcitonsillarum,3.3308862422407005e-06,189834
 Cytobacillus gottheilii,3.3308862422407005e-06,859144
-Sphingobacterium sp. ML3W,3.3308862422407005e-06,1538644
 Enterocloster clostridioformis,3.3308862422407005e-06,1531
+Kaistella antarctica,3.3308862422407005e-06,266748
+Intestinibaculum porci,3.3308862422407005e-06,2487118
 Sphingobacterium spiritivorum,3.3308862422407005e-06,258
 Mucilaginibacter paludis,3.3308862422407005e-06,423351
 Crassaminicella sp. SY095,3.3308862422407005e-06,2599308
@@ -655,7 +657,6 @@ Terribacillus goriensis,3.3308862422407005e-06,386490
 Basilea psittacipulmonis,3.3308862422407005e-06,1472345
 Coprococcus catus,3.3308862422407005e-06,116085
 Tessaracoccus flavescens,3.3308862422407005e-06,399497
-Kaistella antarctica,3.3308862422407005e-06,266748
 Bacteroides ovatus,3.3308862422407005e-06,28116
 Bifidobacterium adolescentis,3.3308862422407005e-06,1680
 Bifidobacterium angulatum,3.3308862422407005e-06,1683
@@ -1456,7 +1457,7 @@ Moorea producens,1.3323544968962801e-06,1155739
 Glutamicibacter halophytocola,1.3323544968962801e-06,1933880
 Maribacter cobaltidurans,1.3323544968962801e-06,1178778
 Pontibacter korlensis,1.3323544968962801e-06,400092
-Desulfosporosinus meridiei,1.3323544968962801e-06,79209
+Acetobacterium sp. KB-1,1.3323544968962801e-06,2184575
 Halomonas sp. A40-4,1.3323544968962801e-06,2785909
 Silvanigrellales bacterium RF1110005,1.3323544968962801e-06,2493639
 Staphylococcus sp. MI 10-1553,1.3323544968962801e-06,1912064
@@ -1644,7 +1645,7 @@ Proteus vulgaris,1.3323544968962801e-06,585
 Oceanicola sp. D3,1.3323544968962801e-06,2587163
 Burkholderia contaminans,1.3323544968962801e-06,488447
 Yersinia enterocolitica,1.3323544968962801e-06,630
-Acetobacterium sp. KB-1,1.3323544968962801e-06,2184575
+Desulfosporosinus meridiei,1.3323544968962801e-06,79209
 Acetobacterium woodii,1.3323544968962801e-06,33952
 Paeniclostridium sordellii,1.3323544968962801e-06,1505
 Thioclava electrotropha,1.3323544968962801e-06,1549850
