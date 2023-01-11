@@ -163,7 +163,21 @@ def split_bio(exp_df: pd.DataFrame) -> List[List[str]]:
     return exp_split_names
 
 
-def convert_expected(data_path: str, split_func: Callable):
+def convert_expected(data_path: str, split_func: Callable) -> pd.DataFrame:
+    """
+    Takes a dataframe, loads the NCBI names, splits the dataframe names according to the parameters function
+        then, standardizes the list of names and adds the tax ids.
+
+    ## Parameters
+        data_path : str
+            The path to the expected data.
+        split_func : Callable
+            The function to split the names. Should take in a dataframe and return a list of lists.
+
+    ## Returns:
+        pd.DataFrame
+            The dataframe with the tax_ids added.
+    """
     # Experimental dataframe.
     exp_df = pd.read_csv(data_path, sep=",", dtype={
         "species": str, "tax_id": str}, index_col=0)
@@ -184,6 +198,8 @@ def convert_expected(data_path: str, split_func: Callable):
 
     # Check if any tax_ids are missing. If so, raise an exception.
     if exp_with_taxid["tax_id"].isnull().values.any():
+        # Print the names that are missing tax_ids.
+        print(exp_with_taxid[exp_with_taxid["tax_id"].isnull()])
         raise Exception("Missing tax_ids. Check the names.")
 
     exp_with_taxid = exp_with_taxid.astype({"tax_id": int})
@@ -201,6 +217,9 @@ def convert_expected(data_path: str, split_func: Callable):
         output_path = os.path.join(os.path.dirname(
             data_path), f"{file_name}_annotated.csv")
         exp_with_taxid.to_csv(output_path, index_label="Species")
+
+    else:
+        raise Exception("File name must contain genus or species.")
 
     return exp_with_taxid
 

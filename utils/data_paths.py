@@ -39,19 +39,19 @@ bmock12 = MockCommData(
 )
 
 camisim = MockCommData(
-    biobakery4="/Volumes/TBHD_share/cami_data/bio4/metaphlan/merged/species_relab.txt",
+    biobakery4="/Volumes/TBHD_share/cami_data/NOADAPTERS/pipelines/bio4/metaphlan/merged/species_relab.txt",
     # You have to use the two samples in here manually (s1, s2).
-    jams="/Volumes/TBHD_share/cami_data/gitract",
-    woltka="/Volumes/TBHD_share/cami_data/gitract/woltka",
-    wgsa="/Volumes/TBHD_share/cami_data/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    jams="/Volumes/TBHD_share/cami_data/NOADAPTERS/pipelines/jams/beta_output/cami_Relabund_PPM.xlsx",
+    woltka="/Volumes/TBHD_share/cami_data/NOADAPTERS/pipelines/woltka/classify",
+    wgsa="/Volumes/TBHD_share/cami_data/NOADAPTERS/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/camisimGI/"),
 )
 
 tourlousse = MockCommData(
-    biobakery4="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/bio4/metaphlan/merged/species_relabund.txt",
-    jams="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/nextseq/jamsbeta/toulousse_Relabund_PPM.xlsx",
-    woltka="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/woltka",
-    wgsa="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    biobakery4="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/bio4/metaphlan/merged/species_relab.txt",
+    jams="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/jams/beta_output/tourlousse_Relabund_PPM.xlsx",
+    woltka="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/woltka/classify",
+    wgsa="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/tourlousse/"),
 )
 
@@ -72,19 +72,27 @@ amos_hilo = MockCommData(
 )
 
 hmpGut = MockCommData(
-    biobakery4="",
+    biobakery4="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/bio4/metaphlan/merged/species_relab.txt",
     jams="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/jams/beta_output/guthmp_Relabund_PPM.xlsx",
     woltka="",
-    wgsa="",
+    wgsa="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/hmp/gut/"),
 )
 
-hmpTongue = MockCommData(
-    biobakery4="/Volumes/TBHD_share/valencia/pipelines/HMP/tongue/bio4/metaphlan/merged/species_relab.txt",
-    jams="/Volumes/TBHD_share/valencia/pipelines/HMP/tongue/jams/beta/hmp_tongue_Relabund_PPM.xlsx",
-    woltka="",
-    wgsa="/Volumes/TBHD_share/valencia/pipelines/HMP/tongue/wgsa2/outputs/TAXprofiles/TEDreadsTAX/reports",
-    path=make_path("../pipelines/hmp/tongue/"),
+# hmpTongue = MockCommData(
+#     biobakery4="/Volumes/TBHD_share/valencia/pipelines/HMP/tongue/bio4/metaphlan/merged/species_relab.txt",
+#     jams="/Volumes/TBHD_share/valencia/pipelines/HMP/tongue/jams/beta/hmp_tongue_Relabund_PPM.xlsx",
+#     woltka="",
+#     wgsa="/Volumes/TBHD_share/valencia/pipelines/HMP/tongue/wgsa2/outputs/TAXprofiles/TEDreadsTAX/reports",
+#     path=make_path("../pipelines/hmp/tongue/"),
+# )
+
+nist = MockCommData(
+    biobakery4="/Volumes/TBHD_share/valencia/pipelines/NIST/pipelines/bio4/metaphlan/merged/species_relab.txt",
+    jams="/Volumes/TBHD_share/valencia/pipelines/NIST/pipelines/jams/beta_output/NIST_Relabund_PPM.xlsx",
+    woltka="/Volumes/TBHD_share/valencia/pipelines/NIST/pipelines/woltka/classify",
+    wgsa="/Volumes/TBHD_share/valencia/pipelines/NIST/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    path=make_path("../pipelines/nist/"),
 )
 
 
@@ -92,4 +100,4 @@ def make_data_list() -> List[MockCommData]:
     """Return a list of all the mock community data objects."""
     return [
         bmock12, camisim, tourlousse,
-        amos_mixed, amos_hilo, hmpGut, hmpTongue]
+        amos_mixed, amos_hilo, hmpGut, nist]
