@@ -3,6 +3,7 @@ from typing import List, Callable
 import pandas as pd
 import re
 import os
+from datetime import datetime, timezone
 
 # Global variables.
 names_db_path = os.path.abspath("/Volumes/TBHD_share/DATABASES/names.dmp")
@@ -74,6 +75,12 @@ def generate_names_df(db_path: str, pickle=False, load_pickle=False) -> pd.DataF
     load_pickle : bool, optional
         Whether to load the pickle, by default False
     """
+    # Let's print the time the pkl file was last modified in case the database is old.
+    stat = os.stat(db_path)
+    modified = datetime.fromtimestamp(stat.st_mtime, tz=timezone.utc)
+    print("The pkl file was last modified (and hopefully generated) on {}".format(
+        modified))
+
     pkl_path = os.path.join(os.path.dirname(__file__), "names_df.pkl")
 
     if load_pickle:
@@ -154,9 +161,14 @@ def split_jams(exp_df: pd.DataFrame) -> List[List[str]]:
 def split_bio(exp_df: pd.DataFrame) -> List[List[str]]:
     exp_names = exp_df.index.tolist()
 
+    # print(exp_names)
     # Replace any instance of sp with sp.
     exp_names = [re.sub("_sp_", "_sp._", x) for x in exp_names]
-    print(exp_names)
+
+    # There is also a case where sp is at the end, so replace that too.
+    exp_names = [re.sub("_sp$", "_sp.", x) for x in exp_names]
+
+    # print(exp_names)
 
     exp_split_names = [x.split("_") for x in exp_names]
 
