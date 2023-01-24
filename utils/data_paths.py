@@ -74,7 +74,7 @@ amos_hilo = MockCommData(
 hmpGut = MockCommData(
     biobakery4="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/bio4/metaphlan/merged/species_relab.txt",
     jams="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/jams/beta_output/guthmp_Relabund_PPM.xlsx",
-    woltka="",
+    woltka="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/wol/classify",
     wgsa="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/hmp/gut/"),
 )
