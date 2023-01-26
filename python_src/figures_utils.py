@@ -1,5 +1,26 @@
 import pandas as pd
 import os
+import seaborn as sns
+
+
+def generate_cb():
+    cb_palette = sns.color_palette(as_cmap=True)
+
+    color_palette = {
+        "Expected": cb_palette[0],
+        "expected": cb_palette[0],
+        "woltka": cb_palette[1],
+        "wol": cb_palette[1],
+        "jams": cb_palette[2],
+        "wgsa": cb_palette[3],
+        "wgsa2": cb_palette[3],
+        "biobakery3": cb_palette[4],
+        "bio3": cb_palette[4],
+        "biobakery4": cb_palette[5],
+        "bio4": cb_palette[5]
+    }
+
+    return color_palette
 
 
 def get_all_expected(root_dir: str, rank="Genus") -> pd.DataFrame:
