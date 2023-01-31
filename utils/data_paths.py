@@ -14,6 +14,7 @@ class MockCommData:
     woltka: str
     wgsa: str
     biobakery3: str = ""
+    jams202212: str = ""
     path: str = ""
 
     def __post_init__(self):
@@ -50,6 +51,7 @@ camisim = MockCommData(
 tourlousse = MockCommData(
     biobakery4="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/bio4/metaphlan/merged/species_relab.txt",
     jams="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/jams/beta_output/tourlousse_Relabund_PPM.xlsx",
+    jams202212="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/jams2022/beta_output/tourlousse_Relabund_PPM.xlsx",
     woltka="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/woltka/classify",
     wgsa="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/tourlousse/"),
@@ -58,6 +60,7 @@ tourlousse = MockCommData(
 amos_mixed = MockCommData(
     biobakery4="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/bio4/metaphlan/merged/species_relab.txt",
     jams="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/jams/beta_output/amos_mixed_Relabund_PPM.xlsx",
+    jams202212="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/jams2022/beta_output/mixed_Relabund_PPM.xlsx",
     woltka="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/wol/classify",
     wgsa="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/amos/mixed/"),
@@ -66,6 +69,7 @@ amos_mixed = MockCommData(
 amos_hilo = MockCommData(
     biobakery4="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/bio/metaphlan/merged/species_relab.txt",
     jams="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/jams/beta_output/hilo_Relabund_PPM.xlsx",
+    jams202212="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/jams2022/beta_output/hilo_Relabund_PPM.xlsx",
     woltka="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/woltka/classify",
     wgsa="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/amos/hilo/"),
