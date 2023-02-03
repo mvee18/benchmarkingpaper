@@ -31,16 +31,18 @@ def make_path(path):
 
 
 bmock12 = MockCommData(
-    biobakery4="/Volumes/TBHD_share/valencia/pipelines/bmock12/biobakery4/metaphlan/main/species_relab.txt",
+    biobakery4="/Volumes/TBHD_share/valencia/pipelines/bmock12/biobakery4/metaphlan/merged/species_relab.txt",
     jams="/Volumes/TBHD_share/valencia/pipelines/bmock12/jams/sub_SRR8073716_JAMS/featuretable.csv",
     woltka="/Volumes/TBHD_share/valencia/pipelines/bmock12/woltka/classify/results",
     wgsa="/Volumes/TBHD_share/valencia/pipelines/bmock12/NEPHELE/wgsa2/subset_bmock12/outputs/TAXprofiles/TEDreadsTAX/reports",
-    biobakery3="/Volumes/TBHD_share/valencia/pipelines/bmock12/NEPHELE/bio/outputs/metaphlan/merged/species_abundance.txt",
+    biobakery3="/Volumes/TBHD_share/valencia/pipelines/bmock12/biobakery3/metaphlan/main/species_relab.txt",
     path=make_path("../pipelines/bmock12/"),
 )
 
+# TODO: Rerun the biobakery4 pipeline in the NOADAPTERS folder.
 camisim = MockCommData(
-    biobakery4="/Volumes/TBHD_share/cami_data/NOADAPTERS/pipelines/bio4/metaphlan/merged/species_relab.txt",
+    biobakery4="",
+    biobakery3="/Volumes/TBHD_share/cami_data/NOADAPTERS/pipelines/bio3/metaphlan/merged/species_relab.txt",
     # You have to use the two samples in here manually (s1, s2).
     jams="/Volumes/TBHD_share/cami_data/NOADAPTERS/pipelines/jams/beta_output/cami_Relabund_PPM.xlsx",
     woltka="/Volumes/TBHD_share/cami_data/NOADAPTERS/pipelines/woltka/classify",
@@ -50,6 +52,7 @@ camisim = MockCommData(
 
 tourlousse = MockCommData(
     biobakery4="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/bio4/metaphlan/merged/species_relab.txt",
+    biobakery3="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/bio3/metaphlan/merged/species_relab.txt",
     jams="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/jams/beta_output/tourlousse_Relabund_PPM.xlsx",
     jams202212="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/jams2022/beta_output/tourlousse_Relabund_PPM.xlsx",
     woltka="/Volumes/TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/woltka/classify",
@@ -59,6 +62,7 @@ tourlousse = MockCommData(
 
 amos_mixed = MockCommData(
     biobakery4="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/bio4/metaphlan/merged/species_relab.txt",
+    biobakery3="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/bio3/metaphlan/merged/species_relab.txt",
     jams="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/jams/beta_output/amos_mixed_Relabund_PPM.xlsx",
     jams202212="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/jams2022/beta_output/mixed_Relabund_PPM.xlsx",
     woltka="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/mixed/wol/classify",
@@ -67,7 +71,8 @@ amos_mixed = MockCommData(
 )
 
 amos_hilo = MockCommData(
-    biobakery4="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/bio/metaphlan/merged/species_relab.txt",
+    biobakery4="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/bio4/metaphlan/merged/species_relab.txt",
+    biobakery3="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/bio3/metaphlan/merged/species_relab.txt",
     jams="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/jams/beta_output/hilo_Relabund_PPM.xlsx",
     jams202212="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/jams2022/beta_output/hilo_Relabund_PPM.xlsx",
     woltka="/Volumes/TBHD_share/valencia/pipelines/amos/nibsc/hilo/woltka/classify",
@@ -76,7 +81,8 @@ amos_hilo = MockCommData(
 )
 
 hmpGut = MockCommData(
-    biobakery4="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/bio4/metaphlan/merged/species_relab.txt",
+    biobakery4="",
+    biobakery3="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/bio3/metaphlan/merged/species_relab.txt",
     jams="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/jams/beta_output/guthmp_Relabund_PPM.xlsx",
     woltka="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/wol/classify",
     wgsa="/Volumes/TBHD_share/valencia/pipelines/HMP/gut/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
@@ -93,6 +99,7 @@ hmpGut = MockCommData(
 
 nist = MockCommData(
     biobakery4="/Volumes/TBHD_share/valencia/pipelines/NIST/pipelines/bio4/metaphlan/merged/species_relab.txt",
+    biobakery3="/Volumes/TBHD_share/valencia/pipelines/NIST/pipelines/bio3/metaphlan/merged/species_relab.txt",
     jams="/Volumes/TBHD_share/valencia/pipelines/NIST/pipelines/jams/beta_output/NIST_Relabund_PPM.xlsx",
     woltka="/Volumes/TBHD_share/valencia/pipelines/NIST/pipelines/woltka/classify",
     wgsa="/Volumes/TBHD_share/valencia/pipelines/NIST/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
