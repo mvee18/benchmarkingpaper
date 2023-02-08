@@ -59,8 +59,8 @@ def uniform_replace_zeroes(a: np.array, dl: float) -> np.array:
     """
     # The DL is already 0.10 * dl, so we need to multiply by 10.
     unif_val = np.random.uniform(dl, 10*dl)
-    print("replacing with uniform draw: ", unif_val)
-    return np.where(a == 0, unif_val, 10*dl, a)
+    # print("replacing with uniform draw: ", unif_val)
+    return np.where(a == 0, unif_val, a)
 
 
 def mann_whitney(x: np.array, y: np.array) -> float:
