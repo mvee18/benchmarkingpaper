@@ -71,7 +71,7 @@ def generate_names_df(db_path: str, pickle=False, load_pickle=False) -> pd.DataF
     db_path : str
         The path to the names.dmp file.
     pickle : bool, optional
-        Whether to pickle the dataframe, by default
+        Whether to pickle the dataframe, by default False.
     load_pickle : bool, optional
         Whether to load the pickle, by default False
     """
@@ -81,7 +81,7 @@ def generate_names_df(db_path: str, pickle=False, load_pickle=False) -> pd.DataF
     print("The pkl file was last modified (and hopefully generated) on {}".format(
         modified))
 
-    pkl_path = os.path.join(os.path.dirname(__file__), "names_df.pkl")
+    pkl_path = os.path.join(os.path.dirname(__file__), "pkls", "names_df.pkl")
 
     if load_pickle:
         if os.path.exists(pkl_path):
@@ -240,7 +240,7 @@ if __name__ == "__main__":
     # Using the bmock12 data for conversion to TaxIDs.
     # Note that the names were changed from the original to be searchable in the names.dmp file.
     # i.e, DSM was removed.
-    # generate_names_df(names_db_path, pickle=True)
+    generate_names_df(names_db_path, pickle=True)
 
-    species_df_path = "../../pipelines/amos/mixed/expected_species.csv"
-    convert_expected(species_df_path, split_jams)
+    # species_df_path = "../../pipelines/amos/mixed/expected_species.csv"
+    # convert_expected(species_df_path, split_jams)
