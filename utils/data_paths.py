@@ -41,7 +41,7 @@ bmock12 = MockCommData(
 
 # TODO: Rerun the biobakery4 pipeline in the NOADAPTERS folder.
 camisim = MockCommData(
-    biobakery4="",
+    biobakery4="/Volumes/TBHD_share/cami_data/bio4/metaphlan/merged/species_relab.txt",
     biobakery3="/Volumes/TBHD_share/cami_data/NOADAPTERS/pipelines/bio3/metaphlan/merged/species_relab.txt",
     # You have to use the two samples in here manually (s1, s2).
     jams="/Volumes/TBHD_share/cami_data/NOADAPTERS/pipelines/jams/beta_output/cami_Relabund_PPM.xlsx",

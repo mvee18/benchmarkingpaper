@@ -6,7 +6,8 @@ import os
 from datetime import datetime, timezone
 
 # Global variables.
-names_db_path = os.path.abspath("/Volumes/TBHD_share/DATABASES/names.dmp")
+names_db_path = os.path.abspath(
+    "/Volumes/TBHD_share/DATABASES/NCBI202302/names.dmp")
 example_names = ["Escherichia coli", "E. coli", "Acetivibrio thermocellus"]
 
 
@@ -76,12 +77,12 @@ def generate_names_df(db_path: str, pickle=False, load_pickle=False) -> pd.DataF
         Whether to load the pickle, by default False
     """
     # Let's print the time the pkl file was last modified in case the database is old.
-    stat = os.stat(db_path)
+    pkl_path = os.path.join(os.path.dirname(__file__), "pkls", "names_df.pkl")
+
+    stat = os.stat(pkl_path)
     modified = datetime.fromtimestamp(stat.st_mtime, tz=timezone.utc)
     print("The pkl file was last modified (and hopefully generated) on {}".format(
         modified))
-
-    pkl_path = os.path.join(os.path.dirname(__file__), "pkls", "names_df.pkl")
 
     if load_pickle:
         if os.path.exists(pkl_path):
@@ -101,7 +102,7 @@ def generate_names_df(db_path: str, pickle=False, load_pickle=False) -> pd.DataF
     df = standardize_ncbi(df)
 
     if pickle:
-        df.to_csv("names_df.csv", index=False)
+        df.to_csv("pkls/names_df.csv", index=False)
         df.to_pickle(pkl_path)
 
     return df

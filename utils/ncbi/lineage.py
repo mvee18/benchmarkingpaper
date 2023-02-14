@@ -50,7 +50,7 @@ def get_parent_ids(tax_id: str, df: pd.DataFrame) -> List[str]:
     Returns:
         List[str]: A list of tax_ids that are the parents of the given tax_id.
     """
-
+    print(tax_id)
     return df.loc[df.index == tax_id]["lineage"].values[0]
 
 # Now, we need to use the nodes file to determine the rank of each tax_id.
@@ -128,7 +128,12 @@ def cleanup_lineage(lineage: dict, desired_rank: str) -> str:
     if desired_rank not in lineage.values():
         print("Desired rank not found in lineage, using last value instead..", lineage)
         # Return the last value in the dictionary.
-        return list(lineage.keys())[-1]
+        result = list(lineage.keys())[-1]
+        if result == "2787823":
+            # This is the unclassified rank that we are using consistently.
+            return "12908"
+        else:
+            return result
 
     else:
         for key, value in lineage.items():
