@@ -15,16 +15,16 @@ def make_file_structure(root_dir: str):
             for subdir in amos_subdirs:
                 for pipeline in pipelines:
                     output = os.path.join(root_dir, source, subdir, pipeline)
-                    os.makedirs(output)
+                    os.makedirs(output, exist_ok=True)
         elif source == "hmp":
             for subdir in hmp_subdirs:
                 for pipeline in pipelines:
                     output = os.path.join(root_dir, source, subdir, pipeline)
-                    os.makedirs(output)
+                    os.makedirs(output, exist_ok=True)
         else:
             for pipeline in pipelines:
                 output = os.path.join(root_dir, source, pipeline)
-                os.makedirs(output)
+                os.makedirs(output, exist_ok=True)
 
 
 if __name__ == "__main__":
