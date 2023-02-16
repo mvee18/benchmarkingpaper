@@ -101,7 +101,7 @@ def get_relabund_files(root_dir: str, rank="genus") -> pd.DataFrame:
     return combined_df
 
 
-def fully_combined(root_dir: str, rank: str, get_rel_func: callable = get_relabund_files, get_all_exp_func: callable = get_all_expected) -> pd.DataFrame:
+def fully_combined(root_dir: str, expected_root: str, rank: str, get_rel_func: callable = get_relabund_files, get_all_exp_func: callable = get_all_expected) -> pd.DataFrame:
     """
     Parameters:
         root_dir: str
@@ -122,7 +122,7 @@ def fully_combined(root_dir: str, rank: str, get_rel_func: callable = get_relabu
 
     combined_df = get_rel_func(root_dir, rank=rank)
 
-    combined_expected = get_all_exp_func(root_dir, rank=rank)
+    combined_expected = get_all_exp_func(expected_root, rank=rank)
 
     # Merge the expected and experimental dataframes.
     merged = pd.concat([combined_expected, combined_df], axis=0)
