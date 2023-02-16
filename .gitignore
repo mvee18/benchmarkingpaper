@@ -15,3 +15,4 @@ jams_df.csv
 wgsa2_df.csv
 amos_df.csv
 *.pkl
+.pytest_cache
