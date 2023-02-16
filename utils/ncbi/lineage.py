@@ -50,7 +50,7 @@ def get_parent_ids(tax_id: str, df: pd.DataFrame) -> List[str]:
     Returns:
         List[str]: A list of tax_ids that are the parents of the given tax_id.
     """
-    print(tax_id)
+    # print(tax_id)
     return df.loc[df.index == tax_id]["lineage"].values[0]
 
 # Now, we need to use the nodes file to determine the rank of each tax_id.
