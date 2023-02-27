@@ -9,6 +9,16 @@ nodes_pkl_path = os.path.join(os.path.dirname(__file__), "pkls", "nodes.pkl")
 
 
 def get_lineage_df(path: str, save: bool = False, load_pickle: bool = True) -> pd.DataFrame:
+    """
+    Make the lineage dataframe from given path. Can load or save from pickle.
+    Parameters:
+        path: str
+            Path to the NCBI taxidlineage file.
+        save: bool
+            Whether to save the file as a pkl.
+        load_pickle: bool
+            Test if the pkl file is in the default path (__file__ + pkls/lineage.pkl)
+    """
     if load_pickle:
         try:
             return pd.read_pickle(lineage_pkl_path)
@@ -65,7 +75,12 @@ def make_nodes_dict(path: str, save: bool = False, load_pickle: bool = True) -> 
     """
     Creates a dictionary of tax_ids and their corresponding rank.
     Parameters:
-        path (str): The path to the nodes.dmp file.
+        path: str 
+            The path to the nodes.dmp file.
+        save: bool 
+            Whether to save the dictionary as a pickle.
+        load_pickle: bool
+            Whether to load the dictionary from a pickle.
     Returns:
         dict: A dictionary of tax_ids and their corresponding rank.
     """
@@ -110,6 +125,12 @@ def annotate_taxids(taxids: List[str], nodes_dict: dict) -> dict:
 
 
 def make_annotation_dataframes():
+    """ 
+    Makes the lineage and nodes dataframes.
+    Returns:
+        lineage_df (pd.DataFrame): The lineage dataframe.
+        nodes_dict (dict): A dictionary of tax_ids and their corresponding rank.
+    """
     lineage_df = get_lineage_df(
         "/Volumes/TBHD_share/DATABASES/NCBI202302/taxidlineage.dmp", save=True, load_pickle=True)
     nodes_dict = make_nodes_dict(
