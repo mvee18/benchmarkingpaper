@@ -8,7 +8,23 @@ from typing import List
 
 @dataclass
 class MockCommData:
-    """ Class that holds the path to each pipeline for each mock community tested. """
+    """ 
+    Class that holds the path to each pipeline for each mock community tested. 
+
+    Attributes
+        biobakery4: str
+            Path to the biobakery4 pipeline species_relab.txt file.
+        biobakery3: str 
+            Path to the biobakery3 pipeline species_relab.txt file.
+        jams: str 
+            Path to the jams pipeline JAMSbeta output LKT excel file.
+        woltka: str 
+            Path to the woltka pipeline classify output directory.
+        wgsa: str 
+            Path to the wgsa pipeline TAXprofiles/TEDreadsTAX output directory.
+        path: str
+            Path to the directory where the outputs should go.
+    """
     biobakery4: str
     jams: str
     woltka: str
