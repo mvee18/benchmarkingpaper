@@ -33,7 +33,10 @@ This will generate the input files for Biobakery4, JAMS, and Woltka. Then, you w
 0. Source `~/bash.profile` and then run `getjams`.
 1. `JAMSmakeswarm -r [path/to/reads] -d [path/to/db]` This makes the swarm file for submission.
 2. You may need to rename the reads to _R1 and _R2 for it to be detected as paired-end. 
-3. Submit the swarm files, `swarm -g 246 -t 56 --time=24:00:00 --module R,samtools --gres=lscratch:400 -f JAMS.swarm`.
+3. Submit the swarm files:
+
+        swarm -g 246 -t 56 --time=24:00:00 --module R,samtools --gres=lscratch:400 -f JAMS.swarm.
+
 4. Optional: Use JAMSbankit to move samples to bank. See **JAMSbankit** below.
 
 #### JAMSbankit
@@ -43,7 +46,10 @@ This will generate the input files for Biobakery4, JAMS, and Woltka. Then, you w
 #### JAMSbeta
 0. Ensure you have a metadata file in TSV format. See: `https://github.com/johnmcculloch/JAMS_BW/wiki` for more information.
 1. Make a new folder for the output, e.g. beta_output.
-2. Run `JAMSbeta -p [projectname] -o [output] -t [metadata].tsv -y [path/to/jamsfiles] -e -k -z -n LKT,ECNumber,Product,Pfam,Interpro,GO,resfinder`  
+2. Run 
+
+        JAMSbeta -p [projectname] -o [output] -t [metadata].tsv -y [path/to/jamsfiles] -e -k -z -n LKT,ECNumber,Product,Pfam,Interpro,GO,resfinder
+    
     - The -y flag can be set to `BANK/jamsfiles` if you performed the banking.
 
 #### Analysis
