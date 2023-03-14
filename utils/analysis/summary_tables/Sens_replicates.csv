@@ -1,0 +1,6 @@
+,count,count,count,count,count,mean,mean,mean,mean,mean,std,std,std,std,std
+Pipeline,biobakery3,biobakery4,jams,wgsa2,woltka,biobakery3,biobakery4,jams,wgsa2,woltka,biobakery3,biobakery4,jams,wgsa2,woltka
+Source,,,,,,,,,,,,,,,
+Amos HiLo,5.0,5.0,5.0,5.0,5.0,89.4737,100.0,98.94736,89.4737,94.7368,0.0,0.0,2.353774595835378,0.0,0.0
+Amos Mixed,5.0,5.0,5.0,5.0,5.0,94.7368,100.0,100.0,89.4737,94.7368,0.0,0.0,0.0,0.0,0.0
+Tourlousse,6.0,6.0,6.0,6.0,6.0,78.9474,94.7368,100.0,89.4737,94.7368,0.0,0.0,0.0,0.0,0.0
