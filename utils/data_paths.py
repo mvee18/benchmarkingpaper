@@ -93,6 +93,7 @@ amos_mixed = MockCommData(
     jams202212="TBHD_share/valencia/pipelines/amos/nibsc/mixed/jams2022/beta_output/filtered_PPM.xlsx",
     woltka="TBHD_share/valencia/pipelines/amos/nibsc/mixed/wol/classify",
     wgsa="TBHD_share/valencia/pipelines/amos/nibsc/mixed/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    sunbeam="TBHD_share/valencia/pipelines/amos/nibsc/mixed/sunbeam4/sunbeam_output/classify/kraken",
     path=make_path("../pipelines/amos/mixed/"),
 )
 
@@ -103,6 +104,7 @@ amos_hilo = MockCommData(
     jams202212="TBHD_share/valencia/pipelines/amos/nibsc/hilo/jams2022/beta_output/filtered_PPM.xlsx",
     woltka="TBHD_share/valencia/pipelines/amos/nibsc/hilo/woltka/classify",
     wgsa="TBHD_share/valencia/pipelines/amos/nibsc/hilo/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    sunbeam="TBHD_share/valencia/pipelines/amos/nibsc/hilo/sunbeam4/sunbeam_output/classify/kraken",
     path=make_path("../pipelines/amos/hilo/"),
 )
 
