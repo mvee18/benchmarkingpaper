@@ -1,9 +1,11 @@
 # This is a collection of all the paths to each data set for easier access.
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 import os
 from os.path import abspath
 from os.path import join as pjoin
-from typing import List
+from typing import List, Dict
+
+import tarfile
 
 # Change this path if you are not using the same mounting point.
 root = "/Volumes/"
@@ -11,19 +13,19 @@ root = "/Volumes/"
 
 @dataclass
 class MockCommData:
-    """ 
-    Class that holds the path to each pipeline for each mock community tested. 
+    """
+    Class that holds the path to each pipeline for each mock community tested.
 
     Attributes
         biobakery4: str
             Path to the biobakery4 pipeline species_relab.txt file.
-        biobakery3: str 
+        biobakery3: str
             Path to the biobakery3 pipeline species_relab.txt file.
-        jams: str 
+        jams: str
             Path to the jams pipeline JAMSbeta output LKT excel file.
-        woltka: str 
+        woltka: str
             Path to the woltka pipeline classify output directory.
-        wgsa: str 
+        wgsa: str
             Path to the wgsa pipeline TAXprofiles/TEDreadsTAX output directory.
         path: str
             Path to the directory where the outputs should go.
@@ -142,6 +144,43 @@ def make_data_list() -> List[MockCommData]:
         amos_mixed, amos_hilo, hmpGut, nist]
 
 
+def make_data_dict() -> Dict[str, MockCommData]:
+    """Return a dictionary of all the mock community data objects."""
+    return {
+        "bmock12": bmock12,
+        "camisim": camisim,
+        "tourlousse": tourlousse,
+        "amos_mixed": amos_mixed,
+        "amos_hilo": amos_hilo,
+        "nist": nist,
+    }
+
+
 if __name__ == "__main__":
-    for data in make_data_list():
-        print(data, "\n")
+    # We are going to tar all of the data into a single file.
+    # This is because I will not have access to the TBHD_share after I leave.
+    archive = tarfile.open("mock_communities.tar.gz", "w:gz")
+
+    data = make_data_dict()
+    for name, obj in data.items():
+        for k, v in asdict(obj).items():
+            if k != "path" and v != "":
+                basename = os.path.basename(v)
+                print(basename)
+                if k == "sunbeam" and v.endswith("taxa.tsv"):
+                    print(v)
+                    archive.add(v, arcname=f"{name}/{k}/{basename}")
+                elif k == "sunbeam":
+                    continue
+                else:
+                    # if file, add it to the archive as its original name under the mock community name
+                    print(v)
+                    if os.path.isfile(v):
+                        archive.add(v, arcname=f"{name}/{k}/{basename}")
+                    # if directory, add all files in the directory to the archive under the mock community name
+                    elif os.path.isdir(v):
+                        archive.add(v, arcname=f"{name}/{k}")
+                    else:
+                        raise ValueError(f"Unknown file type: {v}")
+
+    archive.close()
