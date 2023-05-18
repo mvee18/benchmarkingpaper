@@ -8,7 +8,7 @@ from typing import List, Dict
 import tarfile
 
 # Change this path if you are not using the same mounting point.
-root = "/Volumes/"
+root = "/Volumes/TBHD_share/valencia/"
 
 
 @dataclass
@@ -58,81 +58,81 @@ def make_path(path):
 
 
 bmock12 = MockCommData(
-    biobakery4="TBHD_share/valencia/pipelines/bmock12/biobakery4/metaphlan/merged/species_relab.txt",
-    jams="TBHD_share/valencia/pipelines/bmock12/jams/sub_SRR8073716_JAMS/featuretable.csv",
-    woltka="TBHD_share/valencia/pipelines/bmock12/woltka/classify/results",
-    wgsa="TBHD_share/valencia/pipelines/bmock12/NEPHELE/wgsa2/subset_bmock12/outputs/TAXprofiles/TEDreadsTAX/reports",
-    biobakery3="TBHD_share/valencia/pipelines/bmock12/biobakery3/metaphlan/main/species_relab.txt",
+    biobakery4="pipelines/bmock12/biobakery4/metaphlan/merged/species_relab.txt",
+    jams="pipelines/bmock12/jams/sub_SRR8073716_JAMS/featuretable.csv",
+    woltka="pipelines/bmock12/woltka/classify/results",
+    wgsa="pipelines/bmock12/NEPHELE/wgsa2/subset_bmock12/outputs/TAXprofiles/TEDreadsTAX/reports",
+    biobakery3="pipelines/bmock12/biobakery3/metaphlan/main/species_relab.txt",
     path=make_path("../pipelines/bmock12/"),
 )
 
 # TODO: Rerun the biobakery4 pipeline in the NOADAPTERS folder.
 camisim = MockCommData(
-    biobakery4="TBHD_share/cami_data/bio4/metaphlan/merged/species_relab.txt",
-    biobakery3="TBHD_share/cami_data/NOADAPTERS/pipelines/bio3/metaphlan/merged/species_relab.txt",
+    biobakery4="cami_data/bio4/metaphlan/merged/species_relab.txt",
+    biobakery3="cami_data/NOADAPTERS/pipelines/bio3/metaphlan/merged/species_relab.txt",
     # You have to use the two samples in here manually (s1, s2).
-    jams="TBHD_share/cami_data/NOADAPTERS/pipelines/jams/beta_output/cami_Relabund_PPM.xlsx",
-    woltka="TBHD_share/cami_data/NOADAPTERS/pipelines/woltka/classify",
-    wgsa="TBHD_share/cami_data/NOADAPTERS/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    jams="cami_data/NOADAPTERS/pipelines/jams/beta_output/cami_Relabund_PPM.xlsx",
+    woltka="cami_data/NOADAPTERS/pipelines/woltka/classify",
+    wgsa="cami_data/NOADAPTERS/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/camisimGI/"),
 )
 
 tourlousse = MockCommData(
-    biobakery4="TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/bio4/metaphlan/merged/species_relab.txt",
-    biobakery3="TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/bio3/metaphlan/merged/species_relab.txt",
-    jams="TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/jams/beta_output/tourlousse_Relabund_PPM.xlsx",
-    jams202212="TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/jams2022/beta_output/filtered_PPM.xlsx",
-    woltka="TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/woltka/classify",
-    wgsa="TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
-    sunbeam="TBHD_share/valencia/pipelines/microbio_spectrum/CLEANED/pipelines/sunbeam4/sunbeam_output/classify/kraken/",
+    biobakery4="pipelines/microbio_spectrum/CLEANED/pipelines/bio4/metaphlan/merged/species_relab.txt",
+    biobakery3="pipelines/microbio_spectrum/CLEANED/pipelines/bio3/metaphlan/merged/species_relab.txt",
+    jams="pipelines/microbio_spectrum/CLEANED/pipelines/jams/beta_output/tourlousse_Relabund_PPM.xlsx",
+    jams202212="pipelines/microbio_spectrum/CLEANED/pipelines/jams2022/beta_output/filtered_PPM.xlsx",
+    woltka="pipelines/microbio_spectrum/CLEANED/pipelines/woltka/classify",
+    wgsa="pipelines/microbio_spectrum/CLEANED/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    sunbeam="pipelines/microbio_spectrum/CLEANED/pipelines/sunbeam4/sunbeam_output/classify/kraken/",
     path=make_path("../pipelines/tourlousse/"),
 )
 
 amos_mixed = MockCommData(
-    biobakery4="TBHD_share/valencia/pipelines/amos/nibsc/mixed/bio4/metaphlan/merged/species_relab.txt",
-    biobakery3="TBHD_share/valencia/pipelines/amos/nibsc/mixed/bio3/metaphlan/merged/species_relab.txt",
-    jams="TBHD_share/valencia/pipelines/amos/nibsc/mixed/jams/beta_output/amos_mixed_Relabund_PPM.xlsx",
-    jams202212="TBHD_share/valencia/pipelines/amos/nibsc/mixed/jams2022/beta_output/filtered_PPM.xlsx",
-    woltka="TBHD_share/valencia/pipelines/amos/nibsc/mixed/wol/classify",
-    wgsa="TBHD_share/valencia/pipelines/amos/nibsc/mixed/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
-    sunbeam="TBHD_share/valencia/pipelines/amos/nibsc/mixed/sunbeam4/sunbeam_output/classify/kraken",
+    biobakery4="pipelines/amos/nibsc/mixed/bio4/metaphlan/merged/species_relab.txt",
+    biobakery3="pipelines/amos/nibsc/mixed/bio3/metaphlan/merged/species_relab.txt",
+    jams="pipelines/amos/nibsc/mixed/jams/beta_output/amos_mixed_Relabund_PPM.xlsx",
+    jams202212="pipelines/amos/nibsc/mixed/jams2022/beta_output/filtered_PPM.xlsx",
+    woltka="pipelines/amos/nibsc/mixed/wol/classify",
+    wgsa="pipelines/amos/nibsc/mixed/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    sunbeam="pipelines/amos/nibsc/mixed/sunbeam4/sunbeam_output/classify/kraken",
     path=make_path("../pipelines/amos/mixed/"),
 )
 
 amos_hilo = MockCommData(
-    biobakery4="TBHD_share/valencia/pipelines/amos/nibsc/hilo/bio4/metaphlan/merged/species_relab.txt",
-    biobakery3="TBHD_share/valencia/pipelines/amos/nibsc/hilo/bio3/metaphlan/merged/species_relab.txt",
-    jams="TBHD_share/valencia/pipelines/amos/nibsc/hilo/jams/beta_output/hilo_Relabund_PPM.xlsx",
-    jams202212="TBHD_share/valencia/pipelines/amos/nibsc/hilo/jams2022/beta_output/filtered_PPM.xlsx",
-    woltka="TBHD_share/valencia/pipelines/amos/nibsc/hilo/woltka/classify",
-    wgsa="TBHD_share/valencia/pipelines/amos/nibsc/hilo/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
-    sunbeam="TBHD_share/valencia/pipelines/amos/nibsc/hilo/sunbeam4/sunbeam_output/classify/kraken",
+    biobakery4="pipelines/amos/nibsc/hilo/bio4/metaphlan/merged/species_relab.txt",
+    biobakery3="pipelines/amos/nibsc/hilo/bio3/metaphlan/merged/species_relab.txt",
+    jams="pipelines/amos/nibsc/hilo/jams/beta_output/hilo_Relabund_PPM.xlsx",
+    jams202212="pipelines/amos/nibsc/hilo/jams2022/beta_output/filtered_PPM.xlsx",
+    woltka="pipelines/amos/nibsc/hilo/woltka/classify",
+    wgsa="pipelines/amos/nibsc/hilo/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    sunbeam="pipelines/amos/nibsc/hilo/sunbeam4/sunbeam_output/classify/kraken",
     path=make_path("../pipelines/amos/hilo/"),
 )
 
 hmpGut = MockCommData(
     biobakery4="",
-    biobakery3="TBHD_share/valencia/pipelines/HMP/gut/bio3/metaphlan/merged/species_relab.txt",
-    jams="TBHD_share/valencia/pipelines/HMP/gut/jams/beta_output/guthmp_Relabund_PPM.xlsx",
-    woltka="TBHD_share/valencia/pipelines/HMP/gut/wol/classify",
-    wgsa="TBHD_share/valencia/pipelines/HMP/gut/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    biobakery3="pipelines/HMP/gut/bio3/metaphlan/merged/species_relab.txt",
+    jams="pipelines/HMP/gut/jams/beta_output/guthmp_Relabund_PPM.xlsx",
+    woltka="pipelines/HMP/gut/wol/classify",
+    wgsa="pipelines/HMP/gut/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/hmp/gut/"),
 )
 
 # hmpTongue = MockCommData(
-#     biobakery4="TBHD_share/valencia/pipelines/HMP/tongue/bio4/metaphlan/merged/species_relab.txt",
-#     jams="TBHD_share/valencia/pipelines/HMP/tongue/jams/beta/hmp_tongue_Relabund_PPM.xlsx",
+#     biobakery4="pipelines/HMP/tongue/bio4/metaphlan/merged/species_relab.txt",
+#     jams="pipelines/HMP/tongue/jams/beta/hmp_tongue_Relabund_PPM.xlsx",
 #     woltka="",
-#     wgsa="TBHD_share/valencia/pipelines/HMP/tongue/wgsa2/outputs/TAXprofiles/TEDreadsTAX/reports",
+#     wgsa="pipelines/HMP/tongue/wgsa2/outputs/TAXprofiles/TEDreadsTAX/reports",
 #     path=make_path("../pipelines/hmp/tongue/"),
 # )
 
 nist = MockCommData(
-    biobakery4="TBHD_share/valencia/pipelines/NIST/pipelines/bio4/metaphlan/merged/species_relab.txt",
-    biobakery3="TBHD_share/valencia/pipelines/NIST/pipelines/bio3/metaphlan/merged/species_relab.txt",
-    jams="TBHD_share/valencia/pipelines/NIST/pipelines/jams/beta_output/NIST_Relabund_PPM.xlsx",
-    woltka="TBHD_share/valencia/pipelines/NIST/pipelines/woltka/classify",
-    wgsa="TBHD_share/valencia/pipelines/NIST/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    biobakery4="pipelines/NIST/pipelines/bio4/metaphlan/merged/species_relab.txt",
+    biobakery3="pipelines/NIST/pipelines/bio3/metaphlan/merged/species_relab.txt",
+    jams="pipelines/NIST/pipelines/jams/beta_output/NIST_Relabund_PPM.xlsx",
+    woltka="pipelines/NIST/pipelines/woltka/classify",
+    wgsa="pipelines/NIST/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/nist/"),
 )
 
@@ -148,7 +148,7 @@ def make_data_dict() -> Dict[str, MockCommData]:
     """Return a dictionary of all the mock community data objects."""
     return {
         "bmock12": bmock12,
-        "camisim": camisim,
+        "cami_data": camisim,
         "tourlousse": tourlousse,
         "amos_mixed": amos_mixed,
         "amos_hilo": amos_hilo,
@@ -156,7 +156,8 @@ def make_data_dict() -> Dict[str, MockCommData]:
     }
 
 
-if __name__ == "__main__":
+def backup():
+    """ Tars all of the mock community data into a single archive. """
     # We are going to tar all of the data into a single file.
     # This is because I will not have access to the TBHD_share after I leave.
     archive = tarfile.open("mock_communities.tar.gz", "w:gz")
@@ -183,4 +184,8 @@ if __name__ == "__main__":
                     else:
                         raise ValueError(f"Unknown file type: {v}")
 
-    archive.close()
+        archive.close()
+
+
+if __name__ == "__main__":
+    backup()

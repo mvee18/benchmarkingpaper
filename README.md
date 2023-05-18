@@ -59,3 +59,6 @@ Contains many of the analysis tools to calculate statistics and tables for the m
 - `time`: calculates the time performance of each pipeline.
 
 - `data_paths.py`: holds the path to the raw data on the Biowulf computing cluster. 
+
+### Root Directory
+- `figures.ipynb`: main file for analysis and generation of statistics. 
