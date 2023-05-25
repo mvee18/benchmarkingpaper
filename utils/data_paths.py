@@ -8,7 +8,10 @@ from typing import List, Dict
 import tarfile
 
 # Change this path if you are not using the same mounting point.
-root = "/Volumes/TBHD_share/valencia/"
+# root = "/Volumes/TBHD_share/valencia/"
+
+# Local root (for publication)
+root = "./Volumes/TBHD_share/valencia/"
 
 
 @dataclass
@@ -68,12 +71,12 @@ bmock12 = MockCommData(
 
 # TODO: Rerun the biobakery4 pipeline in the NOADAPTERS folder.
 camisim = MockCommData(
-    biobakery4="cami_data/bio4/metaphlan/merged/species_relab.txt",
-    biobakery3="cami_data/NOADAPTERS/pipelines/bio3/metaphlan/merged/species_relab.txt",
+    biobakery4="pipelines/cami_data/bio4/metaphlan/merged/species_relab.txt",
+    biobakery3="pipelines/cami_data/NOADAPTERS/pipelines/bio3/metaphlan/merged/species_relab.txt",
     # You have to use the two samples in here manually (s1, s2).
-    jams="cami_data/NOADAPTERS/pipelines/jams/beta_output/cami_Relabund_PPM.xlsx",
-    woltka="cami_data/NOADAPTERS/pipelines/woltka/classify",
-    wgsa="cami_data/NOADAPTERS/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+    jams="pipelines/cami_data/NOADAPTERS/pipelines/jams/beta_output/cami_Relabund_PPM.xlsx",
+    woltka="pipelines/cami_data/NOADAPTERS/pipelines/woltka/classify",
+    wgsa="pipelines/cami_data/NOADAPTERS/pipelines/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
     path=make_path("../pipelines/camisimGI/"),
 )
 
@@ -110,14 +113,14 @@ amos_hilo = MockCommData(
     path=make_path("../pipelines/amos/hilo/"),
 )
 
-hmpGut = MockCommData(
-    biobakery4="",
-    biobakery3="pipelines/HMP/gut/bio3/metaphlan/merged/species_relab.txt",
-    jams="pipelines/HMP/gut/jams/beta_output/guthmp_Relabund_PPM.xlsx",
-    woltka="pipelines/HMP/gut/wol/classify",
-    wgsa="pipelines/HMP/gut/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
-    path=make_path("../pipelines/hmp/gut/"),
-)
+# hmpGut = MockCommData(
+#     biobakery4="",
+#     biobakery3="pipelines/HMP/gut/bio3/metaphlan/merged/species_relab.txt",
+#     jams="pipelines/HMP/gut/jams/beta_output/guthmp_Relabund_PPM.xlsx",
+#     woltka="pipelines/HMP/gut/wol/classify",
+#     wgsa="pipelines/HMP/gut/wgsa/outputs/TAXprofiles/TEDreadsTAX/reports",
+#     path=make_path("../pipelines/hmp/gut/"),
+# )
 
 # hmpTongue = MockCommData(
 #     biobakery4="pipelines/HMP/tongue/bio4/metaphlan/merged/species_relab.txt",
@@ -141,7 +144,7 @@ def make_data_list() -> List[MockCommData]:
     """Return a list of all the mock community data objects."""
     return [
         bmock12, camisim, tourlousse,
-        amos_mixed, amos_hilo, hmpGut, nist]
+        amos_mixed, amos_hilo, nist]
 
 
 def make_data_dict() -> Dict[str, MockCommData]:
@@ -168,24 +171,26 @@ def backup():
             if k != "path" and v != "":
                 basename = os.path.basename(v)
                 print(basename)
-                if k == "sunbeam" and v.endswith("taxa.tsv"):
+                if k == "sunbeam":
                     print(v)
-                    archive.add(v, arcname=f"{name}/{k}/{basename}")
-                elif k == "sunbeam":
-                    continue
+                    sunbeam_files = os.listdir(v)
+                    for sf in sunbeam_files:
+                        if sf.endswith("-taxa.tsv"):
+                            archive.add(os.path.join(v, sf))
                 else:
                     # if file, add it to the archive as its original name under the mock community name
                     print(v)
                     if os.path.isfile(v):
-                        archive.add(v, arcname=f"{name}/{k}/{basename}")
+                        archive.add(v)  # arcname=f"{name}/{k}/{basename}")
                     # if directory, add all files in the directory to the archive under the mock community name
                     elif os.path.isdir(v):
-                        archive.add(v, arcname=f"{name}/{k}")
+                        archive.add(v)  # arcname=f"{name}/{k}")
                     else:
                         raise ValueError(f"Unknown file type: {v}")
 
-        archive.close()
+    archive.close()
 
 
 if __name__ == "__main__":
-    backup()
+    print(make_data_dict())
+    # backup()

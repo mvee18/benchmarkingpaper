@@ -1,9 +1,18 @@
 # Benchmarking of Publicly Available Shotgun Metagenomic Mock Communities
 
 ## Overview
-This project is a part of ...
+This repository is the main analysis for the associated shotgun metagenomics benchmarking manuscript. It contains the raw data, analysis methods, and documentation.
 
 ## File Structure and Descriptions
+
+- `figures.ipynb`: main file for analysis and generation of statistics. 
+
+- `requirements.txt`: a list of packages needed for this analysis. You can install these by first creating a Python virtual environment, then:
+
+        pip install -r requirements.txt
+
+
+
 ### Expected Pipelines
 This folder structure contains subdirectories for each pipeline assessed. These are:
     
@@ -16,7 +25,7 @@ technologies. Sci Data 6, 285 (2019).
 - **CamiSim**: Fritz, A., Lesker, T., Bremges, A. & McHardy, A. Cami 2 - multisample benchmark dataset of human microbiome project,
 10.4126/FRL01-006425518 (2019).
 
-- **NIST**: [SRA HERE]
+- **NIST**: Bioproject *PRJNA970731*. SRA Accession *SUB12091075*.
 
 - **Tourlousse**: Tourlousse, D. M. et al. Characterization and demonstration of mock communities as control reagents for accurate
 human microbiome community measurements. Microbiol. Spectr. 10, e01915–21, 10.1128/spectrum.01915-21 (2022).
@@ -60,5 +69,8 @@ Contains many of the analysis tools to calculate statistics and tables for the m
 
 - `data_paths.py`: holds the path to the raw data on the Biowulf computing cluster. 
 
-### Root Directory
-- `figures.ipynb`: main file for analysis and generation of statistics. 
+    - **Note**: for running this analysis, the tarball `mock_communities.tar.gz` holds the raw data locally. If you would like to recreate this analysis, you will need to extract this archive. Extract the archive in the `utils` directory.
+
+            tar -xzf mock_communities.tar.gz 
+    
+        This will recreate the supercomputer's file structure with the necessary files in a directory named `Volumes`. 

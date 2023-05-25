@@ -1,4 +1,6 @@
 # Running QC & Pipelines
+This page details basic running instructions. If you are recreating the analysis done in the manuscript, it the raw data output are found in [this archive](/utils/mock_communities.tar.gz).
+
 ## Requirements
 - These scripts were developed for the NIH supercomputer, Biowulf, which uses the SLURM queuing system. Any HPC using SLURM should be able to run these input files. 
 - A working JAMS installation, which currently only supports Biowulf installations (see https://github.com/johnmcculloch/JAMS_BW).
@@ -6,7 +8,7 @@
 
 ## Quality Control 
 ---
-
+See the [QC](/docs/qc.md) page for more information.
 
 ## Preferred Method for Pipelines
 ---
@@ -14,7 +16,7 @@ The best way of running this pipeline is to first use the automated script, loca
 
 This will generate the input files for Biobakery4, JAMS, and Woltka. Then, you will need to follow the steps below for each pipeline.
 
-## Biobakery
+## bioBakery
 ### Usage
 1.  Submit the generated `bio4.sh` file, typically using:
 
