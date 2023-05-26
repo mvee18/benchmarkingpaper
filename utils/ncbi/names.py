@@ -175,25 +175,8 @@ def split_bio(exp_df: pd.DataFrame) -> List[List[str]]:
     return exp_split_names
 
 
-def convert_expected(data_path: str, split_func: Callable) -> pd.DataFrame:
-    """
-    Takes a dataframe, loads the NCBI names, splits the dataframe names according to the parameters function
-        then, standardizes the list of names and adds the tax ids.
-
-    ## Parameters
-        data_path : str
-            The path to the expected data.
-        split_func : Callable
-            The function to split the names. Should take in a dataframe and return a list of lists.
-
-    ## Returns:
-        pd.DataFrame
-            The dataframe with the tax_ids added.
-    """
-    # Experimental dataframe.
-    exp_df = pd.read_csv(data_path, sep=",", dtype={
-        "species": str, "tax_id": str}, index_col=0)
-
+def convert_expected_by_df(exp_df: pd.DataFrame, split_func: Callable, data_path: str) -> pd.DataFrame:
+    """ Performs the same as convert_expected, but takes in a dataframe instead of a path. """
     # Generate the names dataframe.
     ncbi_df = generate_names_df(names_db_path, load_pickle=True)
 
@@ -234,6 +217,28 @@ def convert_expected(data_path: str, split_func: Callable) -> pd.DataFrame:
         raise Exception("File name must contain genus or species.")
 
     return exp_with_taxid
+
+
+def convert_expected(data_path: str, split_func: Callable) -> pd.DataFrame:
+    """
+    Takes a dataframe, loads the NCBI names, splits the dataframe names according to the parameters function
+        then, standardizes the list of names and adds the tax ids.
+
+    ## Parameters
+        data_path : str
+            The path to the expected data.
+        split_func : Callable
+            The function to split the names. Should take in a dataframe and return a list of lists.
+
+    ## Returns:
+        pd.DataFrame
+            The dataframe with the tax_ids added.
+    """
+    # Experimental dataframe.
+    exp_df = pd.read_csv(data_path, sep=",", dtype={
+        "species": str, "tax_id": str}, index_col=0)
+
+    return convert_expected_by_df(exp_df, split_func, data_path)
 
 
 if __name__ == "__main__":

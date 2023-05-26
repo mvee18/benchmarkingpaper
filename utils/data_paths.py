@@ -8,10 +8,10 @@ from typing import List, Dict
 import tarfile
 
 # Change this path if you are not using the same mounting point.
-# root = "/Volumes/TBHD_share/valencia/"
+root = "/Volumes/TBHD_share/valencia/"
 
 # Local root (for publication)
-root = "./Volumes/TBHD_share/valencia/"
+# root = "./Volumes/TBHD_share/valencia/"
 
 
 @dataclass
@@ -139,12 +139,23 @@ nist = MockCommData(
     path=make_path("../pipelines/nist/"),
 )
 
+mbarc = MockCommData(
+    biobakery4="pipelines/MBARC/pipelines/bio4/metaphlan/merged/species_relab.tsv",
+    biobakery3="",
+    jams="",
+    jams202212="pipelines/MBARC/jams/MySample_JAMS/ppm.csv",
+    wgsa="",
+    woltka="pipelines/MBARC/pipelines/woltka/classify",
+    sunbeam="pipelines/MBARC/pipelines/sunbeam/sunbeam_output/classify/kraken",
+    path=make_path("../pipelines/mbarc/"),
+)
+
 
 def make_data_list() -> List[MockCommData]:
     """Return a list of all the mock community data objects."""
     return [
         bmock12, camisim, tourlousse,
-        amos_mixed, amos_hilo, nist]
+        amos_mixed, amos_hilo, nist, mbarc]
 
 
 def make_data_dict() -> Dict[str, MockCommData]:
@@ -156,6 +167,7 @@ def make_data_dict() -> Dict[str, MockCommData]:
         "amos_mixed": amos_mixed,
         "amos_hilo": amos_hilo,
         "nist": nist,
+        "mbarc": mbarc,
     }
 
 

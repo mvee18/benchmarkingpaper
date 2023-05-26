@@ -1,10 +1,13 @@
-Pipeline,Community,Mean AD ± Stdev,Mean Sens ± Stdev (%),Mean FPRA ± Stdev (%)
-biobakery4,hilo,2.23 ± 0.04,100.00 ± 0.00,0.00 ± 0.00
-jams202212,hilo,2.78 ± 0.13,68.75 ± 0.00,0.00 ± 0.00
-sunbeam,hilo,9.33 ± 0.17,100.00 ± 0.00,0.90 ± 0.02
-biobakery4,mixed,1.87 ± 0.06,100.00 ± 0.00,0.00 ± 0.00
-jams202212,mixed,2.43 ± 0.18,100.00 ± 0.00,0.74 ± 0.30
-sunbeam,mixed,10.80 ± 0.11,100.00 ± 0.00,8.98 ± 0.13
-biobakery4,tourlousse,0.81 ± 0.01,100.00 ± 0.00,0.00 ± 0.00
-jams202212,tourlousse,1.86 ± 0.02,100.00 ± 0.00,0.00 ± 0.00
-sunbeam,tourlousse,7.38 ± 0.25,100.00 ± 0.00,1.21 ± 0.01
+Pipeline,Community,Mean AD +- Stdev,Mean Sens +- Stdev (%),Mean FPRA +- Stdev (%)
+biobakery4,hilo,2.23 +- 0.04,100.00 +- 0.00,0.00 +- 0.00
+jams202212,hilo,2.78 +- 0.13,68.75 +- 0.00,0.00 +- 0.00
+sunbeam,hilo,9.33 +- 0.17,100.00 +- 0.00,0.57 +- 0.02
+biobakery4,mbarc,22.55 +- nan,86.96 +- nan,14.37 +- nan
+jams202212,mbarc,10.88 +- nan,39.13 +- nan,9.69 +- nan
+sunbeam,mbarc,10.81 +- nan,95.65 +- nan,7.98 +- nan
+biobakery4,mixed,1.87 +- 0.06,100.00 +- 0.00,0.00 +- 0.00
+jams202212,mixed,2.43 +- 0.18,100.00 +- 0.00,0.00 +- 0.00
+sunbeam,mixed,10.80 +- 0.11,100.00 +- 0.00,1.79 +- 0.03
+biobakery4,tourlousse,0.81 +- 0.01,100.00 +- 0.00,0.00 +- 0.00
+jams202212,tourlousse,1.86 +- 0.02,100.00 +- 0.00,0.00 +- 0.00
+sunbeam,tourlousse,7.38 +- 0.25,100.00 +- 0.00,0.64 +- 0.01
