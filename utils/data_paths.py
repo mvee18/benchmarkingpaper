@@ -143,9 +143,9 @@ mbarc = MockCommData(
     biobakery4="pipelines/MBARC/pipelines/bio4/metaphlan/merged/species_relab.tsv",
     biobakery3="",
     jams="",
-    jams202212="pipelines/MBARC/jams/MySample_JAMS/ppm.csv",
+    jams202212="pipelines/MBARC/pipelines/jams/MySample_JAMS/ppm.csv",
     wgsa="",
-    woltka="pipelines/MBARC/pipelines/woltka/classify",
+    woltka="",
     sunbeam="pipelines/MBARC/pipelines/sunbeam/sunbeam_output/classify/kraken",
     path=make_path("../pipelines/mbarc/"),
 )
@@ -204,5 +204,5 @@ def backup():
 
 
 if __name__ == "__main__":
-    print(make_data_dict())
-    # backup()
+    # print(make_data_dict())
+    backup()
