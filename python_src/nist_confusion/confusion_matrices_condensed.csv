@@ -79,3 +79,83 @@ Streptococcus pyogenes,1,0,0.8,0.8,0.889,"""Woltka""",0
 Vibrio furnissii,0,1,- ,0.2,- ,"""Woltka""",0
 Harmonic Mean,0,0,0.828,0.571,0.906,"""Woltka""",0
 Mean,0.8,0.154,0.833,0.731,0.907,"""Woltka""",0
+Achromobacter xylosoxidans,0.75,1,1,0.8,0.857142857,"""Biobakery3""",0.0001
+Acinetobacter baumannii,0.75,1,1,0.8,0.857142857,"""Biobakery3""",0.0001
+Aeromonas hydrophila,0.8,,1,0.8,0.888888889,"""Biobakery3""",0.0001
+Enterococcus faecalis,0.75,1,1,0.8,0.857142857,"""Biobakery3""",0.0001
+Escherichia coli,1,0,0.8,0.8,0.888888889,"""Biobakery3""",0.0001
+Klebsiella pneumoniae,0.75,1,1,0.8,0.857142857,"""Biobakery3""",0.0001
+Legionella pneumophila,1,,1,1,1,"""Biobakery3""",0.0001
+Listeria monocytogenes,0.75,1,1,0.8,0.857142857,"""Biobakery3""",0.0001
+Neisseria meningitidis,0.75,1,1,0.8,0.857142857,"""Biobakery3""",0.0001
+Salmonella enterica,0.75,1,1,0.8,0.857142857,"""Biobakery3""",0.0001
+Shigella sonnei,0,1,,0.2,,"""Biobakery3""",0.0001
+Staphylococcus aureus,0.75,1,1,0.8,0.857142857,"""Biobakery3""",0.0001
+Streptococcus pyogenes,0.75,1,1,0.8,0.857142857,"""Biobakery3""",0.0001
+Vibrio furnissii,0.75,1,1,0.8,0.857142857,"""Biobakery3""",0.0001
+Harmonic Mean,0,0,0.981132075,0.666666667,0.87150838,"""Biobakery3""",0.0001
+Mean,0.686666667,0.846153846,0.984366577,0.764444444,0.872908195,"""Biobakery3""",0.0001
+Achromobacter xylosoxidans,0.75,1,1,0.8,0.857142857,"""Biobakery4""",0.0001
+Acinetobacter baumannii,0.75,1,1,0.8,0.857142857,"""Biobakery4""",0.0001
+Aeromonas hydrophila,0.8,,1,0.8,0.888888889,"""Biobakery4""",0.0001
+Enterococcus faecalis,1,1,1,1,1,"""Biobakery4""",0.0001
+Escherichia coli,1,0,0.8,0.8,0.888888889,"""Biobakery4""",0.0001
+Klebsiella pneumoniae,0.75,1,1,0.8,0.857142857,"""Biobakery4""",0.0001
+Legionella pneumophila,1,,1,1,1,"""Biobakery4""",0.0001
+Listeria monocytogenes,0.75,1,1,0.8,0.857142857,"""Biobakery4""",0.0001
+Neisseria meningitidis,0.75,1,1,0.8,0.857142857,"""Biobakery4""",0.0001
+Salmonella enterica,0.75,0,0.75,0.6,0.75,"""Biobakery4""",0.0001
+Shigella sonnei,0,1,,0.2,,"""Biobakery4""",0.0001
+Staphylococcus aureus,0.75,1,1,0.8,0.857142857,"""Biobakery4""",0.0001
+Streptococcus pyogenes,0.75,1,1,0.8,0.857142857,"""Biobakery4""",0.0001
+Vibrio furnissii,1,1,1,1,1,"""Biobakery4""",0.0001
+Harmonic Mean,0,0,0.957055215,0.669322709,0.881355932,"""Biobakery4""",0.0001
+Mean,0.72,0.769230769,0.964789658,0.777954847,0.886366694,"""Biobakery4""",0.0001
+Achromobacter xylosoxidans,0.75,1,1,0.8,0.857142857,"""JAMS""",0.0001
+Acinetobacter baumannii,0.75,1,1,0.8,0.857142857,"""JAMS""",0.0001
+Aeromonas hydrophila,0,,,0,,"""JAMS""",0.0001
+Enterococcus faecalis,0.75,1,1,0.8,0.857142857,"""JAMS""",0.0001
+Escherichia coli,1,0,0.8,0.8,0.888888889,"""JAMS""",0.0001
+Klebsiella pneumoniae,0.75,1,1,0.8,0.857142857,"""JAMS""",0.0001
+Legionella pneumophila,0.8,,1,0.8,0.888888889,"""JAMS""",0.0001
+Listeria monocytogenes,0.75,1,1,0.8,0.857142857,"""JAMS""",0.0001
+Neisseria meningitidis,0.75,1,1,0.8,0.857142857,"""JAMS""",0.0001
+Salmonella enterica,1,0,0.8,0.8,0.888888889,"""JAMS""",0.0001
+Shigella sonnei,0.75,1,1,0.8,0.857142857,"""JAMS""",0.0001
+Staphylococcus aureus,0.75,1,1,0.8,0.857142857,"""JAMS""",0.0001
+Streptococcus pyogenes,0.75,1,1,0.8,0.857142857,"""JAMS""",0.0001
+Vibrio furnissii,0.75,1,1,0.8,0.857142857,"""JAMS""",0.0001
+Harmonic Mean,0,0,0.962962963,0,0.864265928,"""JAMS""",0.0001
+Mean,0.686666667,0.769230769,0.968783069,0.693333333,0.864454369,"""JAMS""",0.0001
+Achromobacter xylosoxidans,1,1,1,1,1,"""WGSA2""",0.0001
+Acinetobacter baumannii,1,1,1,1,1,"""WGSA2""",0.0001
+Aeromonas hydrophila,1,,1,1,1,"""WGSA2""",0.0001
+Enterococcus faecalis,1,1,1,1,1,"""WGSA2""",0.0001
+Escherichia coli,1,0,0.8,0.8,0.888888889,"""WGSA2""",0.0001
+Klebsiella pneumoniae,1,1,1,1,1,"""WGSA2""",0.0001
+Legionella pneumophila,1,,1,1,1,"""WGSA2""",0.0001
+Listeria monocytogenes,1,1,1,1,1,"""WGSA2""",0.0001
+Neisseria meningitidis,1,1,1,1,1,"""WGSA2""",0.0001
+Salmonella enterica,1,0,0.8,0.8,0.888888889,"""WGSA2""",0.0001
+Shigella sonnei,0,1,,0.2,,"""WGSA2""",0.0001
+Staphylococcus aureus,0.75,1,1,0.8,0.857142857,"""WGSA2""",0.0001
+Streptococcus pyogenes,1,1,1,1,1,"""WGSA2""",0.0001
+Vibrio furnissii,1,1,1,1,1,"""WGSA2""",0.0001
+Harmonic Mean,0,0,0.962962963,0.746666667,0.968944099,"""WGSA2""",0.0001
+Mean,0.85,0.769230769,0.968783069,0.889777778,0.971704624,"""WGSA2""",0.0001
+Achromobacter xylosoxidans,1,1,1,1,1,"""Woltka""",0.0001
+Acinetobacter baumannii,1,1,1,1,1,"""Woltka""",0.0001
+Aeromonas hydrophila,1,,1,1,1,"""Woltka""",0.0001
+Enterococcus faecalis,1,1,1,1,1,"""Woltka""",0.0001
+Escherichia coli,1,0,0.8,0.8,0.888888889,"""Woltka""",0.0001
+Klebsiella pneumoniae,1,0,0.8,0.8,0.888888889,"""Woltka""",0.0001
+Legionella pneumophila,1,,1,1,1,"""Woltka""",0.0001
+Listeria monocytogenes,1,1,1,1,1,"""Woltka""",0.0001
+Neisseria meningitidis,1,1,1,1,1,"""Woltka""",0.0001
+Salmonella enterica,1,0,0.8,0.8,0.888888889,"""Woltka""",0.0001
+Shigella sonnei,0,1,,0.2,,"""Woltka""",0.0001
+Staphylococcus aureus,1,1,1,1,1,"""Woltka""",0.0001
+Streptococcus pyogenes,0.75,1,1,0.8,0.857142857,"""Woltka""",0.0001
+Vibrio furnissii,0,1,,0.2,,"""Woltka""",0.0001
+Harmonic Mean,0,0,0.941176471,0.608695652,0.956810631,"""Woltka""",0.0001
+Mean,0.783333333,0.692307692,0.949321267,0.813913043,0.960047704,"""Woltka""",0.0001
