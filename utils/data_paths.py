@@ -11,7 +11,8 @@ import tarfile
 # root = "/Volumes/TBHD_share/valencia/"
 
 # Local root (for publication)
-root = "./Volumes/TBHD_share/valencia/"
+root = abspath(os.path.join(os.path.dirname(
+    __file__), "Volumes/TBHD_share/valencia/"))
 
 
 @dataclass
