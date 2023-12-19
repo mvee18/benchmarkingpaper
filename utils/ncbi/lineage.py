@@ -3,12 +3,13 @@ import os
 from typing import List
 import pickle
 
-lineage_pkl_path = os.path.join(
-    os.path.dirname(__file__), "pkls", "lineage.pkl")
+lineage_pkl_path = os.path.join(os.path.dirname(__file__), "pkls", "lineage.pkl")
 nodes_pkl_path = os.path.join(os.path.dirname(__file__), "pkls", "nodes.pkl")
 
 
-def get_lineage_df(path: str, save: bool = False, load_pickle: bool = True) -> pd.DataFrame:
+def get_lineage_df(
+    path: str, save: bool = False, load_pickle: bool = True
+) -> pd.DataFrame:
     """
     Make the lineage dataframe from given path. Can load or save from pickle.
     Parameters:
@@ -23,13 +24,16 @@ def get_lineage_df(path: str, save: bool = False, load_pickle: bool = True) -> p
         try:
             return pd.read_pickle(lineage_pkl_path)
         except FileNotFoundError:
-            print("Pickle not found. Generating new one.")
+            print("Lineage pickle not found. Generating new one.")
 
     if not os.path.exists(path):
-        raise FileNotFoundError("Lineage file does not exist.")
+        raise FileNotFoundError(
+            "Lineage file does not exist. Expected at {}".format(path)
+        )
 
-    df = pd.read_csv(path, sep="|", header=None, names=[
-                     "tax_id", "parent_tax_id"], dtype=str)
+    df = pd.read_csv(
+        path, sep="|", header=None, names=["tax_id", "parent_tax_id"], dtype=str
+    )
 
     df.drop("parent_tax_id", axis=1, inplace=True)
 
@@ -64,8 +68,7 @@ def get_parent_ids(tax_id: str, df: pd.DataFrame) -> List[str]:
     try:
         return df.loc[df.index == tax_id]["lineage"].values[0]
     except IndexError:
-        raise Exception(
-            "ID: {} not found in lineage dataframe.".format(tax_id))
+        raise Exception("ID: {} not found in lineage dataframe.".format(tax_id))
 
 
 # Now, we need to use the nodes file to determine the rank of each tax_id.
@@ -75,9 +78,9 @@ def make_nodes_dict(path: str, save: bool = False, load_pickle: bool = True) -> 
     """
     Creates a dictionary of tax_ids and their corresponding rank.
     Parameters:
-        path: str 
+        path: str
             The path to the nodes.dmp file.
-        save: bool 
+        save: bool
             Whether to save the dictionary as a pickle.
         load_pickle: bool
             Whether to load the dictionary from a pickle.
@@ -88,7 +91,7 @@ def make_nodes_dict(path: str, save: bool = False, load_pickle: bool = True) -> 
         try:
             return pickle.load(open(nodes_pkl_path, "rb"))
         except FileNotFoundError:
-            print("Pickle not found. Generating new one.")
+            print("Nodes pickle not found. Generating new one.")
 
     nodes_dict = {}
 
@@ -125,21 +128,34 @@ def annotate_taxids(taxids: List[str], nodes_dict: dict) -> dict:
 
 
 def make_annotation_dataframes():
-    """ 
+    """
     Makes the lineage and nodes dataframes.
     Returns:
         lineage_df (pd.DataFrame): The lineage dataframe.
         nodes_dict (dict): A dictionary of tax_ids and their corresponding rank.
     """
     lineage_df = get_lineage_df(
-        "/Volumes/TBHD_share/DATABASES/NCBI202302/taxidlineage.dmp", save=True, load_pickle=True)
+        os.path.abspath(
+            os.path.join(os.path.dirname(__file__), "databases", "taxidlineage.dmp")
+        ),
+        save=True,
+        load_pickle=True,
+    )
+
     nodes_dict = make_nodes_dict(
-        "/Volumes/TBHD_share/DATABASES/NCBI202302/nodes.dmp", save=True, load_pickle=True)
+        os.path.abspath(
+            os.path.join(os.path.dirname(__file__), "databases", "nodes.dmp")
+        ),
+        save=True,
+        load_pickle=True,
+    )
 
     return lineage_df, nodes_dict
 
 
-def make_annotated_lineage(taxid: str, lineage_df: pd.DataFrame, nodes_dict: dict) -> dict:
+def make_annotated_lineage(
+    taxid: str, lineage_df: pd.DataFrame, nodes_dict: dict
+) -> dict:
     return annotate_taxids(get_parent_ids(taxid, lineage_df), nodes_dict)
 
 
@@ -166,4 +182,6 @@ def cleanup_lineage(lineage: dict, desired_rank: str) -> str:
             if value == desired_rank:
                 return str(key)
 
+
 # make_annotated_lineage("1415574")
+make_annotation_dataframes()

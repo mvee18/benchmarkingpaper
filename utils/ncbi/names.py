@@ -5,12 +5,15 @@ import os
 from datetime import datetime, timezone
 
 # Global variables.
-names_db_path = os.path.abspath(
-    "/Volumes/TBHD_share/DATABASES/NCBI202302/names.dmp")
+# Expect the names.dmp file to be in the same directory as this file.
+names_db_path = os.path.abspath(os.path.join("utils", "ncbi", "databases", "names.dmp"))
+# print(names_db_path)
 example_names = ["Escherichia coli", "E. coli", "Acetivibrio thermocellus"]
 
 
-def standardize_core(input_df: pd.DataFrame, split_names: List[List[str]]) -> pd.DataFrame:
+def standardize_core(
+    input_df: pd.DataFrame, split_names: List[List[str]]
+) -> pd.DataFrame:
     """
     Standardizes the names in the dataframe from the provided split names.
     This will replace all non-alphanumeric characters with a -. Any strain data will be joined with a -.
@@ -20,13 +23,11 @@ def standardize_core(input_df: pd.DataFrame, split_names: List[List[str]]) -> pd
     for i in range(len(split_names)):
         for j in range(len(split_names[i])):
             if j >= 2:
-                split_names[i][j] = re.sub(
-                    r"[^a-zA-Z0-9]", "-", split_names[i][j])
+                split_names[i][j] = re.sub(r"[^a-zA-Z0-9]", "-", split_names[i][j])
 
     for i in range(len(split_names)):
         if len(split_names[i]) > 2:
-            split_names[i] = split_names[i][:2] + \
-                ["-".join(split_names[i][2:])]
+            split_names[i] = split_names[i][:2] + ["-".join(split_names[i][2:])]
 
     # Remove any [ or ] characters.
     for i in range(len(split_names)):
@@ -78,20 +79,34 @@ def generate_names_df(db_path: str, pickle=False, load_pickle=False) -> pd.DataF
     # Let's print the time the pkl file was last modified in case the database is old.
     pkl_path = os.path.join(os.path.dirname(__file__), "pkls", "names_df.pkl")
 
-    stat = os.stat(pkl_path)
-    modified = datetime.fromtimestamp(stat.st_mtime, tz=timezone.utc)
-    print("The pkl file was last modified (and hopefully generated) on {}".format(
-        modified))
-
     if load_pickle:
         if os.path.exists(pkl_path):
+            stat = os.stat(pkl_path)
+            modified = datetime.fromtimestamp(stat.st_mtime, tz=timezone.utc)
+            print(
+                "The pkl file was last modified (and hopefully generated) on {}".format(
+                    modified
+                )
+            )
+
             names_df = pd.read_pickle(pkl_path)
             return names_df
         else:
             print("Pickle does not exist. Generating dataframe from names.dmp.")
 
-    df = pd.read_csv(db_path, sep="|", header=None, names=["tax_id", "name_txt", "unique_name", "name_class", "blank"], dtype={
-        "tax_id": str, "name_txt": str, "unique_name": str, "name_class": str, "blank": str})
+    df = pd.read_csv(
+        db_path,
+        sep="|",
+        header=None,
+        names=["tax_id", "name_txt", "unique_name", "name_class", "blank"],
+        dtype={
+            "tax_id": str,
+            "name_txt": str,
+            "unique_name": str,
+            "name_class": str,
+            "blank": str,
+        },
+    )
     df.drop("blank", axis=1, inplace=True)
     df.head()
 
@@ -111,8 +126,9 @@ def find_tax_id(name_list: List[str], names_df: pd.DataFrame) -> List:
     names_dict = {}
     for name in name_list:
         try:
-            names_dict[name] = names_df[names_df["split_name"]
-                                        == name]["tax_id"].values[0]
+            names_dict[name] = names_df[names_df["split_name"] == name][
+                "tax_id"
+            ].values[0]
         except IndexError:
             names_dict[name] = None
 
@@ -125,7 +141,8 @@ def find_names_from_tax_ids(tax_ids: List[str], names_df: pd.DataFrame) -> List:
     for tax_id in tax_ids:
         try:
             tax_id_names_dict[tax_id] = list(
-                names_df[names_df["tax_id"] == tax_id]["split_name"].values)
+                names_df[names_df["tax_id"] == tax_id]["split_name"].values
+            )
         except IndexError:
             tax_id_names_dict[tax_id] = None
 
@@ -191,8 +208,9 @@ def convert_expected(data_path: str, split_func: Callable) -> pd.DataFrame:
             The dataframe with the tax_ids added.
     """
     # Experimental dataframe.
-    exp_df = pd.read_csv(data_path, sep=",", dtype={
-        "species": str, "tax_id": str}, index_col=0)
+    exp_df = pd.read_csv(
+        data_path, sep=",", dtype={"species": str, "tax_id": str}, index_col=0
+    )
 
     # Generate the names dataframe.
     ncbi_df = generate_names_df(names_db_path, load_pickle=True)
@@ -220,14 +238,16 @@ def convert_expected(data_path: str, split_func: Callable) -> pd.DataFrame:
     file_name = os.path.basename(data_path).split(".")[0]
 
     if "genus" in file_name:
-        output_path = os.path.join(os.path.dirname(
-            data_path), f"{file_name}_annotated.csv")
+        output_path = os.path.join(
+            os.path.dirname(data_path), f"{file_name}_annotated.csv"
+        )
         exp_with_taxid.to_csv(output_path, index_label="Genus")
 
     elif "species" in file_name:
         # print(exp_with_taxid)
-        output_path = os.path.join(os.path.dirname(
-            data_path), f"{file_name}_annotated.csv")
+        output_path = os.path.join(
+            os.path.dirname(data_path), f"{file_name}_annotated.csv"
+        )
         exp_with_taxid.to_csv(output_path, index_label="Species")
 
     else:
@@ -237,9 +257,15 @@ def convert_expected(data_path: str, split_func: Callable) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
+    pass
     # Using the bmock12 data for conversion to TaxIDs.
     # Note that the names were changed from the original to be searchable in the names.dmp file.
     # i.e, DSM was removed.
+    if not os.path.exists(names_db_path):
+        raise Exception(
+            "names.dmp file does not exist. Expected at {}".format(names_db_path)
+        )
+
     generate_names_df(names_db_path, pickle=True)
 
     # species_df_path = "../../pipelines/amos/mixed/expected_species.csv"

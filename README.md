@@ -37,7 +37,7 @@ Within each subdirectory are CSVs of ground truth standardized names and expecte
 This folder contains the cleaned outputs from the raw pipeline output, as well as the statistics. The folder layout is identical to the **Expected Pipelines**, but there are subdirectories for each pipeline. Also, there is a [threshold]\_all\_stats\_replicates\_[genus/species].csv file, which summarizes the statistics for the community across all of the pipelines.
 
 ### Python_Src
-This folder contains much of the project's code to convert raw data into data that can be analyzed. There are several subdirectories here. Omitted subdirectories were not needed for this project.
+This folder contains much of the project's code to convert raw data into data that can be analyzed. There are several subdirectories here. Omitted subdirectories were not needed for this project. There is also useful information about each pipeline individually in the [Pipelines](docs/pipelines.md) file.
 
 - `nist_confusion`: contains the code for making the confusion matrix tables in the supplement.
 - `pipeline_clean`: contains all the pipeline cleaning code for bioBakery, JAMS, WGSA2, and Woltka.
@@ -56,6 +56,8 @@ Contains many of the analysis tools to calculate statistics and tables for the m
     - `analyze_stats.ipynb`: performs the majority of the combined statistical analysis, including KW test and combining the stats together into the `results/all_stats_species.csv` files. 
 
 - `ncbi`: NCBI standardization and lineage searching protocols.
+    - `databases`: where the NCBI database should go (i.e., from https://ftp.ncbi.nih.gov/pub/taxonomy/new_taxdump/) and uncompress it.
+    - `pkls`: initially empty folder -- where the standardized outputs will go from the NCBI parsing routine.
     - `names`: contains the name standardization functions
     - `lineage.py/.ipynb`: determines the correct genus name from TAXID.
     - `jams_convert.py`: annotates non-Excel JAMS output.
@@ -74,3 +76,29 @@ Contains many of the analysis tools to calculate statistics and tables for the m
             tar -xzf mock_communities.tar.gz 
     
         This will recreate the supercomputer's file structure with the necessary files in a directory named `Volumes`. 
+
+# Data Sources for Figures and Tables
+- The main sources of data can be found in the `data_paths.py` explanation. However, if you wish to conduct your own analysis, may be easier to use the data found in `expected_pipelines` and `pipelines`, since these have been transformed into RA values and standardized with TAXIDs. 
+
+## Figures 1 and 7
+These flow charts were generated using [diagrams.net](https://diagrams.net).
+
+## Figures 2 and 3
+The heatmaps were generated using the [heatmaps.ipynb](/utils/paper/heatmaps.ipynb) notebook with the raw data sourced from the `expected_pipelines` and `pipelines` folders.
+
+## Figures 4 and 5
+These figures were generated from the [analyze_stats.ipynb](/utils/analysis/analyze_stats.ipynb) notebook, which also created the [all_stats_species.csv](/utils/analysis/results/all_stats_species.csv) data.
+
+- Additionally, the pairwise Wilcoxon test analysis is conducted in the same file.
+
+## Figure 6
+The bivariate plot was generated using the [read_AD.ipynb](/utils/analysis/ad_vs_reads/read_AD.ipynb).
+
+## Table 1
+The original read statistics CSV file can be found at [read_stats.csv](/utils/paper/read_stats.csv).
+
+## Tables 2, 3, 4
+These metrics were calculated from [figures.ipynb](/figures.ipynb), which generated the `all_stats` files in the `pipelines` folders. Then, the [tables.ipynb](/utils/analysis/summary_tables/tables.ipynb) notebook was used to generate the wanted format. These were then cleaned manually and placed into [ad_table.xlsx](/utils/paper/ad_table_04062023.xlsx) for easy transformation into LaTeX tables.
+
+## Table 5
+These tables were generated from the NIST confusion matrix analysis at [nist_sens.ipynb](/python_src/nist_confusion/nist_sens.ipynb) and further cleaning was done with 
