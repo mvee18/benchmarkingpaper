@@ -101,4 +101,4 @@ The original read statistics CSV file can be found at [read_stats.csv](/utils/pa
 These metrics were calculated from [figures.ipynb](/figures.ipynb), which generated the `all_stats` files in the `pipelines` folders. Then, the [tables.ipynb](/utils/analysis/summary_tables/tables.ipynb) notebook was used to generate the wanted format. These were then cleaned manually and placed into [ad_table.xlsx](/utils/paper/ad_table_04062023.xlsx) for easy transformation into LaTeX tables.
 
 ## Table 5
-These tables were generated from the NIST confusion matrix analysis at [nist_sens.ipynb](/python_src/nist_confusion/nist_sens.ipynb) and further cleaning was done with 
+These tables were generated from the NIST confusion matrix analysis at [nist_sens.ipynb](/python_src/nist_confusion/nist_sens.ipynb) and further cleaning was done with the [nist_revisions.ipynb](/python_src/nist_confusion/revisions.ipynb) notebook.
